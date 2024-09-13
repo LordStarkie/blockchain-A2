@@ -1,0 +1,3 @@
+/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/cmake-build-debug/CMakeFiles/blockchain_A2.dir
+/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
