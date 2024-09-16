@@ -8,8 +8,618 @@
 # 1 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.h" 1
 
 
+# 1 "/usr/include/openssl/types.h" 1 3 4
+# 26 "/usr/include/openssl/types.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 1 3 4
+# 34 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h" 1 3 4
 
+
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 1 3 4
+# 210 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 3 4
+# 1 "/usr/include/limits.h" 1 3 4
+# 26 "/usr/include/limits.h" 3 4
+# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
+# 33 "/usr/include/bits/libc-header-start.h" 3 4
+# 1 "/usr/include/features.h" 1 3 4
+# 394 "/usr/include/features.h" 3 4
+# 1 "/usr/include/features-time64.h" 1 3 4
+# 20 "/usr/include/features-time64.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 21 "/usr/include/features-time64.h" 2 3 4
+# 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
+# 22 "/usr/include/features-time64.h" 2 3 4
+# 395 "/usr/include/features.h" 2 3 4
+# 503 "/usr/include/features.h" 3 4
+# 1 "/usr/include/sys/cdefs.h" 1 3 4
+# 576 "/usr/include/sys/cdefs.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 577 "/usr/include/sys/cdefs.h" 2 3 4
+# 1 "/usr/include/bits/long-double.h" 1 3 4
+# 578 "/usr/include/sys/cdefs.h" 2 3 4
+# 504 "/usr/include/features.h" 2 3 4
+# 527 "/usr/include/features.h" 3 4
+# 1 "/usr/include/gnu/stubs.h" 1 3 4
+# 10 "/usr/include/gnu/stubs.h" 3 4
+# 1 "/usr/include/gnu/stubs-64.h" 1 3 4
+# 11 "/usr/include/gnu/stubs.h" 2 3 4
+# 528 "/usr/include/features.h" 2 3 4
+# 34 "/usr/include/bits/libc-header-start.h" 2 3 4
+# 27 "/usr/include/limits.h" 2 3 4
+# 195 "/usr/include/limits.h" 3 4
+# 1 "/usr/include/bits/posix1_lim.h" 1 3 4
+# 27 "/usr/include/bits/posix1_lim.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/bits/posix1_lim.h" 2 3 4
+# 161 "/usr/include/bits/posix1_lim.h" 3 4
+# 1 "/usr/include/bits/local_lim.h" 1 3 4
+# 38 "/usr/include/bits/local_lim.h" 3 4
+# 1 "/usr/include/linux/limits.h" 1 3 4
+# 39 "/usr/include/bits/local_lim.h" 2 3 4
+# 81 "/usr/include/bits/local_lim.h" 3 4
+# 1 "/usr/include/bits/pthread_stack_min-dynamic.h" 1 3 4
+# 23 "/usr/include/bits/pthread_stack_min-dynamic.h" 3 4
+
+# 23 "/usr/include/bits/pthread_stack_min-dynamic.h" 3 4
+extern "C" {
+extern long int __sysconf (int __name) noexcept (true);
+}
+# 82 "/usr/include/bits/local_lim.h" 2 3 4
+# 162 "/usr/include/bits/posix1_lim.h" 2 3 4
+# 196 "/usr/include/limits.h" 2 3 4
+
+
+
+# 1 "/usr/include/bits/posix2_lim.h" 1 3 4
+# 200 "/usr/include/limits.h" 2 3 4
+
+
+
+# 1 "/usr/include/bits/xopen_lim.h" 1 3 4
+# 64 "/usr/include/bits/xopen_lim.h" 3 4
+# 1 "/usr/include/bits/uio_lim.h" 1 3 4
+# 65 "/usr/include/bits/xopen_lim.h" 2 3 4
+# 204 "/usr/include/limits.h" 2 3 4
+# 211 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 2 3 4
+# 8 "/usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h" 2 3 4
+# 35 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 2 3 4
+# 27 "/usr/include/openssl/types.h" 2 3 4
+
+
+extern "C" {
+
+
+# 1 "/usr/include/openssl/e_os2.h" 1 3 4
+# 12 "/usr/include/openssl/e_os2.h" 3 4
+        
+
+# 1 "/usr/include/openssl/macros.h" 1 3 4
+# 12 "/usr/include/openssl/macros.h" 3 4
+        
+
+# 1 "/usr/include/openssl/opensslconf.h" 1 3 4
+# 12 "/usr/include/openssl/opensslconf.h" 3 4
+        
+
+# 1 "/usr/include/openssl/configuration.h" 1 3 4
+# 42 "/usr/include/openssl/configuration.h" 3 4
+# 1 "/usr/include/openssl/configuration-x86_64.h" 1 3 4
+# 23 "/usr/include/openssl/configuration-x86_64.h" 3 4
+        
+
+
+extern "C" {
+# 153 "/usr/include/openssl/configuration-x86_64.h" 3 4
+}
+# 43 "/usr/include/openssl/configuration.h" 2 3 4
+# 15 "/usr/include/openssl/opensslconf.h" 2 3 4
+# 15 "/usr/include/openssl/macros.h" 2 3 4
+# 1 "/usr/include/openssl/opensslv.h" 1 3 4
+# 15 "/usr/include/openssl/opensslv.h" 3 4
+        
+
+
+extern "C" {
+# 106 "/usr/include/openssl/opensslv.h" 3 4
+}
+# 16 "/usr/include/openssl/macros.h" 2 3 4
+# 15 "/usr/include/openssl/e_os2.h" 2 3 4
+
+
+
+
+
+
+
+extern "C" {
+# 256 "/usr/include/openssl/e_os2.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 1 3 4
+# 9 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 3 4
+# 1 "/usr/include/stdint.h" 1 3 4
+# 26 "/usr/include/stdint.h" 3 4
+# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
+# 27 "/usr/include/stdint.h" 2 3 4
+# 1 "/usr/include/bits/types.h" 1 3 4
+# 27 "/usr/include/bits/types.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 28 "/usr/include/bits/types.h" 2 3 4
+# 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
+# 29 "/usr/include/bits/types.h" 2 3 4
+
+
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+
+
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+
+
+
+
+
+
+typedef __int8_t __int_least8_t;
+typedef __uint8_t __uint_least8_t;
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+typedef __int64_t __int_least64_t;
+typedef __uint64_t __uint_least64_t;
+
+
+
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+
+
+
+
+
+
+
+typedef long int __intmax_t;
+typedef unsigned long int __uintmax_t;
+# 141 "/usr/include/bits/types.h" 3 4
+# 1 "/usr/include/bits/typesizes.h" 1 3 4
+# 142 "/usr/include/bits/types.h" 2 3 4
+# 1 "/usr/include/bits/time64.h" 1 3 4
+# 143 "/usr/include/bits/types.h" 2 3 4
+
+
+typedef unsigned long int __dev_t;
+typedef unsigned int __uid_t;
+typedef unsigned int __gid_t;
+typedef unsigned long int __ino_t;
+typedef unsigned long int __ino64_t;
+typedef unsigned int __mode_t;
+typedef unsigned long int __nlink_t;
+typedef long int __off_t;
+typedef long int __off64_t;
+typedef int __pid_t;
+typedef struct { int __val[2]; } __fsid_t;
+typedef long int __clock_t;
+typedef unsigned long int __rlim_t;
+typedef unsigned long int __rlim64_t;
+typedef unsigned int __id_t;
+typedef long int __time_t;
+typedef unsigned int __useconds_t;
+typedef long int __suseconds_t;
+typedef long int __suseconds64_t;
+
+typedef int __daddr_t;
+typedef int __key_t;
+
+
+typedef int __clockid_t;
+
+
+typedef void * __timer_t;
+
+
+typedef long int __blksize_t;
+
+
+
+
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+
+
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+
+
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+
+
+typedef long int __fsword_t;
+
+typedef long int __ssize_t;
+
+
+typedef long int __syscall_slong_t;
+
+typedef unsigned long int __syscall_ulong_t;
+
+
+
+typedef __off64_t __loff_t;
+typedef char *__caddr_t;
+
+
+typedef long int __intptr_t;
+
+
+typedef unsigned int __socklen_t;
+
+
+
+
+typedef int __sig_atomic_t;
+# 28 "/usr/include/stdint.h" 2 3 4
+# 1 "/usr/include/bits/wchar.h" 1 3 4
+# 29 "/usr/include/stdint.h" 2 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 30 "/usr/include/stdint.h" 2 3 4
+
+
+
+
+# 1 "/usr/include/bits/stdint-intn.h" 1 3 4
+# 24 "/usr/include/bits/stdint-intn.h" 3 4
+typedef __int8_t int8_t;
+typedef __int16_t int16_t;
+typedef __int32_t int32_t;
+typedef __int64_t int64_t;
+# 35 "/usr/include/stdint.h" 2 3 4
+
+
+# 1 "/usr/include/bits/stdint-uintn.h" 1 3 4
+# 24 "/usr/include/bits/stdint-uintn.h" 3 4
+typedef __uint8_t uint8_t;
+typedef __uint16_t uint16_t;
+typedef __uint32_t uint32_t;
+typedef __uint64_t uint64_t;
+# 38 "/usr/include/stdint.h" 2 3 4
+
+
+
+# 1 "/usr/include/bits/stdint-least.h" 1 3 4
+# 25 "/usr/include/bits/stdint-least.h" 3 4
+typedef __int_least8_t int_least8_t;
+typedef __int_least16_t int_least16_t;
+typedef __int_least32_t int_least32_t;
+typedef __int_least64_t int_least64_t;
+
+
+typedef __uint_least8_t uint_least8_t;
+typedef __uint_least16_t uint_least16_t;
+typedef __uint_least32_t uint_least32_t;
+typedef __uint_least64_t uint_least64_t;
+# 42 "/usr/include/stdint.h" 2 3 4
+
+
+
+
+
+typedef signed char int_fast8_t;
+
+typedef long int int_fast16_t;
+typedef long int int_fast32_t;
+typedef long int int_fast64_t;
+# 60 "/usr/include/stdint.h" 3 4
+typedef unsigned char uint_fast8_t;
+
+typedef unsigned long int uint_fast16_t;
+typedef unsigned long int uint_fast32_t;
+typedef unsigned long int uint_fast64_t;
+# 76 "/usr/include/stdint.h" 3 4
+typedef long int intptr_t;
+
+
+typedef unsigned long int uintptr_t;
+# 90 "/usr/include/stdint.h" 3 4
+typedef __intmax_t intmax_t;
+typedef __uintmax_t uintmax_t;
+# 10 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 2 3 4
+# 257 "/usr/include/openssl/e_os2.h" 2 3 4
+# 265 "/usr/include/openssl/e_os2.h" 3 4
+typedef int64_t ossl_intmax_t;
+typedef uint64_t ossl_uintmax_t;
+# 307 "/usr/include/openssl/e_os2.h" 3 4
+}
+# 33 "/usr/include/openssl/types.h" 2 3 4
+# 1 "/usr/include/openssl/safestack.h" 1 3 4
+# 17 "/usr/include/openssl/safestack.h" 3 4
+        
+
+
+
+
+
+
+# 1 "/usr/include/openssl/stack.h" 1 3 4
+# 12 "/usr/include/openssl/stack.h" 3 4
+        
+
+
+
+
+
+
+
+extern "C" {
+
+
+typedef struct stack_st OPENSSL_STACK;
+
+typedef int (*OPENSSL_sk_compfunc)(const void *, const void *);
+typedef void (*OPENSSL_sk_freefunc)(void *);
+typedef void *(*OPENSSL_sk_copyfunc)(const void *);
+
+int OPENSSL_sk_num(const OPENSSL_STACK *);
+void *OPENSSL_sk_value(const OPENSSL_STACK *, int);
+
+void *OPENSSL_sk_set(OPENSSL_STACK *st, int i, const void *data);
+
+OPENSSL_STACK *OPENSSL_sk_new(OPENSSL_sk_compfunc cmp);
+OPENSSL_STACK *OPENSSL_sk_new_null(void);
+OPENSSL_STACK *OPENSSL_sk_new_reserve(OPENSSL_sk_compfunc c, int n);
+int OPENSSL_sk_reserve(OPENSSL_STACK *st, int n);
+void OPENSSL_sk_free(OPENSSL_STACK *);
+void OPENSSL_sk_pop_free(OPENSSL_STACK *st, void (*func) (void *));
+OPENSSL_STACK *OPENSSL_sk_deep_copy(const OPENSSL_STACK *,
+                                    OPENSSL_sk_copyfunc c,
+                                    OPENSSL_sk_freefunc f);
+int OPENSSL_sk_insert(OPENSSL_STACK *sk, const void *data, int where);
+void *OPENSSL_sk_delete(OPENSSL_STACK *st, int loc);
+void *OPENSSL_sk_delete_ptr(OPENSSL_STACK *st, const void *p);
+int OPENSSL_sk_find(OPENSSL_STACK *st, const void *data);
+int OPENSSL_sk_find_ex(OPENSSL_STACK *st, const void *data);
+int OPENSSL_sk_find_all(OPENSSL_STACK *st, const void *data, int *pnum);
+int OPENSSL_sk_push(OPENSSL_STACK *st, const void *data);
+int OPENSSL_sk_unshift(OPENSSL_STACK *st, const void *data);
+void *OPENSSL_sk_shift(OPENSSL_STACK *st);
+void *OPENSSL_sk_pop(OPENSSL_STACK *st);
+void OPENSSL_sk_zero(OPENSSL_STACK *st);
+OPENSSL_sk_compfunc OPENSSL_sk_set_cmp_func(OPENSSL_STACK *sk,
+                                            OPENSSL_sk_compfunc cmp);
+OPENSSL_STACK *OPENSSL_sk_dup(const OPENSSL_STACK *st);
+void OPENSSL_sk_sort(OPENSSL_STACK *st);
+int OPENSSL_sk_is_sorted(const OPENSSL_STACK *st);
+# 87 "/usr/include/openssl/stack.h" 3 4
+}
+# 25 "/usr/include/openssl/safestack.h" 2 3 4
+
+
+
+extern "C" {
+# 195 "/usr/include/openssl/safestack.h" 3 4
+typedef char *OPENSSL_STRING;
+typedef const char *OPENSSL_CSTRING;
+# 205 "/usr/include/openssl/safestack.h" 3 4
+struct stack_st_OPENSSL_STRING; typedef int (*sk_OPENSSL_STRING_compfunc)(const char * const *a, const char *const *b); typedef void (*sk_OPENSSL_STRING_freefunc)(char *a); typedef char * (*sk_OPENSSL_STRING_copyfunc)(const char *a); static __attribute__((unused)) inline char *ossl_check_OPENSSL_STRING_type(char *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_STRING_sk_type(const struct stack_st_OPENSSL_STRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_STRING_sk_type(struct stack_st_OPENSSL_STRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
+# 231 "/usr/include/openssl/safestack.h" 3 4
+struct stack_st_OPENSSL_CSTRING; typedef int (*sk_OPENSSL_CSTRING_compfunc)(const char * const *a, const char *const *b); typedef void (*sk_OPENSSL_CSTRING_freefunc)(char *a); typedef char * (*sk_OPENSSL_CSTRING_copyfunc)(const char *a); static __attribute__((unused)) inline const char *ossl_check_OPENSSL_CSTRING_type(const char *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_CSTRING_sk_type(const struct stack_st_OPENSSL_CSTRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_CSTRING_sk_type(struct stack_st_OPENSSL_CSTRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
+# 264 "/usr/include/openssl/safestack.h" 3 4
+typedef void *OPENSSL_BLOCK;
+struct stack_st_OPENSSL_BLOCK; typedef int (*sk_OPENSSL_BLOCK_compfunc)(const void * const *a, const void *const *b); typedef void (*sk_OPENSSL_BLOCK_freefunc)(void *a); typedef void * (*sk_OPENSSL_BLOCK_copyfunc)(const void *a); static __attribute__((unused)) inline void *ossl_check_OPENSSL_BLOCK_type(void *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_BLOCK_sk_type(const struct stack_st_OPENSSL_BLOCK *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_BLOCK_sk_type(struct stack_st_OPENSSL_BLOCK *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
+# 295 "/usr/include/openssl/safestack.h" 3 4
+}
+# 34 "/usr/include/openssl/types.h" 2 3 4
+
+
+typedef struct ossl_provider_st OSSL_PROVIDER;
+# 57 "/usr/include/openssl/types.h" 3 4
+typedef struct asn1_string_st ASN1_INTEGER;
+typedef struct asn1_string_st ASN1_ENUMERATED;
+typedef struct asn1_string_st ASN1_BIT_STRING;
+typedef struct asn1_string_st ASN1_OCTET_STRING;
+typedef struct asn1_string_st ASN1_PRINTABLESTRING;
+typedef struct asn1_string_st ASN1_T61STRING;
+typedef struct asn1_string_st ASN1_IA5STRING;
+typedef struct asn1_string_st ASN1_GENERALSTRING;
+typedef struct asn1_string_st ASN1_UNIVERSALSTRING;
+typedef struct asn1_string_st ASN1_BMPSTRING;
+typedef struct asn1_string_st ASN1_UTCTIME;
+typedef struct asn1_string_st ASN1_TIME;
+typedef struct asn1_string_st ASN1_GENERALIZEDTIME;
+typedef struct asn1_string_st ASN1_VISIBLESTRING;
+typedef struct asn1_string_st ASN1_UTF8STRING;
+typedef struct asn1_string_st ASN1_STRING;
+typedef int ASN1_BOOLEAN;
+typedef int ASN1_NULL;
+
+
+typedef struct asn1_type_st ASN1_TYPE;
+typedef struct asn1_object_st ASN1_OBJECT;
+typedef struct asn1_string_table_st ASN1_STRING_TABLE;
+
+typedef struct ASN1_ITEM_st ASN1_ITEM;
+typedef struct asn1_pctx_st ASN1_PCTX;
+typedef struct asn1_sctx_st ASN1_SCTX;
+
+
+
+
+
+typedef struct bio_st BIO;
+typedef struct bignum_st BIGNUM;
+typedef struct bignum_ctx BN_CTX;
+typedef struct bn_blinding_st BN_BLINDING;
+typedef struct bn_mont_ctx_st BN_MONT_CTX;
+typedef struct bn_recp_ctx_st BN_RECP_CTX;
+typedef struct bn_gencb_st BN_GENCB;
+
+typedef struct buf_mem_st BUF_MEM;
+
+struct stack_st_BIGNUM;
+struct stack_st_BIGNUM_const;
+
+typedef struct err_state_st ERR_STATE;
+
+typedef struct evp_cipher_st EVP_CIPHER;
+typedef struct evp_cipher_ctx_st EVP_CIPHER_CTX;
+typedef struct evp_md_st EVP_MD;
+typedef struct evp_md_ctx_st EVP_MD_CTX;
+typedef struct evp_mac_st EVP_MAC;
+typedef struct evp_mac_ctx_st EVP_MAC_CTX;
+typedef struct evp_pkey_st EVP_PKEY;
+
+typedef struct evp_pkey_asn1_method_st EVP_PKEY_ASN1_METHOD;
+
+typedef struct evp_pkey_method_st EVP_PKEY_METHOD;
+typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
+
+typedef struct evp_keymgmt_st EVP_KEYMGMT;
+
+typedef struct evp_kdf_st EVP_KDF;
+typedef struct evp_kdf_ctx_st EVP_KDF_CTX;
+
+typedef struct evp_rand_st EVP_RAND;
+typedef struct evp_rand_ctx_st EVP_RAND_CTX;
+
+typedef struct evp_keyexch_st EVP_KEYEXCH;
+
+typedef struct evp_signature_st EVP_SIGNATURE;
+
+typedef struct evp_asym_cipher_st EVP_ASYM_CIPHER;
+
+typedef struct evp_kem_st EVP_KEM;
+
+typedef struct evp_Encode_Ctx_st EVP_ENCODE_CTX;
+
+typedef struct hmac_ctx_st HMAC_CTX;
+
+typedef struct dh_st DH;
+typedef struct dh_method DH_METHOD;
+
+
+typedef struct dsa_st DSA;
+typedef struct dsa_method DSA_METHOD;
+
+
+
+typedef struct rsa_st RSA;
+typedef struct rsa_meth_st RSA_METHOD;
+
+typedef struct rsa_pss_params_st RSA_PSS_PARAMS;
+
+
+typedef struct ec_key_st EC_KEY;
+typedef struct ec_key_method_st EC_KEY_METHOD;
+
+
+typedef struct rand_meth_st RAND_METHOD;
+typedef struct rand_drbg_st RAND_DRBG;
+
+typedef struct ssl_dane_st SSL_DANE;
+typedef struct x509_st X509;
+typedef struct X509_algor_st X509_ALGOR;
+typedef struct X509_crl_st X509_CRL;
+typedef struct x509_crl_method_st X509_CRL_METHOD;
+typedef struct x509_revoked_st X509_REVOKED;
+typedef struct X509_name_st X509_NAME;
+typedef struct X509_pubkey_st X509_PUBKEY;
+typedef struct x509_store_st X509_STORE;
+typedef struct x509_store_ctx_st X509_STORE_CTX;
+
+typedef struct x509_object_st X509_OBJECT;
+typedef struct x509_lookup_st X509_LOOKUP;
+typedef struct x509_lookup_method_st X509_LOOKUP_METHOD;
+typedef struct X509_VERIFY_PARAM_st X509_VERIFY_PARAM;
+
+typedef struct x509_sig_info_st X509_SIG_INFO;
+
+typedef struct pkcs8_priv_key_info_st PKCS8_PRIV_KEY_INFO;
+
+typedef struct v3_ext_ctx X509V3_CTX;
+typedef struct conf_st CONF;
+typedef struct ossl_init_settings_st OPENSSL_INIT_SETTINGS;
+
+typedef struct ui_st UI;
+typedef struct ui_method_st UI_METHOD;
+
+typedef struct engine_st ENGINE;
+typedef struct ssl_st SSL;
+typedef struct ssl_ctx_st SSL_CTX;
+
+typedef struct comp_ctx_st COMP_CTX;
+typedef struct comp_method_st COMP_METHOD;
+
+typedef struct X509_POLICY_NODE_st X509_POLICY_NODE;
+typedef struct X509_POLICY_LEVEL_st X509_POLICY_LEVEL;
+typedef struct X509_POLICY_TREE_st X509_POLICY_TREE;
+typedef struct X509_POLICY_CACHE_st X509_POLICY_CACHE;
+
+typedef struct AUTHORITY_KEYID_st AUTHORITY_KEYID;
+typedef struct DIST_POINT_st DIST_POINT;
+typedef struct ISSUING_DIST_POINT_st ISSUING_DIST_POINT;
+typedef struct NAME_CONSTRAINTS_st NAME_CONSTRAINTS;
+
+typedef struct crypto_ex_data_st CRYPTO_EX_DATA;
+
+typedef struct ossl_http_req_ctx_st OSSL_HTTP_REQ_CTX;
+typedef struct ocsp_response_st OCSP_RESPONSE;
+typedef struct ocsp_responder_id_st OCSP_RESPID;
+
+typedef struct sct_st SCT;
+typedef struct sct_ctx_st SCT_CTX;
+typedef struct ctlog_st CTLOG;
+typedef struct ctlog_store_st CTLOG_STORE;
+typedef struct ct_policy_eval_ctx_st CT_POLICY_EVAL_CTX;
+
+typedef struct ossl_store_info_st OSSL_STORE_INFO;
+typedef struct ossl_store_search_st OSSL_STORE_SEARCH;
+
+typedef struct ossl_lib_ctx_st OSSL_LIB_CTX;
+
+typedef struct ossl_dispatch_st OSSL_DISPATCH;
+typedef struct ossl_item_st OSSL_ITEM;
+typedef struct ossl_algorithm_st OSSL_ALGORITHM;
+typedef struct ossl_param_st OSSL_PARAM;
+typedef struct ossl_param_bld_st OSSL_PARAM_BLD;
+
+typedef int pem_password_cb (char *buf, int size, int rwflag, void *userdata);
+
+typedef struct ossl_encoder_st OSSL_ENCODER;
+typedef struct ossl_encoder_ctx_st OSSL_ENCODER_CTX;
+typedef struct ossl_decoder_st OSSL_DECODER;
+typedef struct ossl_decoder_ctx_st OSSL_DECODER_CTX;
+
+typedef struct ossl_self_test_st OSSL_SELF_TEST;
+
+
+}
+# 4 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.h" 2
+
+
+# 5 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.h"
 void generateKeyPair();
+bool generate_primes(BIGNUM **p, BIGNUM **q, const int bits, const int q_bits);
+
 void signRecord();
 void verifyRecord();
 # 2 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 2
@@ -108,34 +718,6 @@ namespace std
 }
 # 2521 "/usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h" 3
 # 1 "/usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h" 1 3
-# 39 "/usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h" 3
-# 1 "/usr/include/features.h" 1 3 4
-# 394 "/usr/include/features.h" 3 4
-# 1 "/usr/include/features-time64.h" 1 3 4
-# 20 "/usr/include/features-time64.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 21 "/usr/include/features-time64.h" 2 3 4
-# 1 "/usr/include/bits/timesize.h" 1 3 4
-# 19 "/usr/include/bits/timesize.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 20 "/usr/include/bits/timesize.h" 2 3 4
-# 22 "/usr/include/features-time64.h" 2 3 4
-# 395 "/usr/include/features.h" 2 3 4
-# 503 "/usr/include/features.h" 3 4
-# 1 "/usr/include/sys/cdefs.h" 1 3 4
-# 576 "/usr/include/sys/cdefs.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 577 "/usr/include/sys/cdefs.h" 2 3 4
-# 1 "/usr/include/bits/long-double.h" 1 3 4
-# 578 "/usr/include/sys/cdefs.h" 2 3 4
-# 504 "/usr/include/features.h" 2 3 4
-# 527 "/usr/include/features.h" 3 4
-# 1 "/usr/include/gnu/stubs.h" 1 3 4
-# 10 "/usr/include/gnu/stubs.h" 3 4
-# 1 "/usr/include/gnu/stubs-64.h" 1 3 4
-# 11 "/usr/include/gnu/stubs.h" 2 3 4
-# 528 "/usr/include/features.h" 2 3 4
-# 40 "/usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h" 2 3
 # 2522 "/usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h" 2 3
 
 
@@ -317,15 +899,7 @@ typedef __builtin_va_list __gnuc_va_list;
 
 
 typedef __gnuc_va_list va_list;
-
-
-
-
-
-
-
-# 1 "/usr/include/bits/wchar.h" 1 3 4
-# 52 "/usr/include/wchar.h" 2 3 4
+# 52 "/usr/include/wchar.h" 3 4
 # 1 "/usr/include/bits/types/wint_t.h" 1 3 4
 # 20 "/usr/include/bits/types/wint_t.h" 3 4
 typedef unsigned int wint_t;
@@ -10223,141 +10797,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 # 1 "/usr/include/ctype.h" 1 3 4
-# 26 "/usr/include/ctype.h" 3 4
-# 1 "/usr/include/bits/types.h" 1 3 4
-# 27 "/usr/include/bits/types.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/bits/types.h" 2 3 4
-# 1 "/usr/include/bits/timesize.h" 1 3 4
-# 19 "/usr/include/bits/timesize.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 20 "/usr/include/bits/timesize.h" 2 3 4
-# 29 "/usr/include/bits/types.h" 2 3 4
-
-
-typedef unsigned char __u_char;
-typedef unsigned short int __u_short;
-typedef unsigned int __u_int;
-typedef unsigned long int __u_long;
-
-
-typedef signed char __int8_t;
-typedef unsigned char __uint8_t;
-typedef signed short int __int16_t;
-typedef unsigned short int __uint16_t;
-typedef signed int __int32_t;
-typedef unsigned int __uint32_t;
-
-typedef signed long int __int64_t;
-typedef unsigned long int __uint64_t;
-
-
-
-
-
-
-typedef __int8_t __int_least8_t;
-typedef __uint8_t __uint_least8_t;
-typedef __int16_t __int_least16_t;
-typedef __uint16_t __uint_least16_t;
-typedef __int32_t __int_least32_t;
-typedef __uint32_t __uint_least32_t;
-typedef __int64_t __int_least64_t;
-typedef __uint64_t __uint_least64_t;
-
-
-
-typedef long int __quad_t;
-typedef unsigned long int __u_quad_t;
-
-
-
-
-
-
-
-typedef long int __intmax_t;
-typedef unsigned long int __uintmax_t;
-# 141 "/usr/include/bits/types.h" 3 4
-# 1 "/usr/include/bits/typesizes.h" 1 3 4
-# 142 "/usr/include/bits/types.h" 2 3 4
-# 1 "/usr/include/bits/time64.h" 1 3 4
-# 143 "/usr/include/bits/types.h" 2 3 4
-
-
-typedef unsigned long int __dev_t;
-typedef unsigned int __uid_t;
-typedef unsigned int __gid_t;
-typedef unsigned long int __ino_t;
-typedef unsigned long int __ino64_t;
-typedef unsigned int __mode_t;
-typedef unsigned long int __nlink_t;
-typedef long int __off_t;
-typedef long int __off64_t;
-typedef int __pid_t;
-typedef struct { int __val[2]; } __fsid_t;
-typedef long int __clock_t;
-typedef unsigned long int __rlim_t;
-typedef unsigned long int __rlim64_t;
-typedef unsigned int __id_t;
-typedef long int __time_t;
-typedef unsigned int __useconds_t;
-typedef long int __suseconds_t;
-typedef long int __suseconds64_t;
-
-typedef int __daddr_t;
-typedef int __key_t;
-
-
-typedef int __clockid_t;
-
-
-typedef void * __timer_t;
-
-
-typedef long int __blksize_t;
-
-
-
-
-typedef long int __blkcnt_t;
-typedef long int __blkcnt64_t;
-
-
-typedef unsigned long int __fsblkcnt_t;
-typedef unsigned long int __fsblkcnt64_t;
-
-
-typedef unsigned long int __fsfilcnt_t;
-typedef unsigned long int __fsfilcnt64_t;
-
-
-typedef long int __fsword_t;
-
-typedef long int __ssize_t;
-
-
-typedef long int __syscall_slong_t;
-
-typedef unsigned long int __syscall_ulong_t;
-
-
-
-typedef __off64_t __loff_t;
-typedef char *__caddr_t;
-
-
-typedef long int __intptr_t;
-
-
-typedef unsigned int __socklen_t;
-
-
-
-
-typedef int __sig_atomic_t;
-# 27 "/usr/include/ctype.h" 2 3 4
-
+# 28 "/usr/include/ctype.h" 3 4
 extern "C" {
 # 39 "/usr/include/ctype.h" 3 4
 # 1 "/usr/include/bits/endian.h" 1 3 4
@@ -11380,12 +11820,7 @@ struct __jmp_buf_tag
   };
 # 32 "/usr/include/pthread.h" 2 3 4
 
-# 1 "/usr/include/bits/pthread_stack_min-dynamic.h" 1 3 4
-# 23 "/usr/include/bits/pthread_stack_min-dynamic.h" 3 4
-extern "C" {
-extern long int __sysconf (int __name) noexcept (true);
-}
-# 34 "/usr/include/pthread.h" 2 3 4
+
 
 
 
@@ -27802,13 +28237,7 @@ typedef unsigned int uint;
 
 
 
-# 1 "/usr/include/bits/stdint-intn.h" 1 3 4
-# 24 "/usr/include/bits/stdint-intn.h" 3 4
-typedef __int8_t int8_t;
-typedef __int16_t int16_t;
-typedef __int32_t int32_t;
-typedef __int64_t int64_t;
-# 156 "/usr/include/sys/types.h" 2 3 4
+
 
 
 typedef __uint8_t u_int8_t;
@@ -43319,438 +43748,20 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 # 4 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 2
-# 1 "/usr/include/openssl/dsa.h" 1 3 4
-# 12 "/usr/include/openssl/dsa.h" 3 4
+# 1 "/usr/include/openssl/bn.h" 1 3 4
+# 13 "/usr/include/openssl/bn.h" 3 4
         
-
-# 1 "/usr/include/openssl/macros.h" 1 3 4
-# 12 "/usr/include/openssl/macros.h" 3 4
-        
-
-# 1 "/usr/include/openssl/opensslconf.h" 1 3 4
-# 12 "/usr/include/openssl/opensslconf.h" 3 4
-        
-
-# 1 "/usr/include/openssl/configuration.h" 1 3 4
-# 42 "/usr/include/openssl/configuration.h" 3 4
-# 1 "/usr/include/openssl/configuration-x86_64.h" 1 3 4
-# 23 "/usr/include/openssl/configuration-x86_64.h" 3 4
-        
-
-
-extern "C" {
-# 153 "/usr/include/openssl/configuration-x86_64.h" 3 4
-}
-# 43 "/usr/include/openssl/configuration.h" 2 3 4
-# 15 "/usr/include/openssl/opensslconf.h" 2 3 4
-# 15 "/usr/include/openssl/macros.h" 2 3 4
-# 1 "/usr/include/openssl/opensslv.h" 1 3 4
-# 15 "/usr/include/openssl/opensslv.h" 3 4
-        
-
-
-extern "C" {
-# 106 "/usr/include/openssl/opensslv.h" 3 4
-}
-# 16 "/usr/include/openssl/macros.h" 2 3 4
-# 15 "/usr/include/openssl/dsa.h" 2 3 4
-
-
-
-
-
+# 25 "/usr/include/openssl/bn.h" 3 4
 # 1 "/usr/include/openssl/types.h" 1 3 4
-# 26 "/usr/include/openssl/types.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 1 3 4
-# 34 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h" 1 3 4
-
-
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 1 3 4
-# 210 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 3 4
-# 1 "/usr/include/limits.h" 1 3 4
-# 26 "/usr/include/limits.h" 3 4
-# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
-# 27 "/usr/include/limits.h" 2 3 4
-# 195 "/usr/include/limits.h" 3 4
-# 1 "/usr/include/bits/posix1_lim.h" 1 3 4
-# 27 "/usr/include/bits/posix1_lim.h" 3 4
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/bits/posix1_lim.h" 2 3 4
-# 161 "/usr/include/bits/posix1_lim.h" 3 4
-# 1 "/usr/include/bits/local_lim.h" 1 3 4
-# 38 "/usr/include/bits/local_lim.h" 3 4
-# 1 "/usr/include/linux/limits.h" 1 3 4
-# 39 "/usr/include/bits/local_lim.h" 2 3 4
-# 162 "/usr/include/bits/posix1_lim.h" 2 3 4
-# 196 "/usr/include/limits.h" 2 3 4
-
-
-
-# 1 "/usr/include/bits/posix2_lim.h" 1 3 4
-# 200 "/usr/include/limits.h" 2 3 4
-
-
-
-# 1 "/usr/include/bits/xopen_lim.h" 1 3 4
-# 64 "/usr/include/bits/xopen_lim.h" 3 4
-# 1 "/usr/include/bits/uio_lim.h" 1 3 4
-# 65 "/usr/include/bits/xopen_lim.h" 2 3 4
-# 204 "/usr/include/limits.h" 2 3 4
-# 211 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 2 3 4
-# 8 "/usr/lib/gcc/x86_64-redhat-linux/14/include/syslimits.h" 2 3 4
-# 35 "/usr/lib/gcc/x86_64-redhat-linux/14/include/limits.h" 2 3 4
-# 27 "/usr/include/openssl/types.h" 2 3 4
-
-
-extern "C" {
-
-
-# 1 "/usr/include/openssl/e_os2.h" 1 3 4
-# 12 "/usr/include/openssl/e_os2.h" 3 4
-        
-# 22 "/usr/include/openssl/e_os2.h" 3 4
-extern "C" {
-# 256 "/usr/include/openssl/e_os2.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 1 3 4
-# 9 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 3 4
-# 1 "/usr/include/stdint.h" 1 3 4
-# 26 "/usr/include/stdint.h" 3 4
-# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
-# 27 "/usr/include/stdint.h" 2 3 4
-
-
-# 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 30 "/usr/include/stdint.h" 2 3 4
-
-
-
-
-
-
-
-# 1 "/usr/include/bits/stdint-uintn.h" 1 3 4
-# 24 "/usr/include/bits/stdint-uintn.h" 3 4
-typedef __uint8_t uint8_t;
-typedef __uint16_t uint16_t;
-typedef __uint32_t uint32_t;
-typedef __uint64_t uint64_t;
-# 38 "/usr/include/stdint.h" 2 3 4
-
-
-
-# 1 "/usr/include/bits/stdint-least.h" 1 3 4
-# 25 "/usr/include/bits/stdint-least.h" 3 4
-typedef __int_least8_t int_least8_t;
-typedef __int_least16_t int_least16_t;
-typedef __int_least32_t int_least32_t;
-typedef __int_least64_t int_least64_t;
-
-
-typedef __uint_least8_t uint_least8_t;
-typedef __uint_least16_t uint_least16_t;
-typedef __uint_least32_t uint_least32_t;
-typedef __uint_least64_t uint_least64_t;
-# 42 "/usr/include/stdint.h" 2 3 4
-
-
-
-
-
-typedef signed char int_fast8_t;
-
-typedef long int int_fast16_t;
-typedef long int int_fast32_t;
-typedef long int int_fast64_t;
-# 60 "/usr/include/stdint.h" 3 4
-typedef unsigned char uint_fast8_t;
-
-typedef unsigned long int uint_fast16_t;
-typedef unsigned long int uint_fast32_t;
-typedef unsigned long int uint_fast64_t;
-# 76 "/usr/include/stdint.h" 3 4
-typedef long int intptr_t;
-
-
-typedef unsigned long int uintptr_t;
-# 90 "/usr/include/stdint.h" 3 4
-typedef __intmax_t intmax_t;
-typedef __uintmax_t uintmax_t;
-# 10 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h" 2 3 4
-# 257 "/usr/include/openssl/e_os2.h" 2 3 4
-# 265 "/usr/include/openssl/e_os2.h" 3 4
-typedef int64_t ossl_intmax_t;
-typedef uint64_t ossl_uintmax_t;
-# 307 "/usr/include/openssl/e_os2.h" 3 4
-}
-# 33 "/usr/include/openssl/types.h" 2 3 4
-# 1 "/usr/include/openssl/safestack.h" 1 3 4
-# 17 "/usr/include/openssl/safestack.h" 3 4
+# 26 "/usr/include/openssl/bn.h" 2 3 4
+# 1 "/usr/include/openssl/crypto.h" 1 3 4
+# 18 "/usr/include/openssl/crypto.h" 3 4
         
 
 
 
 
 
-
-# 1 "/usr/include/openssl/stack.h" 1 3 4
-# 12 "/usr/include/openssl/stack.h" 3 4
-        
-
-
-
-
-
-
-
-extern "C" {
-
-
-typedef struct stack_st OPENSSL_STACK;
-
-typedef int (*OPENSSL_sk_compfunc)(const void *, const void *);
-typedef void (*OPENSSL_sk_freefunc)(void *);
-typedef void *(*OPENSSL_sk_copyfunc)(const void *);
-
-int OPENSSL_sk_num(const OPENSSL_STACK *);
-void *OPENSSL_sk_value(const OPENSSL_STACK *, int);
-
-void *OPENSSL_sk_set(OPENSSL_STACK *st, int i, const void *data);
-
-OPENSSL_STACK *OPENSSL_sk_new(OPENSSL_sk_compfunc cmp);
-OPENSSL_STACK *OPENSSL_sk_new_null(void);
-OPENSSL_STACK *OPENSSL_sk_new_reserve(OPENSSL_sk_compfunc c, int n);
-int OPENSSL_sk_reserve(OPENSSL_STACK *st, int n);
-void OPENSSL_sk_free(OPENSSL_STACK *);
-void OPENSSL_sk_pop_free(OPENSSL_STACK *st, void (*func) (void *));
-OPENSSL_STACK *OPENSSL_sk_deep_copy(const OPENSSL_STACK *,
-                                    OPENSSL_sk_copyfunc c,
-                                    OPENSSL_sk_freefunc f);
-int OPENSSL_sk_insert(OPENSSL_STACK *sk, const void *data, int where);
-void *OPENSSL_sk_delete(OPENSSL_STACK *st, int loc);
-void *OPENSSL_sk_delete_ptr(OPENSSL_STACK *st, const void *p);
-int OPENSSL_sk_find(OPENSSL_STACK *st, const void *data);
-int OPENSSL_sk_find_ex(OPENSSL_STACK *st, const void *data);
-int OPENSSL_sk_find_all(OPENSSL_STACK *st, const void *data, int *pnum);
-int OPENSSL_sk_push(OPENSSL_STACK *st, const void *data);
-int OPENSSL_sk_unshift(OPENSSL_STACK *st, const void *data);
-void *OPENSSL_sk_shift(OPENSSL_STACK *st);
-void *OPENSSL_sk_pop(OPENSSL_STACK *st);
-void OPENSSL_sk_zero(OPENSSL_STACK *st);
-OPENSSL_sk_compfunc OPENSSL_sk_set_cmp_func(OPENSSL_STACK *sk,
-                                            OPENSSL_sk_compfunc cmp);
-OPENSSL_STACK *OPENSSL_sk_dup(const OPENSSL_STACK *st);
-void OPENSSL_sk_sort(OPENSSL_STACK *st);
-int OPENSSL_sk_is_sorted(const OPENSSL_STACK *st);
-# 87 "/usr/include/openssl/stack.h" 3 4
-}
-# 25 "/usr/include/openssl/safestack.h" 2 3 4
-
-
-
-extern "C" {
-# 195 "/usr/include/openssl/safestack.h" 3 4
-typedef char *OPENSSL_STRING;
-typedef const char *OPENSSL_CSTRING;
-# 205 "/usr/include/openssl/safestack.h" 3 4
-struct stack_st_OPENSSL_STRING; typedef int (*sk_OPENSSL_STRING_compfunc)(const char * const *a, const char *const *b); typedef void (*sk_OPENSSL_STRING_freefunc)(char *a); typedef char * (*sk_OPENSSL_STRING_copyfunc)(const char *a); static __attribute__((unused)) inline char *ossl_check_OPENSSL_STRING_type(char *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_STRING_sk_type(const struct stack_st_OPENSSL_STRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_STRING_sk_type(struct stack_st_OPENSSL_STRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_STRING_compfunc_type(sk_OPENSSL_STRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_STRING_copyfunc_type(sk_OPENSSL_STRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_STRING_freefunc_type(sk_OPENSSL_STRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 231 "/usr/include/openssl/safestack.h" 3 4
-struct stack_st_OPENSSL_CSTRING; typedef int (*sk_OPENSSL_CSTRING_compfunc)(const char * const *a, const char *const *b); typedef void (*sk_OPENSSL_CSTRING_freefunc)(char *a); typedef char * (*sk_OPENSSL_CSTRING_copyfunc)(const char *a); static __attribute__((unused)) inline const char *ossl_check_OPENSSL_CSTRING_type(const char *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_CSTRING_sk_type(const struct stack_st_OPENSSL_CSTRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_CSTRING_sk_type(struct stack_st_OPENSSL_CSTRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_CSTRING_compfunc_type(sk_OPENSSL_CSTRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_CSTRING_copyfunc_type(sk_OPENSSL_CSTRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_CSTRING_freefunc_type(sk_OPENSSL_CSTRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 264 "/usr/include/openssl/safestack.h" 3 4
-typedef void *OPENSSL_BLOCK;
-struct stack_st_OPENSSL_BLOCK; typedef int (*sk_OPENSSL_BLOCK_compfunc)(const void * const *a, const void *const *b); typedef void (*sk_OPENSSL_BLOCK_freefunc)(void *a); typedef void * (*sk_OPENSSL_BLOCK_copyfunc)(const void *a); static __attribute__((unused)) inline void *ossl_check_OPENSSL_BLOCK_type(void *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_OPENSSL_BLOCK_sk_type(const struct stack_st_OPENSSL_BLOCK *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_OPENSSL_BLOCK_sk_type(struct stack_st_OPENSSL_BLOCK *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_OPENSSL_BLOCK_compfunc_type(sk_OPENSSL_BLOCK_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_OPENSSL_BLOCK_copyfunc_type(sk_OPENSSL_BLOCK_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_OPENSSL_BLOCK_freefunc_type(sk_OPENSSL_BLOCK_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 295 "/usr/include/openssl/safestack.h" 3 4
-}
-# 34 "/usr/include/openssl/types.h" 2 3 4
-
-
-typedef struct ossl_provider_st OSSL_PROVIDER;
-# 57 "/usr/include/openssl/types.h" 3 4
-typedef struct asn1_string_st ASN1_INTEGER;
-typedef struct asn1_string_st ASN1_ENUMERATED;
-typedef struct asn1_string_st ASN1_BIT_STRING;
-typedef struct asn1_string_st ASN1_OCTET_STRING;
-typedef struct asn1_string_st ASN1_PRINTABLESTRING;
-typedef struct asn1_string_st ASN1_T61STRING;
-typedef struct asn1_string_st ASN1_IA5STRING;
-typedef struct asn1_string_st ASN1_GENERALSTRING;
-typedef struct asn1_string_st ASN1_UNIVERSALSTRING;
-typedef struct asn1_string_st ASN1_BMPSTRING;
-typedef struct asn1_string_st ASN1_UTCTIME;
-typedef struct asn1_string_st ASN1_TIME;
-typedef struct asn1_string_st ASN1_GENERALIZEDTIME;
-typedef struct asn1_string_st ASN1_VISIBLESTRING;
-typedef struct asn1_string_st ASN1_UTF8STRING;
-typedef struct asn1_string_st ASN1_STRING;
-typedef int ASN1_BOOLEAN;
-typedef int ASN1_NULL;
-
-
-typedef struct asn1_type_st ASN1_TYPE;
-typedef struct asn1_object_st ASN1_OBJECT;
-typedef struct asn1_string_table_st ASN1_STRING_TABLE;
-
-typedef struct ASN1_ITEM_st ASN1_ITEM;
-typedef struct asn1_pctx_st ASN1_PCTX;
-typedef struct asn1_sctx_st ASN1_SCTX;
-
-
-
-
-
-typedef struct bio_st BIO;
-typedef struct bignum_st BIGNUM;
-typedef struct bignum_ctx BN_CTX;
-typedef struct bn_blinding_st BN_BLINDING;
-typedef struct bn_mont_ctx_st BN_MONT_CTX;
-typedef struct bn_recp_ctx_st BN_RECP_CTX;
-typedef struct bn_gencb_st BN_GENCB;
-
-typedef struct buf_mem_st BUF_MEM;
-
-struct stack_st_BIGNUM;
-struct stack_st_BIGNUM_const;
-
-typedef struct err_state_st ERR_STATE;
-
-typedef struct evp_cipher_st EVP_CIPHER;
-typedef struct evp_cipher_ctx_st EVP_CIPHER_CTX;
-typedef struct evp_md_st EVP_MD;
-typedef struct evp_md_ctx_st EVP_MD_CTX;
-typedef struct evp_mac_st EVP_MAC;
-typedef struct evp_mac_ctx_st EVP_MAC_CTX;
-typedef struct evp_pkey_st EVP_PKEY;
-
-typedef struct evp_pkey_asn1_method_st EVP_PKEY_ASN1_METHOD;
-
-typedef struct evp_pkey_method_st EVP_PKEY_METHOD;
-typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
-
-typedef struct evp_keymgmt_st EVP_KEYMGMT;
-
-typedef struct evp_kdf_st EVP_KDF;
-typedef struct evp_kdf_ctx_st EVP_KDF_CTX;
-
-typedef struct evp_rand_st EVP_RAND;
-typedef struct evp_rand_ctx_st EVP_RAND_CTX;
-
-typedef struct evp_keyexch_st EVP_KEYEXCH;
-
-typedef struct evp_signature_st EVP_SIGNATURE;
-
-typedef struct evp_asym_cipher_st EVP_ASYM_CIPHER;
-
-typedef struct evp_kem_st EVP_KEM;
-
-typedef struct evp_Encode_Ctx_st EVP_ENCODE_CTX;
-
-typedef struct hmac_ctx_st HMAC_CTX;
-
-typedef struct dh_st DH;
-typedef struct dh_method DH_METHOD;
-
-
-typedef struct dsa_st DSA;
-typedef struct dsa_method DSA_METHOD;
-
-
-
-typedef struct rsa_st RSA;
-typedef struct rsa_meth_st RSA_METHOD;
-
-typedef struct rsa_pss_params_st RSA_PSS_PARAMS;
-
-
-typedef struct ec_key_st EC_KEY;
-typedef struct ec_key_method_st EC_KEY_METHOD;
-
-
-typedef struct rand_meth_st RAND_METHOD;
-typedef struct rand_drbg_st RAND_DRBG;
-
-typedef struct ssl_dane_st SSL_DANE;
-typedef struct x509_st X509;
-typedef struct X509_algor_st X509_ALGOR;
-typedef struct X509_crl_st X509_CRL;
-typedef struct x509_crl_method_st X509_CRL_METHOD;
-typedef struct x509_revoked_st X509_REVOKED;
-typedef struct X509_name_st X509_NAME;
-typedef struct X509_pubkey_st X509_PUBKEY;
-typedef struct x509_store_st X509_STORE;
-typedef struct x509_store_ctx_st X509_STORE_CTX;
-
-typedef struct x509_object_st X509_OBJECT;
-typedef struct x509_lookup_st X509_LOOKUP;
-typedef struct x509_lookup_method_st X509_LOOKUP_METHOD;
-typedef struct X509_VERIFY_PARAM_st X509_VERIFY_PARAM;
-
-typedef struct x509_sig_info_st X509_SIG_INFO;
-
-typedef struct pkcs8_priv_key_info_st PKCS8_PRIV_KEY_INFO;
-
-typedef struct v3_ext_ctx X509V3_CTX;
-typedef struct conf_st CONF;
-typedef struct ossl_init_settings_st OPENSSL_INIT_SETTINGS;
-
-typedef struct ui_st UI;
-typedef struct ui_method_st UI_METHOD;
-
-typedef struct engine_st ENGINE;
-typedef struct ssl_st SSL;
-typedef struct ssl_ctx_st SSL_CTX;
-
-typedef struct comp_ctx_st COMP_CTX;
-typedef struct comp_method_st COMP_METHOD;
-
-typedef struct X509_POLICY_NODE_st X509_POLICY_NODE;
-typedef struct X509_POLICY_LEVEL_st X509_POLICY_LEVEL;
-typedef struct X509_POLICY_TREE_st X509_POLICY_TREE;
-typedef struct X509_POLICY_CACHE_st X509_POLICY_CACHE;
-
-typedef struct AUTHORITY_KEYID_st AUTHORITY_KEYID;
-typedef struct DIST_POINT_st DIST_POINT;
-typedef struct ISSUING_DIST_POINT_st ISSUING_DIST_POINT;
-typedef struct NAME_CONSTRAINTS_st NAME_CONSTRAINTS;
-
-typedef struct crypto_ex_data_st CRYPTO_EX_DATA;
-
-typedef struct ossl_http_req_ctx_st OSSL_HTTP_REQ_CTX;
-typedef struct ocsp_response_st OCSP_RESPONSE;
-typedef struct ocsp_responder_id_st OCSP_RESPID;
-
-typedef struct sct_st SCT;
-typedef struct sct_ctx_st SCT_CTX;
-typedef struct ctlog_st CTLOG;
-typedef struct ctlog_store_st CTLOG_STORE;
-typedef struct ct_policy_eval_ctx_st CT_POLICY_EVAL_CTX;
-
-typedef struct ossl_store_info_st OSSL_STORE_INFO;
-typedef struct ossl_store_search_st OSSL_STORE_SEARCH;
-
-typedef struct ossl_lib_ctx_st OSSL_LIB_CTX;
-
-typedef struct ossl_dispatch_st OSSL_DISPATCH;
-typedef struct ossl_item_st OSSL_ITEM;
-typedef struct ossl_algorithm_st OSSL_ALGORITHM;
-typedef struct ossl_param_st OSSL_PARAM;
-typedef struct ossl_param_bld_st OSSL_PARAM_BLD;
-
-typedef int pem_password_cb (char *buf, int size, int rwflag, void *userdata);
-
-typedef struct ossl_encoder_st OSSL_ENCODER;
-typedef struct ossl_encoder_ctx_st OSSL_ENCODER_CTX;
-typedef struct ossl_decoder_st OSSL_DECODER;
-typedef struct ossl_decoder_ctx_st OSSL_DECODER_CTX;
-
-typedef struct ossl_self_test_st OSSL_SELF_TEST;
-
-
-}
-# 21 "/usr/include/openssl/dsa.h" 2 3 4
 
 # 1 "/usr/include/c++/14/stdlib.h" 1 3 4
 # 36 "/usr/include/c++/14/stdlib.h" 3 4
@@ -43807,31 +43818,6 @@ using std::system;
 
 using std::wcstombs;
 using std::wctomb;
-# 23 "/usr/include/openssl/dsa.h" 2 3 4
-
-
-
-# 1 "/usr/include/openssl/asn1.h" 1 3 4
-# 17 "/usr/include/openssl/asn1.h" 3 4
-        
-# 30 "/usr/include/openssl/asn1.h" 3 4
-# 1 "/usr/include/openssl/bio.h" 1 3 4
-# 16 "/usr/include/openssl/bio.h" 3 4
-        
-# 28 "/usr/include/openssl/bio.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h" 1 3 4
-# 29 "/usr/include/openssl/bio.h" 2 3 4
-
-# 1 "/usr/include/openssl/crypto.h" 1 3 4
-# 18 "/usr/include/openssl/crypto.h" 3 4
-        
-
-
-
-
-
-
-# 1 "/usr/include/c++/14/stdlib.h" 1 3 4
 # 26 "/usr/include/openssl/crypto.h" 2 3 4
 # 36 "/usr/include/openssl/crypto.h" 3 4
 # 1 "/usr/include/openssl/types.h" 1 3 4
@@ -44198,411 +44184,7 @@ void OSSL_sleep(uint64_t millis);
 
 
 }
-# 31 "/usr/include/openssl/bio.h" 2 3 4
-# 1 "/usr/include/openssl/bioerr.h" 1 3 4
-# 13 "/usr/include/openssl/bioerr.h" 3 4
-        
-# 32 "/usr/include/openssl/bio.h" 2 3 4
-
-
-
-extern "C" {
-# 239 "/usr/include/openssl/bio.h" 3 4
-typedef union bio_addr_st BIO_ADDR;
-typedef struct bio_addrinfo_st BIO_ADDRINFO;
-
-int BIO_get_new_index(void);
-void BIO_set_flags(BIO *b, int flags);
-int BIO_test_flags(const BIO *b, int flags);
-void BIO_clear_flags(BIO *b, int flags);
-# 304 "/usr/include/openssl/bio.h" 3 4
-typedef long (*BIO_callback_fn)(BIO *b, int oper, const char *argp, int argi,
-                                long argl, long ret);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) BIO_callback_fn BIO_get_callback(const BIO *b);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void BIO_set_callback(BIO *b, BIO_callback_fn callback);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) long BIO_debug_callback(BIO *bio, int cmd,
-                                               const char *argp, int argi,
-                                               long argl, long ret);
-
-
-typedef long (*BIO_callback_fn_ex)(BIO *b, int oper, const char *argp,
-                                   size_t len, int argi,
-                                   long argl, int ret, size_t *processed);
-BIO_callback_fn_ex BIO_get_callback_ex(const BIO *b);
-void BIO_set_callback_ex(BIO *b, BIO_callback_fn_ex callback);
-long BIO_debug_callback_ex(BIO *bio, int oper, const char *argp, size_t len,
-                           int argi, long argl, int ret, size_t *processed);
-
-char *BIO_get_callback_arg(const BIO *b);
-void BIO_set_callback_arg(BIO *b, char *arg);
-
-typedef struct bio_method_st BIO_METHOD;
-
-const char *BIO_method_name(const BIO *b);
-int BIO_method_type(const BIO *b);
-
-typedef int BIO_info_cb(BIO *, int, int);
-typedef BIO_info_cb bio_info_cb;
-
-struct stack_st_BIO; typedef int (*sk_BIO_compfunc)(const BIO * const *a, const BIO *const *b); typedef void (*sk_BIO_freefunc)(BIO *a); typedef BIO * (*sk_BIO_copyfunc)(const BIO *a); static __attribute__((unused)) inline BIO *ossl_check_BIO_type(BIO *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_BIO_sk_type(const struct stack_st_BIO *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_BIO_sk_type(struct stack_st_BIO *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_BIO_compfunc_type(sk_BIO_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_BIO_copyfunc_type(sk_BIO_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_BIO_freefunc_type(sk_BIO_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 362 "/usr/include/openssl/bio.h" 3 4
-typedef int asn1_ps_func (BIO *b, unsigned char **pbuf, int *plen,
-                          void *parg);
-
-typedef void (*BIO_dgram_sctp_notification_handler_fn) (BIO *b,
-                                                        void *context,
-                                                        void *buf);
-
-
-struct bio_dgram_sctp_sndinfo {
-    uint16_t snd_sid;
-    uint16_t snd_flags;
-    uint32_t snd_ppid;
-    uint32_t snd_context;
-};
-
-struct bio_dgram_sctp_rcvinfo {
-    uint16_t rcv_sid;
-    uint16_t rcv_ssn;
-    uint16_t rcv_flags;
-    uint32_t rcv_ppid;
-    uint32_t rcv_tsn;
-    uint32_t rcv_cumtsn;
-    uint32_t rcv_context;
-};
-
-struct bio_dgram_sctp_prinfo {
-    uint16_t pr_policy;
-    uint32_t pr_value;
-};
-
-
-
-typedef struct bio_msg_st {
-    void *data;
-    size_t data_len;
-    BIO_ADDR *peer, *local;
-    uint64_t flags;
-} BIO_MSG;
-
-typedef struct bio_mmsg_cb_args_st {
-    BIO_MSG *msg;
-    size_t stride, num_msg;
-    uint64_t flags;
-    size_t *msgs_processed;
-} BIO_MMSG_CB_ARGS;
-
-
-
-
-
-typedef struct bio_poll_descriptor_st {
-    uint32_t type;
-    union {
-        int fd;
-        void *custom;
-        uintptr_t custom_ui;
-    } value;
-} BIO_POLL_DESCRIPTOR;
-# 630 "/usr/include/openssl/bio.h" 3 4
-size_t BIO_ctrl_pending(BIO *b);
-size_t BIO_ctrl_wpending(BIO *b);
-# 650 "/usr/include/openssl/bio.h" 3 4
-size_t BIO_ctrl_get_write_guarantee(BIO *b);
-size_t BIO_ctrl_get_read_request(BIO *b);
-int BIO_ctrl_reset_read_request(BIO *b);
-# 699 "/usr/include/openssl/bio.h" 3 4
-int BIO_set_ex_data(BIO *bio, int idx, void *data);
-void *BIO_get_ex_data(const BIO *bio, int idx);
-uint64_t BIO_number_read(BIO *bio);
-uint64_t BIO_number_written(BIO *bio);
-
-
-int BIO_asn1_set_prefix(BIO *b, asn1_ps_func *prefix,
-                        asn1_ps_func *prefix_free);
-int BIO_asn1_get_prefix(BIO *b, asn1_ps_func **pprefix,
-                        asn1_ps_func **pprefix_free);
-int BIO_asn1_set_suffix(BIO *b, asn1_ps_func *suffix,
-                        asn1_ps_func *suffix_free);
-int BIO_asn1_get_suffix(BIO *b, asn1_ps_func **psuffix,
-                        asn1_ps_func **psuffix_free);
-
-const BIO_METHOD *BIO_s_file(void);
-BIO *BIO_new_file(const char *filename, const char *mode);
-BIO *BIO_new_from_core_bio(OSSL_LIB_CTX *libctx, OSSL_CORE_BIO *corebio);
-
-BIO *BIO_new_fp(FILE *stream, int close_flag);
-
-BIO *BIO_new_ex(OSSL_LIB_CTX *libctx, const BIO_METHOD *method);
-BIO *BIO_new(const BIO_METHOD *type);
-int BIO_free(BIO *a);
-void BIO_set_data(BIO *a, void *ptr);
-void *BIO_get_data(BIO *a);
-void BIO_set_init(BIO *a, int init);
-int BIO_get_init(BIO *a);
-void BIO_set_shutdown(BIO *a, int shut);
-int BIO_get_shutdown(BIO *a);
-void BIO_vfree(BIO *a);
-int BIO_up_ref(BIO *a);
-int BIO_read(BIO *b, void *data, int dlen);
-int BIO_read_ex(BIO *b, void *data, size_t dlen, size_t *readbytes);
- int BIO_recvmmsg(BIO *b, BIO_MSG *msg,
-                        size_t stride, size_t num_msg, uint64_t flags,
-                        size_t *msgs_processed);
-int BIO_gets(BIO *bp, char *buf, int size);
-int BIO_get_line(BIO *bio, char *buf, int size);
-int BIO_write(BIO *b, const void *data, int dlen);
-int BIO_write_ex(BIO *b, const void *data, size_t dlen, size_t *written);
- int BIO_sendmmsg(BIO *b, BIO_MSG *msg,
-                        size_t stride, size_t num_msg, uint64_t flags,
-                        size_t *msgs_processed);
- int BIO_get_rpoll_descriptor(BIO *b, BIO_POLL_DESCRIPTOR *desc);
- int BIO_get_wpoll_descriptor(BIO *b, BIO_POLL_DESCRIPTOR *desc);
-int BIO_puts(BIO *bp, const char *buf);
-int BIO_indent(BIO *b, int indent, int max);
-long BIO_ctrl(BIO *bp, int cmd, long larg, void *parg);
-long BIO_callback_ctrl(BIO *b, int cmd, BIO_info_cb *fp);
-void *BIO_ptr_ctrl(BIO *bp, int cmd, long larg);
-long BIO_int_ctrl(BIO *bp, int cmd, long larg, int iarg);
-BIO *BIO_push(BIO *b, BIO *append);
-BIO *BIO_pop(BIO *b);
-void BIO_free_all(BIO *a);
-BIO *BIO_find_type(BIO *b, int bio_type);
-BIO *BIO_next(BIO *b);
-void BIO_set_next(BIO *b, BIO *next);
-BIO *BIO_get_retry_BIO(BIO *bio, int *reason);
-int BIO_get_retry_reason(BIO *bio);
-void BIO_set_retry_reason(BIO *bio, int reason);
-BIO *BIO_dup_chain(BIO *in);
-
-int BIO_nread0(BIO *bio, char **buf);
-int BIO_nread(BIO *bio, char **buf, int num);
-int BIO_nwrite0(BIO *bio, char **buf);
-int BIO_nwrite(BIO *bio, char **buf, int num);
-
-const BIO_METHOD *BIO_s_mem(void);
-
-const BIO_METHOD *BIO_s_dgram_mem(void);
-
-const BIO_METHOD *BIO_s_secmem(void);
-BIO *BIO_new_mem_buf(const void *buf, int len);
-
-const BIO_METHOD *BIO_s_socket(void);
-const BIO_METHOD *BIO_s_connect(void);
-const BIO_METHOD *BIO_s_accept(void);
-
-const BIO_METHOD *BIO_s_fd(void);
-const BIO_METHOD *BIO_s_log(void);
-const BIO_METHOD *BIO_s_bio(void);
-const BIO_METHOD *BIO_s_null(void);
-const BIO_METHOD *BIO_f_null(void);
-const BIO_METHOD *BIO_f_buffer(void);
-const BIO_METHOD *BIO_f_readbuffer(void);
-const BIO_METHOD *BIO_f_linebuffer(void);
-const BIO_METHOD *BIO_f_nbio_test(void);
-const BIO_METHOD *BIO_f_prefix(void);
-const BIO_METHOD *BIO_s_core(void);
-
-const BIO_METHOD *BIO_s_dgram_pair(void);
-const BIO_METHOD *BIO_s_datagram(void);
-int BIO_dgram_non_fatal_error(int error);
-BIO *BIO_new_dgram(int fd, int close_flag);
-
-const BIO_METHOD *BIO_s_datagram_sctp(void);
-BIO *BIO_new_dgram_sctp(int fd, int close_flag);
-int BIO_dgram_is_sctp(BIO *bio);
-int BIO_dgram_sctp_notification_cb(BIO *b,
-                BIO_dgram_sctp_notification_handler_fn handle_notifications,
-                void *context);
-int BIO_dgram_sctp_wait_for_dry(BIO *b);
-int BIO_dgram_sctp_msg_waiting(BIO *b);
-
-
-
-
-int BIO_sock_should_retry(int i);
-int BIO_sock_non_fatal_error(int error);
-int BIO_err_is_non_fatal(unsigned int errcode);
-int BIO_socket_wait(int fd, int for_read, time_t max_time);
-
-int BIO_wait(BIO *bio, time_t max_time, unsigned int nap_milliseconds);
-int BIO_do_connect_retry(BIO *bio, int timeout, int nap_milliseconds);
-
-int BIO_fd_should_retry(int i);
-int BIO_fd_non_fatal_error(int error);
-int BIO_dump_cb(int (*cb) (const void *data, size_t len, void *u),
-                void *u, const void *s, int len);
-int BIO_dump_indent_cb(int (*cb) (const void *data, size_t len, void *u),
-                       void *u, const void *s, int len, int indent);
-int BIO_dump(BIO *b, const void *bytes, int len);
-int BIO_dump_indent(BIO *b, const void *bytes, int len, int indent);
-
-int BIO_dump_fp(FILE *fp, const void *s, int len);
-int BIO_dump_indent_fp(FILE *fp, const void *s, int len, int indent);
-
-int BIO_hex_string(BIO *out, int indent, int width, const void *data,
-                   int datalen);
-
-
-BIO_ADDR *BIO_ADDR_new(void);
-int BIO_ADDR_copy(BIO_ADDR *dst, const BIO_ADDR *src);
-BIO_ADDR *BIO_ADDR_dup(const BIO_ADDR *ap);
-int BIO_ADDR_rawmake(BIO_ADDR *ap, int family,
-                     const void *where, size_t wherelen, unsigned short port);
-void BIO_ADDR_free(BIO_ADDR *);
-void BIO_ADDR_clear(BIO_ADDR *ap);
-int BIO_ADDR_family(const BIO_ADDR *ap);
-int BIO_ADDR_rawaddress(const BIO_ADDR *ap, void *p, size_t *l);
-unsigned short BIO_ADDR_rawport(const BIO_ADDR *ap);
-char *BIO_ADDR_hostname_string(const BIO_ADDR *ap, int numeric);
-char *BIO_ADDR_service_string(const BIO_ADDR *ap, int numeric);
-char *BIO_ADDR_path_string(const BIO_ADDR *ap);
-
-const BIO_ADDRINFO *BIO_ADDRINFO_next(const BIO_ADDRINFO *bai);
-int BIO_ADDRINFO_family(const BIO_ADDRINFO *bai);
-int BIO_ADDRINFO_socktype(const BIO_ADDRINFO *bai);
-int BIO_ADDRINFO_protocol(const BIO_ADDRINFO *bai);
-const BIO_ADDR *BIO_ADDRINFO_address(const BIO_ADDRINFO *bai);
-void BIO_ADDRINFO_free(BIO_ADDRINFO *bai);
-
-enum BIO_hostserv_priorities {
-    BIO_PARSE_PRIO_HOST, BIO_PARSE_PRIO_SERV
-};
-int BIO_parse_hostserv(const char *hostserv, char **host, char **service,
-                       enum BIO_hostserv_priorities hostserv_prio);
-enum BIO_lookup_type {
-    BIO_LOOKUP_CLIENT, BIO_LOOKUP_SERVER
-};
-int BIO_lookup(const char *host, const char *service,
-               enum BIO_lookup_type lookup_type,
-               int family, int socktype, BIO_ADDRINFO **res);
-int BIO_lookup_ex(const char *host, const char *service,
-                  int lookup_type, int family, int socktype, int protocol,
-                  BIO_ADDRINFO **res);
-int BIO_sock_error(int sock);
-int BIO_socket_ioctl(int fd, long type, void *arg);
-int BIO_socket_nbio(int fd, int mode);
-int BIO_sock_init(void);
-
-
-
-int BIO_set_tcp_ndelay(int sock, int turn_on);
-
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) struct hostent *BIO_gethostbyname(const char *name);
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) int BIO_get_port(const char *str, unsigned short *port_ptr);
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) int BIO_get_host_ip(const char *str, unsigned char *ip);
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) int BIO_get_accept_socket(char *host_port, int mode);
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) int BIO_accept(int sock, char **ip_port);
-
-
-union BIO_sock_info_u {
-    BIO_ADDR *addr;
-};
-enum BIO_sock_info_type {
-    BIO_SOCK_INFO_ADDRESS
-};
-int BIO_sock_info(int sock,
-                  enum BIO_sock_info_type type, union BIO_sock_info_u *info);
-# 898 "/usr/include/openssl/bio.h" 3 4
-int BIO_socket(int domain, int socktype, int protocol, int options);
-int BIO_connect(int sock, const BIO_ADDR *addr, int options);
-int BIO_bind(int sock, const BIO_ADDR *addr, int options);
-int BIO_listen(int sock, const BIO_ADDR *addr, int options);
-int BIO_accept_ex(int accept_sock, BIO_ADDR *addr, int options);
-int BIO_closesocket(int sock);
-
-BIO *BIO_new_socket(int sock, int close_flag);
-BIO *BIO_new_connect(const char *host_port);
-BIO *BIO_new_accept(const char *host_port);
-
-
-BIO *BIO_new_fd(int fd, int close_flag);
-
-int BIO_new_bio_pair(BIO **bio1, size_t writebuf1,
-                     BIO **bio2, size_t writebuf2);
-
-int BIO_new_bio_dgram_pair(BIO **bio1, size_t writebuf1,
-                           BIO **bio2, size_t writebuf2);
-# 925 "/usr/include/openssl/bio.h" 3 4
-void BIO_copy_next_retry(BIO *b);
-# 949 "/usr/include/openssl/bio.h" 3 4
-int BIO_printf(BIO *bio, const char *format, ...)
-;
-int BIO_vprintf(BIO *bio, const char *format, va_list args)
-;
-int BIO_snprintf(char *buf, size_t n, const char *format, ...)
-;
-int BIO_vsnprintf(char *buf, size_t n, const char *format, va_list args)
-;
-
-
-
-
-BIO_METHOD *BIO_meth_new(int type, const char *name);
-void BIO_meth_free(BIO_METHOD *biom);
-int (*BIO_meth_get_write(const BIO_METHOD *biom)) (BIO *, const char *, int);
-int (*BIO_meth_get_write_ex(const BIO_METHOD *biom)) (BIO *, const char *, size_t,
-                                                size_t *);
-int BIO_meth_set_write(BIO_METHOD *biom,
-                       int (*write) (BIO *, const char *, int));
-int BIO_meth_set_write_ex(BIO_METHOD *biom,
-                       int (*bwrite) (BIO *, const char *, size_t, size_t *));
-int BIO_meth_set_sendmmsg(BIO_METHOD *biom,
-                          int (*f) (BIO *, BIO_MSG *, size_t, size_t,
-                                    uint64_t, size_t *));
-int (*BIO_meth_get_sendmmsg(const BIO_METHOD *biom))(BIO *, BIO_MSG *,
-                                                     size_t, size_t,
-                                                     uint64_t, size_t *);
-int (*BIO_meth_get_read(const BIO_METHOD *biom)) (BIO *, char *, int);
-int (*BIO_meth_get_read_ex(const BIO_METHOD *biom)) (BIO *, char *, size_t, size_t *);
-int BIO_meth_set_read(BIO_METHOD *biom,
-                      int (*read) (BIO *, char *, int));
-int BIO_meth_set_read_ex(BIO_METHOD *biom,
-                         int (*bread) (BIO *, char *, size_t, size_t *));
-int BIO_meth_set_recvmmsg(BIO_METHOD *biom,
-                          int (*f) (BIO *, BIO_MSG *, size_t, size_t,
-                                    uint64_t, size_t *));
-int (*BIO_meth_get_recvmmsg(const BIO_METHOD *biom))(BIO *, BIO_MSG *,
-                                                     size_t, size_t,
-                                                     uint64_t, size_t *);
-int (*BIO_meth_get_puts(const BIO_METHOD *biom)) (BIO *, const char *);
-int BIO_meth_set_puts(BIO_METHOD *biom,
-                      int (*puts) (BIO *, const char *));
-int (*BIO_meth_get_gets(const BIO_METHOD *biom)) (BIO *, char *, int);
-int BIO_meth_set_gets(BIO_METHOD *biom,
-                      int (*ossl_gets) (BIO *, char *, int));
-long (*BIO_meth_get_ctrl(const BIO_METHOD *biom)) (BIO *, int, long, void *);
-int BIO_meth_set_ctrl(BIO_METHOD *biom,
-                      long (*ctrl) (BIO *, int, long, void *));
-int (*BIO_meth_get_create(const BIO_METHOD *bion)) (BIO *);
-int BIO_meth_set_create(BIO_METHOD *biom, int (*create) (BIO *));
-int (*BIO_meth_get_destroy(const BIO_METHOD *biom)) (BIO *);
-int BIO_meth_set_destroy(BIO_METHOD *biom, int (*destroy) (BIO *));
-long (*BIO_meth_get_callback_ctrl(const BIO_METHOD *biom))
-                                 (BIO *, int, BIO_info_cb *);
-int BIO_meth_set_callback_ctrl(BIO_METHOD *biom,
-                               long (*callback_ctrl) (BIO *, int,
-                                                      BIO_info_cb *));
-
-
-}
-# 31 "/usr/include/openssl/asn1.h" 2 3 4
-
-# 1 "/usr/include/openssl/asn1err.h" 1 3 4
-# 13 "/usr/include/openssl/asn1err.h" 3 4
-        
-# 33 "/usr/include/openssl/asn1.h" 2 3 4
-
-
-# 1 "/usr/include/openssl/types.h" 1 3 4
-# 36 "/usr/include/openssl/asn1.h" 2 3 4
-# 1 "/usr/include/openssl/bn.h" 1 3 4
-# 13 "/usr/include/openssl/bn.h" 3 4
-        
-# 25 "/usr/include/openssl/bn.h" 3 4
-# 1 "/usr/include/openssl/types.h" 1 3 4
-# 26 "/usr/include/openssl/bn.h" 2 3 4
-
+# 27 "/usr/include/openssl/bn.h" 2 3 4
 # 1 "/usr/include/openssl/bnerr.h" 1 3 4
 # 13 "/usr/include/openssl/bnerr.h" 3 4
         
@@ -44944,3387 +44526,179 @@ int BN_bntest_rand(BIGNUM *rnd, int bits, int top, int bottom);
 
 
 }
-# 37 "/usr/include/openssl/asn1.h" 2 3 4
-
-
-
-
-
-
-
-extern "C" {
-# 132 "/usr/include/openssl/asn1.h" 3 4
-struct stack_st_X509_ALGOR; typedef int (*sk_X509_ALGOR_compfunc)(const X509_ALGOR * const *a, const X509_ALGOR *const *b); typedef void (*sk_X509_ALGOR_freefunc)(X509_ALGOR *a); typedef X509_ALGOR * (*sk_X509_ALGOR_copyfunc)(const X509_ALGOR *a); static __attribute__((unused)) inline X509_ALGOR *ossl_check_X509_ALGOR_type(X509_ALGOR *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_X509_ALGOR_sk_type(const struct stack_st_X509_ALGOR *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_X509_ALGOR_sk_type(struct stack_st_X509_ALGOR *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_X509_ALGOR_compfunc_type(sk_X509_ALGOR_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_X509_ALGOR_copyfunc_type(sk_X509_ALGOR_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_X509_ALGOR_freefunc_type(sk_X509_ALGOR_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 186 "/usr/include/openssl/asn1.h" 3 4
-struct asn1_string_st {
-    int length;
-    int type;
-    unsigned char *data;
-
-
-
-
-
-    long flags;
-};
-
-
-
-
-
-
-
-typedef struct ASN1_ENCODING_st {
-    unsigned char *enc;
-    long len;
-    int modified;
-} ASN1_ENCODING;
-# 226 "/usr/include/openssl/asn1.h" 3 4
-struct asn1_string_table_st {
-    int nid;
-    long minsize;
-    long maxsize;
-    unsigned long mask;
-    unsigned long flags;
-};
-
-struct stack_st_ASN1_STRING_TABLE; typedef int (*sk_ASN1_STRING_TABLE_compfunc)(const ASN1_STRING_TABLE * const *a, const ASN1_STRING_TABLE *const *b); typedef void (*sk_ASN1_STRING_TABLE_freefunc)(ASN1_STRING_TABLE *a); typedef ASN1_STRING_TABLE * (*sk_ASN1_STRING_TABLE_copyfunc)(const ASN1_STRING_TABLE *a); static __attribute__((unused)) inline ASN1_STRING_TABLE *ossl_check_ASN1_STRING_TABLE_type(ASN1_STRING_TABLE *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_STRING_TABLE_sk_type(const struct stack_st_ASN1_STRING_TABLE *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_STRING_TABLE_sk_type(struct stack_st_ASN1_STRING_TABLE *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_STRING_TABLE_compfunc_type(sk_ASN1_STRING_TABLE_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_STRING_TABLE_copyfunc_type(sk_ASN1_STRING_TABLE_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_STRING_TABLE_freefunc_type(sk_ASN1_STRING_TABLE_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 276 "/usr/include/openssl/asn1.h" 3 4
-typedef struct ASN1_TEMPLATE_st ASN1_TEMPLATE;
-typedef struct ASN1_TLC_st ASN1_TLC;
-
-typedef struct ASN1_VALUE_st ASN1_VALUE;
-# 372 "/usr/include/openssl/asn1.h" 3 4
-typedef void *d2i_of_void(void **, const unsigned char **, long);
-typedef int i2d_of_void(const void *, unsigned char **);
-# 418 "/usr/include/openssl/asn1.h" 3 4
-typedef const ASN1_ITEM *ASN1_ITEM_EXP (void);
-# 523 "/usr/include/openssl/asn1.h" 3 4
-struct asn1_type_st {
-    int type;
-    union {
-        char *ptr;
-        ASN1_BOOLEAN boolean;
-        ASN1_STRING *asn1_string;
-        ASN1_OBJECT *object;
-        ASN1_INTEGER *integer;
-        ASN1_ENUMERATED *enumerated;
-        ASN1_BIT_STRING *bit_string;
-        ASN1_OCTET_STRING *octet_string;
-        ASN1_PRINTABLESTRING *printablestring;
-        ASN1_T61STRING *t61string;
-        ASN1_IA5STRING *ia5string;
-        ASN1_GENERALSTRING *generalstring;
-        ASN1_BMPSTRING *bmpstring;
-        ASN1_UNIVERSALSTRING *universalstring;
-        ASN1_UTCTIME *utctime;
-        ASN1_GENERALIZEDTIME *generalizedtime;
-        ASN1_VISIBLESTRING *visiblestring;
-        ASN1_UTF8STRING *utf8string;
-
-
-
-
-        ASN1_STRING *set;
-        ASN1_STRING *sequence;
-        ASN1_VALUE *asn1_value;
-    } value;
-};
-
-struct stack_st_ASN1_TYPE; typedef int (*sk_ASN1_TYPE_compfunc)(const ASN1_TYPE * const *a, const ASN1_TYPE *const *b); typedef void (*sk_ASN1_TYPE_freefunc)(ASN1_TYPE *a); typedef ASN1_TYPE * (*sk_ASN1_TYPE_copyfunc)(const ASN1_TYPE *a); static __attribute__((unused)) inline ASN1_TYPE *ossl_check_ASN1_TYPE_type(ASN1_TYPE *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_TYPE_sk_type(const struct stack_st_ASN1_TYPE *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_TYPE_sk_type(struct stack_st_ASN1_TYPE *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_TYPE_compfunc_type(sk_ASN1_TYPE_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_TYPE_copyfunc_type(sk_ASN1_TYPE_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_TYPE_freefunc_type(sk_ASN1_TYPE_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 582 "/usr/include/openssl/asn1.h" 3 4
-typedef struct stack_st_ASN1_TYPE ASN1_SEQUENCE_ANY;
-
-extern ASN1_SEQUENCE_ANY *d2i_ASN1_SEQUENCE_ANY(ASN1_SEQUENCE_ANY **a, const unsigned char **in, long len); extern int i2d_ASN1_SEQUENCE_ANY(const ASN1_SEQUENCE_ANY *a, unsigned char **out); extern const ASN1_ITEM * ASN1_SEQUENCE_ANY_it(void);
-extern ASN1_SEQUENCE_ANY *d2i_ASN1_SET_ANY(ASN1_SEQUENCE_ANY **a, const unsigned char **in, long len); extern int i2d_ASN1_SET_ANY(const ASN1_SEQUENCE_ANY *a, unsigned char **out); extern const ASN1_ITEM * ASN1_SET_ANY_it(void);
-
-
-typedef struct BIT_STRING_BITNAME_st {
-    int bitnum;
-    const char *lname;
-    const char *sname;
-} BIT_STRING_BITNAME;
-# 623 "/usr/include/openssl/asn1.h" 3 4
-extern ASN1_TYPE *ASN1_TYPE_new(void); extern void ASN1_TYPE_free(ASN1_TYPE *a);
-extern ASN1_TYPE *d2i_ASN1_TYPE(ASN1_TYPE **a, const unsigned char **in, long len); extern int i2d_ASN1_TYPE(const ASN1_TYPE *a, unsigned char **out); extern const ASN1_ITEM * ASN1_ANY_it(void);
-
-int ASN1_TYPE_get(const ASN1_TYPE *a);
-void ASN1_TYPE_set(ASN1_TYPE *a, int type, void *value);
-int ASN1_TYPE_set1(ASN1_TYPE *a, int type, const void *value);
-int ASN1_TYPE_cmp(const ASN1_TYPE *a, const ASN1_TYPE *b);
-
-ASN1_TYPE *ASN1_TYPE_pack_sequence(const ASN1_ITEM *it, void *s, ASN1_TYPE **t);
-void *ASN1_TYPE_unpack_sequence(const ASN1_ITEM *it, const ASN1_TYPE *t);
-
-struct stack_st_ASN1_OBJECT; typedef int (*sk_ASN1_OBJECT_compfunc)(const ASN1_OBJECT * const *a, const ASN1_OBJECT *const *b); typedef void (*sk_ASN1_OBJECT_freefunc)(ASN1_OBJECT *a); typedef ASN1_OBJECT * (*sk_ASN1_OBJECT_copyfunc)(const ASN1_OBJECT *a); static __attribute__((unused)) inline ASN1_OBJECT *ossl_check_ASN1_OBJECT_type(ASN1_OBJECT *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_OBJECT_sk_type(const struct stack_st_ASN1_OBJECT *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_OBJECT_sk_type(struct stack_st_ASN1_OBJECT *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_OBJECT_compfunc_type(sk_ASN1_OBJECT_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_OBJECT_copyfunc_type(sk_ASN1_OBJECT_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_OBJECT_freefunc_type(sk_ASN1_OBJECT_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 662 "/usr/include/openssl/asn1.h" 3 4
-extern ASN1_OBJECT *ASN1_OBJECT_new(void); extern void ASN1_OBJECT_free(ASN1_OBJECT *a); extern ASN1_OBJECT *d2i_ASN1_OBJECT(ASN1_OBJECT **a, const unsigned char **in, long len); extern int i2d_ASN1_OBJECT(const ASN1_OBJECT *a, unsigned char **out); extern const ASN1_ITEM * ASN1_OBJECT_it(void);
-
-ASN1_STRING *ASN1_STRING_new(void);
-void ASN1_STRING_free(ASN1_STRING *a);
-void ASN1_STRING_clear_free(ASN1_STRING *a);
-int ASN1_STRING_copy(ASN1_STRING *dst, const ASN1_STRING *str);
-extern ASN1_STRING *ASN1_STRING_dup(const ASN1_STRING *a);
-ASN1_STRING *ASN1_STRING_type_new(int type);
-int ASN1_STRING_cmp(const ASN1_STRING *a, const ASN1_STRING *b);
-
-
-
-
-int ASN1_STRING_set(ASN1_STRING *str, const void *data, int len);
-void ASN1_STRING_set0(ASN1_STRING *str, void *data, int len);
-int ASN1_STRING_length(const ASN1_STRING *x);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void ASN1_STRING_length_set(ASN1_STRING *x, int n);
-
-int ASN1_STRING_type(const ASN1_STRING *x);
-
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) unsigned char *ASN1_STRING_data(ASN1_STRING *x);
-
-const unsigned char *ASN1_STRING_get0_data(const ASN1_STRING *x);
-
-extern ASN1_BIT_STRING *ASN1_BIT_STRING_new(void); extern void ASN1_BIT_STRING_free(ASN1_BIT_STRING *a); extern ASN1_BIT_STRING *d2i_ASN1_BIT_STRING(ASN1_BIT_STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_BIT_STRING(const ASN1_BIT_STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_BIT_STRING_it(void);
-int ASN1_BIT_STRING_set(ASN1_BIT_STRING *a, unsigned char *d, int length);
-int ASN1_BIT_STRING_set_bit(ASN1_BIT_STRING *a, int n, int value);
-int ASN1_BIT_STRING_get_bit(const ASN1_BIT_STRING *a, int n);
-int ASN1_BIT_STRING_check(const ASN1_BIT_STRING *a,
-                          const unsigned char *flags, int flags_len);
-
-int ASN1_BIT_STRING_name_print(BIO *out, ASN1_BIT_STRING *bs,
-                               BIT_STRING_BITNAME *tbl, int indent);
-int ASN1_BIT_STRING_num_asc(const char *name, BIT_STRING_BITNAME *tbl);
-int ASN1_BIT_STRING_set_asc(ASN1_BIT_STRING *bs, const char *name, int value,
-                            BIT_STRING_BITNAME *tbl);
-
-struct stack_st_ASN1_INTEGER; typedef int (*sk_ASN1_INTEGER_compfunc)(const ASN1_INTEGER * const *a, const ASN1_INTEGER *const *b); typedef void (*sk_ASN1_INTEGER_freefunc)(ASN1_INTEGER *a); typedef ASN1_INTEGER * (*sk_ASN1_INTEGER_copyfunc)(const ASN1_INTEGER *a); static __attribute__((unused)) inline ASN1_INTEGER *ossl_check_ASN1_INTEGER_type(ASN1_INTEGER *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_INTEGER_sk_type(const struct stack_st_ASN1_INTEGER *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_INTEGER_sk_type(struct stack_st_ASN1_INTEGER *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_INTEGER_compfunc_type(sk_ASN1_INTEGER_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_INTEGER_copyfunc_type(sk_ASN1_INTEGER_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_INTEGER_freefunc_type(sk_ASN1_INTEGER_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 729 "/usr/include/openssl/asn1.h" 3 4
-extern ASN1_INTEGER *ASN1_INTEGER_new(void); extern void ASN1_INTEGER_free(ASN1_INTEGER *a); extern ASN1_INTEGER *d2i_ASN1_INTEGER(ASN1_INTEGER **a, const unsigned char **in, long len); extern int i2d_ASN1_INTEGER(const ASN1_INTEGER *a, unsigned char **out); extern const ASN1_ITEM * ASN1_INTEGER_it(void);
-ASN1_INTEGER *d2i_ASN1_UINTEGER(ASN1_INTEGER **a, const unsigned char **pp,
-                                long length);
-extern ASN1_INTEGER *ASN1_INTEGER_dup(const ASN1_INTEGER *a);
-int ASN1_INTEGER_cmp(const ASN1_INTEGER *x, const ASN1_INTEGER *y);
-
-extern ASN1_ENUMERATED *ASN1_ENUMERATED_new(void); extern void ASN1_ENUMERATED_free(ASN1_ENUMERATED *a); extern ASN1_ENUMERATED *d2i_ASN1_ENUMERATED(ASN1_ENUMERATED **a, const unsigned char **in, long len); extern int i2d_ASN1_ENUMERATED(const ASN1_ENUMERATED *a, unsigned char **out); extern const ASN1_ITEM * ASN1_ENUMERATED_it(void);
-
-int ASN1_UTCTIME_check(const ASN1_UTCTIME *a);
-ASN1_UTCTIME *ASN1_UTCTIME_set(ASN1_UTCTIME *s, time_t t);
-ASN1_UTCTIME *ASN1_UTCTIME_adj(ASN1_UTCTIME *s, time_t t,
-                               int offset_day, long offset_sec);
-int ASN1_UTCTIME_set_string(ASN1_UTCTIME *s, const char *str);
-int ASN1_UTCTIME_cmp_time_t(const ASN1_UTCTIME *s, time_t t);
-
-int ASN1_GENERALIZEDTIME_check(const ASN1_GENERALIZEDTIME *a);
-ASN1_GENERALIZEDTIME *ASN1_GENERALIZEDTIME_set(ASN1_GENERALIZEDTIME *s,
-                                               time_t t);
-ASN1_GENERALIZEDTIME *ASN1_GENERALIZEDTIME_adj(ASN1_GENERALIZEDTIME *s,
-                                               time_t t, int offset_day,
-                                               long offset_sec);
-int ASN1_GENERALIZEDTIME_set_string(ASN1_GENERALIZEDTIME *s, const char *str);
-
-int ASN1_TIME_diff(int *pday, int *psec,
-                   const ASN1_TIME *from, const ASN1_TIME *to);
-
-extern ASN1_OCTET_STRING *ASN1_OCTET_STRING_new(void); extern void ASN1_OCTET_STRING_free(ASN1_OCTET_STRING *a); extern ASN1_OCTET_STRING *d2i_ASN1_OCTET_STRING(ASN1_OCTET_STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_OCTET_STRING(const ASN1_OCTET_STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_OCTET_STRING_it(void);
-extern ASN1_OCTET_STRING *ASN1_OCTET_STRING_dup(const ASN1_OCTET_STRING *a);
-int ASN1_OCTET_STRING_cmp(const ASN1_OCTET_STRING *a,
-                          const ASN1_OCTET_STRING *b);
-int ASN1_OCTET_STRING_set(ASN1_OCTET_STRING *str, const unsigned char *data,
-                          int len);
-
-struct stack_st_ASN1_UTF8STRING; typedef int (*sk_ASN1_UTF8STRING_compfunc)(const ASN1_UTF8STRING * const *a, const ASN1_UTF8STRING *const *b); typedef void (*sk_ASN1_UTF8STRING_freefunc)(ASN1_UTF8STRING *a); typedef ASN1_UTF8STRING * (*sk_ASN1_UTF8STRING_copyfunc)(const ASN1_UTF8STRING *a); static __attribute__((unused)) inline ASN1_UTF8STRING *ossl_check_ASN1_UTF8STRING_type(ASN1_UTF8STRING *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_UTF8STRING_sk_type(const struct stack_st_ASN1_UTF8STRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_UTF8STRING_sk_type(struct stack_st_ASN1_UTF8STRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_UTF8STRING_compfunc_type(sk_ASN1_UTF8STRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_UTF8STRING_copyfunc_type(sk_ASN1_UTF8STRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_UTF8STRING_freefunc_type(sk_ASN1_UTF8STRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 790 "/usr/include/openssl/asn1.h" 3 4
-extern ASN1_VISIBLESTRING *ASN1_VISIBLESTRING_new(void); extern void ASN1_VISIBLESTRING_free(ASN1_VISIBLESTRING *a); extern ASN1_VISIBLESTRING *d2i_ASN1_VISIBLESTRING(ASN1_VISIBLESTRING **a, const unsigned char **in, long len); extern int i2d_ASN1_VISIBLESTRING(const ASN1_VISIBLESTRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_VISIBLESTRING_it(void);
-extern ASN1_UNIVERSALSTRING *ASN1_UNIVERSALSTRING_new(void); extern void ASN1_UNIVERSALSTRING_free(ASN1_UNIVERSALSTRING *a); extern ASN1_UNIVERSALSTRING *d2i_ASN1_UNIVERSALSTRING(ASN1_UNIVERSALSTRING **a, const unsigned char **in, long len); extern int i2d_ASN1_UNIVERSALSTRING(const ASN1_UNIVERSALSTRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_UNIVERSALSTRING_it(void);
-extern ASN1_UTF8STRING *ASN1_UTF8STRING_new(void); extern void ASN1_UTF8STRING_free(ASN1_UTF8STRING *a); extern ASN1_UTF8STRING *d2i_ASN1_UTF8STRING(ASN1_UTF8STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_UTF8STRING(const ASN1_UTF8STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_UTF8STRING_it(void);
-extern ASN1_NULL *ASN1_NULL_new(void); extern void ASN1_NULL_free(ASN1_NULL *a); extern ASN1_NULL *d2i_ASN1_NULL(ASN1_NULL **a, const unsigned char **in, long len); extern int i2d_ASN1_NULL(const ASN1_NULL *a, unsigned char **out); extern const ASN1_ITEM * ASN1_NULL_it(void);
-extern ASN1_BMPSTRING *ASN1_BMPSTRING_new(void); extern void ASN1_BMPSTRING_free(ASN1_BMPSTRING *a); extern ASN1_BMPSTRING *d2i_ASN1_BMPSTRING(ASN1_BMPSTRING **a, const unsigned char **in, long len); extern int i2d_ASN1_BMPSTRING(const ASN1_BMPSTRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_BMPSTRING_it(void);
-
-int UTF8_getc(const unsigned char *str, int len, unsigned long *val);
-int UTF8_putc(unsigned char *str, int len, unsigned long value);
-
-struct stack_st_ASN1_GENERALSTRING; typedef int (*sk_ASN1_GENERALSTRING_compfunc)(const ASN1_GENERALSTRING * const *a, const ASN1_GENERALSTRING *const *b); typedef void (*sk_ASN1_GENERALSTRING_freefunc)(ASN1_GENERALSTRING *a); typedef ASN1_GENERALSTRING * (*sk_ASN1_GENERALSTRING_copyfunc)(const ASN1_GENERALSTRING *a); static __attribute__((unused)) inline ASN1_GENERALSTRING *ossl_check_ASN1_GENERALSTRING_type(ASN1_GENERALSTRING *ptr) { return ptr; } static __attribute__((unused)) inline const OPENSSL_STACK *ossl_check_const_ASN1_GENERALSTRING_sk_type(const struct stack_st_ASN1_GENERALSTRING *sk) { return (const OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_STACK *ossl_check_ASN1_GENERALSTRING_sk_type(struct stack_st_ASN1_GENERALSTRING *sk) { return (OPENSSL_STACK *)sk; } static __attribute__((unused)) inline OPENSSL_sk_compfunc ossl_check_ASN1_GENERALSTRING_compfunc_type(sk_ASN1_GENERALSTRING_compfunc cmp) { return (OPENSSL_sk_compfunc)cmp; } static __attribute__((unused)) inline OPENSSL_sk_copyfunc ossl_check_ASN1_GENERALSTRING_copyfunc_type(sk_ASN1_GENERALSTRING_copyfunc cpy) { return (OPENSSL_sk_copyfunc)cpy; } static __attribute__((unused)) inline OPENSSL_sk_freefunc ossl_check_ASN1_GENERALSTRING_freefunc_type(sk_ASN1_GENERALSTRING_freefunc fr) { return (OPENSSL_sk_freefunc)fr; }
-# 827 "/usr/include/openssl/asn1.h" 3 4
-extern ASN1_STRING *ASN1_PRINTABLE_new(void); extern void ASN1_PRINTABLE_free(ASN1_STRING *a); extern ASN1_STRING *d2i_ASN1_PRINTABLE(ASN1_STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_PRINTABLE(const ASN1_STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_PRINTABLE_it(void);
-
-extern ASN1_STRING *DIRECTORYSTRING_new(void); extern void DIRECTORYSTRING_free(ASN1_STRING *a); extern ASN1_STRING *d2i_DIRECTORYSTRING(ASN1_STRING **a, const unsigned char **in, long len); extern int i2d_DIRECTORYSTRING(const ASN1_STRING *a, unsigned char **out); extern const ASN1_ITEM * DIRECTORYSTRING_it(void);
-extern ASN1_STRING *DISPLAYTEXT_new(void); extern void DISPLAYTEXT_free(ASN1_STRING *a); extern ASN1_STRING *d2i_DISPLAYTEXT(ASN1_STRING **a, const unsigned char **in, long len); extern int i2d_DISPLAYTEXT(const ASN1_STRING *a, unsigned char **out); extern const ASN1_ITEM * DISPLAYTEXT_it(void);
-extern ASN1_PRINTABLESTRING *ASN1_PRINTABLESTRING_new(void); extern void ASN1_PRINTABLESTRING_free(ASN1_PRINTABLESTRING *a); extern ASN1_PRINTABLESTRING *d2i_ASN1_PRINTABLESTRING(ASN1_PRINTABLESTRING **a, const unsigned char **in, long len); extern int i2d_ASN1_PRINTABLESTRING(const ASN1_PRINTABLESTRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_PRINTABLESTRING_it(void);
-extern ASN1_T61STRING *ASN1_T61STRING_new(void); extern void ASN1_T61STRING_free(ASN1_T61STRING *a); extern ASN1_T61STRING *d2i_ASN1_T61STRING(ASN1_T61STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_T61STRING(const ASN1_T61STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_T61STRING_it(void);
-extern ASN1_IA5STRING *ASN1_IA5STRING_new(void); extern void ASN1_IA5STRING_free(ASN1_IA5STRING *a); extern ASN1_IA5STRING *d2i_ASN1_IA5STRING(ASN1_IA5STRING **a, const unsigned char **in, long len); extern int i2d_ASN1_IA5STRING(const ASN1_IA5STRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_IA5STRING_it(void);
-extern ASN1_GENERALSTRING *ASN1_GENERALSTRING_new(void); extern void ASN1_GENERALSTRING_free(ASN1_GENERALSTRING *a); extern ASN1_GENERALSTRING *d2i_ASN1_GENERALSTRING(ASN1_GENERALSTRING **a, const unsigned char **in, long len); extern int i2d_ASN1_GENERALSTRING(const ASN1_GENERALSTRING *a, unsigned char **out); extern const ASN1_ITEM * ASN1_GENERALSTRING_it(void);
-extern ASN1_UTCTIME *ASN1_UTCTIME_new(void); extern void ASN1_UTCTIME_free(ASN1_UTCTIME *a); extern ASN1_UTCTIME *d2i_ASN1_UTCTIME(ASN1_UTCTIME **a, const unsigned char **in, long len); extern int i2d_ASN1_UTCTIME(const ASN1_UTCTIME *a, unsigned char **out); extern const ASN1_ITEM * ASN1_UTCTIME_it(void);
-extern ASN1_GENERALIZEDTIME *ASN1_GENERALIZEDTIME_new(void); extern void ASN1_GENERALIZEDTIME_free(ASN1_GENERALIZEDTIME *a); extern ASN1_GENERALIZEDTIME *d2i_ASN1_GENERALIZEDTIME(ASN1_GENERALIZEDTIME **a, const unsigned char **in, long len); extern int i2d_ASN1_GENERALIZEDTIME(const ASN1_GENERALIZEDTIME *a, unsigned char **out); extern const ASN1_ITEM * ASN1_GENERALIZEDTIME_it(void);
-extern ASN1_TIME *ASN1_TIME_new(void); extern void ASN1_TIME_free(ASN1_TIME *a); extern ASN1_TIME *d2i_ASN1_TIME(ASN1_TIME **a, const unsigned char **in, long len); extern int i2d_ASN1_TIME(const ASN1_TIME *a, unsigned char **out); extern const ASN1_ITEM * ASN1_TIME_it(void);
-
-extern ASN1_TIME *ASN1_TIME_dup(const ASN1_TIME *a);
-extern ASN1_UTCTIME *ASN1_UTCTIME_dup(const ASN1_UTCTIME *a);
-extern ASN1_GENERALIZEDTIME *ASN1_GENERALIZEDTIME_dup(const ASN1_GENERALIZEDTIME *a);
-
-extern const ASN1_ITEM * ASN1_OCTET_STRING_NDEF_it(void);
-
-ASN1_TIME *ASN1_TIME_set(ASN1_TIME *s, time_t t);
-ASN1_TIME *ASN1_TIME_adj(ASN1_TIME *s, time_t t,
-                         int offset_day, long offset_sec);
-int ASN1_TIME_check(const ASN1_TIME *t);
-ASN1_GENERALIZEDTIME *ASN1_TIME_to_generalizedtime(const ASN1_TIME *t,
-                                                   ASN1_GENERALIZEDTIME **out);
-int ASN1_TIME_set_string(ASN1_TIME *s, const char *str);
-int ASN1_TIME_set_string_X509(ASN1_TIME *s, const char *str);
-int ASN1_TIME_to_tm(const ASN1_TIME *s, struct tm *tm);
-int ASN1_TIME_normalize(ASN1_TIME *s);
-int ASN1_TIME_cmp_time_t(const ASN1_TIME *s, time_t t);
-int ASN1_TIME_compare(const ASN1_TIME *a, const ASN1_TIME *b);
-
-int i2a_ASN1_INTEGER(BIO *bp, const ASN1_INTEGER *a);
-int a2i_ASN1_INTEGER(BIO *bp, ASN1_INTEGER *bs, char *buf, int size);
-int i2a_ASN1_ENUMERATED(BIO *bp, const ASN1_ENUMERATED *a);
-int a2i_ASN1_ENUMERATED(BIO *bp, ASN1_ENUMERATED *bs, char *buf, int size);
-int i2a_ASN1_OBJECT(BIO *bp, const ASN1_OBJECT *a);
-int a2i_ASN1_STRING(BIO *bp, ASN1_STRING *bs, char *buf, int size);
-int i2a_ASN1_STRING(BIO *bp, const ASN1_STRING *a, int type);
-int i2t_ASN1_OBJECT(char *buf, int buf_len, const ASN1_OBJECT *a);
-
-int a2d_ASN1_OBJECT(unsigned char *out, int olen, const char *buf, int num);
-ASN1_OBJECT *ASN1_OBJECT_create(int nid, unsigned char *data, int len,
-                                const char *sn, const char *ln);
-
-int ASN1_INTEGER_get_int64(int64_t *pr, const ASN1_INTEGER *a);
-int ASN1_INTEGER_set_int64(ASN1_INTEGER *a, int64_t r);
-int ASN1_INTEGER_get_uint64(uint64_t *pr, const ASN1_INTEGER *a);
-int ASN1_INTEGER_set_uint64(ASN1_INTEGER *a, uint64_t r);
-
-int ASN1_INTEGER_set(ASN1_INTEGER *a, long v);
-long ASN1_INTEGER_get(const ASN1_INTEGER *a);
-ASN1_INTEGER *BN_to_ASN1_INTEGER(const BIGNUM *bn, ASN1_INTEGER *ai);
-BIGNUM *ASN1_INTEGER_to_BN(const ASN1_INTEGER *ai, BIGNUM *bn);
-
-int ASN1_ENUMERATED_get_int64(int64_t *pr, const ASN1_ENUMERATED *a);
-int ASN1_ENUMERATED_set_int64(ASN1_ENUMERATED *a, int64_t r);
-
-
-int ASN1_ENUMERATED_set(ASN1_ENUMERATED *a, long v);
-long ASN1_ENUMERATED_get(const ASN1_ENUMERATED *a);
-ASN1_ENUMERATED *BN_to_ASN1_ENUMERATED(const BIGNUM *bn, ASN1_ENUMERATED *ai);
-BIGNUM *ASN1_ENUMERATED_to_BN(const ASN1_ENUMERATED *ai, BIGNUM *bn);
-
-
-
-int ASN1_PRINTABLE_type(const unsigned char *s, int max);
-
-unsigned long ASN1_tag2bit(int tag);
-
-
-int ASN1_get_object(const unsigned char **pp, long *plength, int *ptag,
-                    int *pclass, long omax);
-int ASN1_check_infinite_end(unsigned char **p, long len);
-int ASN1_const_check_infinite_end(const unsigned char **p, long len);
-void ASN1_put_object(unsigned char **pp, int constructed, int length,
-                     int tag, int xclass);
-int ASN1_put_eoc(unsigned char **pp);
-int ASN1_object_size(int constructed, int length, int tag);
-
-
-void *ASN1_dup(i2d_of_void *i2d, d2i_of_void *d2i, const void *x);
-
-
-
-
-
-
-void *ASN1_item_dup(const ASN1_ITEM *it, const void *x);
-int ASN1_item_sign_ex(const ASN1_ITEM *it, X509_ALGOR *algor1,
-                      X509_ALGOR *algor2, ASN1_BIT_STRING *signature,
-                      const void *data, const ASN1_OCTET_STRING *id,
-                      EVP_PKEY *pkey, const EVP_MD *md, OSSL_LIB_CTX *libctx,
-                      const char *propq);
-int ASN1_item_verify_ex(const ASN1_ITEM *it, const X509_ALGOR *alg,
-                        const ASN1_BIT_STRING *signature, const void *data,
-                        const ASN1_OCTET_STRING *id, EVP_PKEY *pkey,
-                        OSSL_LIB_CTX *libctx, const char *propq);
-# 932 "/usr/include/openssl/asn1.h" 3 4
-void *ASN1_d2i_fp(void *(*xnew) (void), d2i_of_void *d2i, FILE *in, void **x);
-
-
-
-
-
-
-
-void *ASN1_item_d2i_fp_ex(const ASN1_ITEM *it, FILE *in, void *x,
-                          OSSL_LIB_CTX *libctx, const char *propq);
-void *ASN1_item_d2i_fp(const ASN1_ITEM *it, FILE *in, void *x);
-int ASN1_i2d_fp(i2d_of_void *i2d, FILE *out, const void *x);
-
-
-
-
-
-
-int ASN1_item_i2d_fp(const ASN1_ITEM *it, FILE *out, const void *x);
-int ASN1_STRING_print_ex_fp(FILE *fp, const ASN1_STRING *str, unsigned long flags);
-
-
-int ASN1_STRING_to_UTF8(unsigned char **out, const ASN1_STRING *in);
-
-void *ASN1_d2i_bio(void *(*xnew) (void), d2i_of_void *d2i, BIO *in, void **x);
-
-
-
-
-
-
-
-void *ASN1_item_d2i_bio_ex(const ASN1_ITEM *it, BIO *in, void *pval,
-                           OSSL_LIB_CTX *libctx, const char *propq);
-void *ASN1_item_d2i_bio(const ASN1_ITEM *it, BIO *in, void *pval);
-int ASN1_i2d_bio(i2d_of_void *i2d, BIO *out, const void *x);
-
-
-
-
-
-
-int ASN1_item_i2d_bio(const ASN1_ITEM *it, BIO *out, const void *x);
-BIO *ASN1_item_i2d_mem_bio(const ASN1_ITEM *it, const ASN1_VALUE *val);
-int ASN1_UTCTIME_print(BIO *fp, const ASN1_UTCTIME *a);
-int ASN1_GENERALIZEDTIME_print(BIO *fp, const ASN1_GENERALIZEDTIME *a);
-int ASN1_TIME_print(BIO *bp, const ASN1_TIME *tm);
-int ASN1_TIME_print_ex(BIO *bp, const ASN1_TIME *tm, unsigned long flags);
-int ASN1_STRING_print(BIO *bp, const ASN1_STRING *v);
-int ASN1_STRING_print_ex(BIO *out, const ASN1_STRING *str, unsigned long flags);
-int ASN1_buf_print(BIO *bp, const unsigned char *buf, size_t buflen, int off);
-int ASN1_bn_print(BIO *bp, const char *number, const BIGNUM *num,
-                  unsigned char *buf, int off);
-int ASN1_parse(BIO *bp, const unsigned char *pp, long len, int indent);
-int ASN1_parse_dump(BIO *bp, const unsigned char *pp, long len, int indent,
-                    int dump);
-const char *ASN1_tag2str(int tag);
-
-
-
-int ASN1_UNIVERSALSTRING_to_string(ASN1_UNIVERSALSTRING *s);
-
-int ASN1_TYPE_set_octetstring(ASN1_TYPE *a, unsigned char *data, int len);
-int ASN1_TYPE_get_octetstring(const ASN1_TYPE *a, unsigned char *data, int max_len);
-int ASN1_TYPE_set_int_octetstring(ASN1_TYPE *a, long num,
-                                  unsigned char *data, int len);
-int ASN1_TYPE_get_int_octetstring(const ASN1_TYPE *a, long *num,
-                                  unsigned char *data, int max_len);
-
-void *ASN1_item_unpack(const ASN1_STRING *oct, const ASN1_ITEM *it);
-void *ASN1_item_unpack_ex(const ASN1_STRING *oct, const ASN1_ITEM *it,
-                          OSSL_LIB_CTX *libctx, const char *propq);
-
-ASN1_STRING *ASN1_item_pack(void *obj, const ASN1_ITEM *it,
-                            ASN1_OCTET_STRING **oct);
-
-void ASN1_STRING_set_default_mask(unsigned long mask);
-int ASN1_STRING_set_default_mask_asc(const char *p);
-unsigned long ASN1_STRING_get_default_mask(void);
-int ASN1_mbstring_copy(ASN1_STRING **out, const unsigned char *in, int len,
-                       int inform, unsigned long mask);
-int ASN1_mbstring_ncopy(ASN1_STRING **out, const unsigned char *in, int len,
-                        int inform, unsigned long mask,
-                        long minsize, long maxsize);
-
-ASN1_STRING *ASN1_STRING_set_by_NID(ASN1_STRING **out,
-                                    const unsigned char *in, int inlen,
-                                    int inform, int nid);
-ASN1_STRING_TABLE *ASN1_STRING_TABLE_get(int nid);
-int ASN1_STRING_TABLE_add(int, long, long, unsigned long, unsigned long);
-void ASN1_STRING_TABLE_cleanup(void);
-
-
-
-
-ASN1_VALUE *ASN1_item_new(const ASN1_ITEM *it);
-ASN1_VALUE *ASN1_item_new_ex(const ASN1_ITEM *it, OSSL_LIB_CTX *libctx,
-                             const char *propq);
-void ASN1_item_free(ASN1_VALUE *val, const ASN1_ITEM *it);
-ASN1_VALUE *ASN1_item_d2i_ex(ASN1_VALUE **val, const unsigned char **in,
-                             long len, const ASN1_ITEM *it,
-                             OSSL_LIB_CTX *libctx, const char *propq);
-ASN1_VALUE *ASN1_item_d2i(ASN1_VALUE **val, const unsigned char **in,
-                          long len, const ASN1_ITEM *it);
-int ASN1_item_i2d(const ASN1_VALUE *val, unsigned char **out, const ASN1_ITEM *it);
-int ASN1_item_ndef_i2d(const ASN1_VALUE *val, unsigned char **out,
-                       const ASN1_ITEM *it);
-
-void ASN1_add_oid_module(void);
-void ASN1_add_stable_module(void);
-
-ASN1_TYPE *ASN1_generate_nconf(const char *str, CONF *nconf);
-ASN1_TYPE *ASN1_generate_v3(const char *str, X509V3_CTX *cnf);
-int ASN1_str2mask(const char *str, unsigned long *pmask);
-# 1068 "/usr/include/openssl/asn1.h" 3 4
-int ASN1_item_print(BIO *out, const ASN1_VALUE *ifld, int indent,
-                    const ASN1_ITEM *it, const ASN1_PCTX *pctx);
-ASN1_PCTX *ASN1_PCTX_new(void);
-void ASN1_PCTX_free(ASN1_PCTX *p);
-unsigned long ASN1_PCTX_get_flags(const ASN1_PCTX *p);
-void ASN1_PCTX_set_flags(ASN1_PCTX *p, unsigned long flags);
-unsigned long ASN1_PCTX_get_nm_flags(const ASN1_PCTX *p);
-void ASN1_PCTX_set_nm_flags(ASN1_PCTX *p, unsigned long flags);
-unsigned long ASN1_PCTX_get_cert_flags(const ASN1_PCTX *p);
-void ASN1_PCTX_set_cert_flags(ASN1_PCTX *p, unsigned long flags);
-unsigned long ASN1_PCTX_get_oid_flags(const ASN1_PCTX *p);
-void ASN1_PCTX_set_oid_flags(ASN1_PCTX *p, unsigned long flags);
-unsigned long ASN1_PCTX_get_str_flags(const ASN1_PCTX *p);
-void ASN1_PCTX_set_str_flags(ASN1_PCTX *p, unsigned long flags);
-
-ASN1_SCTX *ASN1_SCTX_new(int (*scan_cb) (ASN1_SCTX *ctx));
-void ASN1_SCTX_free(ASN1_SCTX *p);
-const ASN1_ITEM *ASN1_SCTX_get_item(ASN1_SCTX *p);
-const ASN1_TEMPLATE *ASN1_SCTX_get_template(ASN1_SCTX *p);
-unsigned long ASN1_SCTX_get_flags(ASN1_SCTX *p);
-void ASN1_SCTX_set_app_data(ASN1_SCTX *p, void *data);
-void *ASN1_SCTX_get_app_data(ASN1_SCTX *p);
-
-const BIO_METHOD *BIO_f_asn1(void);
-
-
-BIO *BIO_new_NDEF(BIO *out, ASN1_VALUE *val, const ASN1_ITEM *it);
-
-int i2d_ASN1_bio_stream(BIO *out, ASN1_VALUE *val, BIO *in, int flags,
-                        const ASN1_ITEM *it);
-int PEM_write_bio_ASN1_stream(BIO *out, ASN1_VALUE *val, BIO *in, int flags,
-                              const char *hdr, const ASN1_ITEM *it);
-
-int SMIME_write_ASN1(BIO *bio, ASN1_VALUE *val, BIO *data, int flags,
-                     int ctype_nid, int econt_nid,
-                     struct stack_st_X509_ALGOR *mdalgs, const ASN1_ITEM *it);
-int SMIME_write_ASN1_ex(BIO *bio, ASN1_VALUE *val, BIO *data, int flags,
-                        int ctype_nid, int econt_nid,
-                        struct stack_st_X509_ALGOR *mdalgs, const ASN1_ITEM *it,
-                        OSSL_LIB_CTX *libctx, const char *propq);
-ASN1_VALUE *SMIME_read_ASN1(BIO *bio, BIO **bcont, const ASN1_ITEM *it);
-ASN1_VALUE *SMIME_read_ASN1_ex(BIO *bio, int flags, BIO **bcont,
-                               const ASN1_ITEM *it, ASN1_VALUE **x,
-                               OSSL_LIB_CTX *libctx, const char *propq);
-int SMIME_crlf_copy(BIO *in, BIO *out, int flags);
-int SMIME_text(BIO *in, BIO *out);
-
-const ASN1_ITEM *ASN1_ITEM_lookup(const char *name);
-const ASN1_ITEM *ASN1_ITEM_get(size_t i);
-# 1131 "/usr/include/openssl/asn1.h" 3 4
-}
-# 27 "/usr/include/openssl/dsa.h" 2 3 4
-
-
-
-
-# 1 "/usr/include/openssl/dh.h" 1 3 4
-# 12 "/usr/include/openssl/dh.h" 3 4
-        
-
-
-
-
-
-
-
-# 1 "/usr/include/openssl/types.h" 1 3 4
-# 21 "/usr/include/openssl/dh.h" 2 3 4
-
-
-extern "C" {
-
-
-# 1 "/usr/include/c++/14/stdlib.h" 1 3 4
-# 27 "/usr/include/openssl/dh.h" 2 3 4
-
-
-
-
-
-
-
-int EVP_PKEY_CTX_set_dh_paramgen_type(EVP_PKEY_CTX *ctx, int typ);
-int EVP_PKEY_CTX_set_dh_paramgen_gindex(EVP_PKEY_CTX *ctx, int gindex);
-int EVP_PKEY_CTX_set_dh_paramgen_seed(EVP_PKEY_CTX *ctx,
-                                      const unsigned char *seed,
-                                      size_t seedlen);
-int EVP_PKEY_CTX_set_dh_paramgen_prime_len(EVP_PKEY_CTX *ctx, int pbits);
-int EVP_PKEY_CTX_set_dh_paramgen_subprime_len(EVP_PKEY_CTX *ctx, int qlen);
-int EVP_PKEY_CTX_set_dh_paramgen_generator(EVP_PKEY_CTX *ctx, int gen);
-int EVP_PKEY_CTX_set_dh_nid(EVP_PKEY_CTX *ctx, int nid);
-int EVP_PKEY_CTX_set_dh_rfc5114(EVP_PKEY_CTX *ctx, int gen);
-int EVP_PKEY_CTX_set_dhx_rfc5114(EVP_PKEY_CTX *ctx, int gen);
-int EVP_PKEY_CTX_set_dh_pad(EVP_PKEY_CTX *ctx, int pad);
-
-int EVP_PKEY_CTX_set_dh_kdf_type(EVP_PKEY_CTX *ctx, int kdf);
-int EVP_PKEY_CTX_get_dh_kdf_type(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_CTX_set0_dh_kdf_oid(EVP_PKEY_CTX *ctx, ASN1_OBJECT *oid);
-int EVP_PKEY_CTX_get0_dh_kdf_oid(EVP_PKEY_CTX *ctx, ASN1_OBJECT **oid);
-int EVP_PKEY_CTX_set_dh_kdf_md(EVP_PKEY_CTX *ctx, const EVP_MD *md);
-int EVP_PKEY_CTX_get_dh_kdf_md(EVP_PKEY_CTX *ctx, const EVP_MD **md);
-int EVP_PKEY_CTX_set_dh_kdf_outlen(EVP_PKEY_CTX *ctx, int len);
-int EVP_PKEY_CTX_get_dh_kdf_outlen(EVP_PKEY_CTX *ctx, int *len);
-int EVP_PKEY_CTX_set0_dh_kdf_ukm(EVP_PKEY_CTX *ctx, unsigned char *ukm, int len);
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_CTX_get0_dh_kdf_ukm(EVP_PKEY_CTX *ctx, unsigned char **ukm);
-# 92 "/usr/include/openssl/dh.h" 3 4
-# 1 "/usr/include/openssl/dherr.h" 1 3 4
-# 13 "/usr/include/openssl/dherr.h" 3 4
-        
-# 93 "/usr/include/openssl/dh.h" 2 3 4
-# 140 "/usr/include/openssl/dh.h" 3 4
-extern const ASN1_ITEM * DHparams_it(void);
-# 197 "/usr/include/openssl/dh.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DHparams_dup(const DH *a);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const DH_METHOD *DH_OpenSSL(void);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_set_default_method(const DH_METHOD *meth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const DH_METHOD *DH_get_default_method(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_set_method(DH *dh, const DH_METHOD *meth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_new_method(ENGINE *engine);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_new(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_free(DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_up_ref(DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_bits(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_size(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_security_bits(const DH *dh);
-
-
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_set_ex_data(DH *d, int idx, void *arg);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void *DH_get_ex_data(const DH *d, int idx);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_generate_parameters_ex(DH *dh, int prime_len,
-                                                    int generator,
-                                                    BN_GENCB *cb);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check_params_ex(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check_ex(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check_pub_key_ex(const DH *dh, const BIGNUM *pub_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check_params(const DH *dh, int *ret);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check(const DH *dh, int *codes);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_check_pub_key(const DH *dh, const BIGNUM *pub_key,
-                                           int *codes);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_generate_key(DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_compute_key(unsigned char *key,
-                                         const BIGNUM *pub_key, DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_compute_key_padded(unsigned char *key,
-                                                const BIGNUM *pub_key, DH *dh);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *d2i_DHparams(DH **a, const unsigned char **in, long len); __attribute__((deprecated("Since OpenSSL " "3.0"))) int i2d_DHparams(const DH *a, unsigned char **out);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *d2i_DHxparams(DH **a, const unsigned char **in, long len); __attribute__((deprecated("Since OpenSSL " "3.0"))) int i2d_DHxparams(const DH *a, unsigned char **out);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DHparams_print_fp(FILE *fp, const DH *x);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DHparams_print(BIO *bp, const DH *x);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_get_1024_160(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_get_2048_224(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_get_2048_256(void);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DH_new_by_nid(int nid);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_get_nid(const DH *dh);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_KDF_X9_42(unsigned char *out, size_t outlen,
-                                       const unsigned char *Z, size_t Zlen,
-                                       ASN1_OBJECT *key_oid,
-                                       const unsigned char *ukm,
-                                       size_t ukmlen, const EVP_MD *md);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_get0_pqg(const DH *dh, const BIGNUM **p,
-                                       const BIGNUM **q, const BIGNUM **g);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_set0_pqg(DH *dh, BIGNUM *p, BIGNUM *q, BIGNUM *g);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
-                                       const BIGNUM **priv_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_set0_key(DH *dh, BIGNUM *pub_key, BIGNUM *priv_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DH_get0_p(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DH_get0_q(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DH_get0_g(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DH_get0_priv_key(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DH_get0_pub_key(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_clear_flags(DH *dh, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_test_flags(const DH *dh, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_set_flags(DH *dh, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) ENGINE *DH_get0_engine(DH *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) long DH_get_length(const DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_set_length(DH *dh, long length);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH_METHOD *DH_meth_new(const char *name, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DH_meth_free(DH_METHOD *dhm);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH_METHOD *DH_meth_dup(const DH_METHOD *dhm);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const char *DH_meth_get0_name(const DH_METHOD *dhm);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set1_name(DH_METHOD *dhm, const char *name);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_get_flags(const DH_METHOD *dhm);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_flags(DH_METHOD *dhm, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void *DH_meth_get0_app_data(const DH_METHOD *dhm);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set0_app_data(DH_METHOD *dhm, void *app_data);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_generate_key(const DH_METHOD *dhm)) (DH *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_generate_key(DH_METHOD *dhm,
-                                                   int (*generate_key) (DH *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_compute_key(const DH_METHOD *dhm))
-                                                   (unsigned char *key,
-                                                    const BIGNUM *pub_key,
-                                                    DH *dh);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_compute_key(DH_METHOD *dhm,
-                                                  int (*compute_key)
-                                                  (unsigned char *key,
-                                                   const BIGNUM *pub_key,
-                                                   DH *dh));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_bn_mod_exp(const DH_METHOD *dhm))
-                                                   (const DH *, BIGNUM *,
-                                                    const BIGNUM *,
-                                                    const BIGNUM *,
-                                                    const BIGNUM *, BN_CTX *,
-                                                    BN_MONT_CTX *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_bn_mod_exp(DH_METHOD *dhm,
-                                                 int (*bn_mod_exp)
-                                                 (const DH *, BIGNUM *,
-                                                  const BIGNUM *, const BIGNUM *,
-                                                  const BIGNUM *, BN_CTX *,
-                                                  BN_MONT_CTX *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_init(const DH_METHOD *dhm))(DH *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_init(DH_METHOD *dhm, int (*init)(DH *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_finish(const DH_METHOD *dhm)) (DH *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_finish(DH_METHOD *dhm, int (*finish) (DH *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DH_meth_get_generate_params(const DH_METHOD *dhm))
-                                                        (DH *, int, int,
-                                                         BN_GENCB *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DH_meth_set_generate_params(DH_METHOD *dhm,
-                                                      int (*generate_params)
-                                                      (DH *, int, int,
-                                                       BN_GENCB *));
-
-
-
-__attribute__((deprecated("Since OpenSSL " "0.9.8"))) DH *DH_generate_parameters(int prime_len, int generator,
-                                                   void (*callback) (int, int,
-                                                                void *),
-                                                   void *cb_arg);
-
-
-
-
-}
-# 32 "/usr/include/openssl/dsa.h" 2 3 4
-
-# 1 "/usr/include/openssl/dsaerr.h" 1 3 4
-# 13 "/usr/include/openssl/dsaerr.h" 3 4
-        
-# 34 "/usr/include/openssl/dsa.h" 2 3 4
-
-
-
-
-
-
-extern "C" {
-
-
-int EVP_PKEY_CTX_set_dsa_paramgen_bits(EVP_PKEY_CTX *ctx, int nbits);
-int EVP_PKEY_CTX_set_dsa_paramgen_q_bits(EVP_PKEY_CTX *ctx, int qbits);
-int EVP_PKEY_CTX_set_dsa_paramgen_md_props(EVP_PKEY_CTX *ctx,
-                                           const char *md_name,
-                                           const char *md_properties);
-int EVP_PKEY_CTX_set_dsa_paramgen_gindex(EVP_PKEY_CTX *ctx, int gindex);
-int EVP_PKEY_CTX_set_dsa_paramgen_type(EVP_PKEY_CTX *ctx, const char *name);
-int EVP_PKEY_CTX_set_dsa_paramgen_seed(EVP_PKEY_CTX *ctx,
-                                       const unsigned char *seed,
-                                       size_t seedlen);
-int EVP_PKEY_CTX_set_dsa_paramgen_md(EVP_PKEY_CTX *ctx, const EVP_MD *md);
-# 66 "/usr/include/openssl/dsa.h" 3 4
-typedef struct DSA_SIG_st DSA_SIG;
-DSA_SIG *DSA_SIG_new(void);
-void DSA_SIG_free(DSA_SIG *a);
-extern DSA_SIG *d2i_DSA_SIG(DSA_SIG **a, const unsigned char **in, long len); extern int i2d_DSA_SIG(const DSA_SIG *a, unsigned char **out);
-void DSA_SIG_get0(const DSA_SIG *sig, const BIGNUM **pr, const BIGNUM **ps);
-int DSA_SIG_set0(DSA_SIG *sig, BIGNUM *r, BIGNUM *s);
-# 117 "/usr/include/openssl/dsa.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *DSAparams_dup(const DSA *a);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA_SIG *DSA_do_sign(const unsigned char *dgst, int dlen,
-                                           DSA *dsa);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_do_verify(const unsigned char *dgst, int dgst_len,
-                                        DSA_SIG *sig, DSA *dsa);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const DSA_METHOD *DSA_OpenSSL(void);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_set_default_method(const DSA_METHOD *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const DSA_METHOD *DSA_get_default_method(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_set_method(DSA *dsa, const DSA_METHOD *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const DSA_METHOD *DSA_get_method(DSA *d);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *DSA_new(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *DSA_new_method(ENGINE *engine);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_free(DSA *r);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_up_ref(DSA *r);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_size(const DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_bits(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_security_bits(const DSA *d);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_sign_setup(DSA *dsa, BN_CTX *ctx_in,
-                                         BIGNUM **kinvp, BIGNUM **rp);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_sign(int type, const unsigned char *dgst,
-                                   int dlen, unsigned char *sig,
-                                   unsigned int *siglen, DSA *dsa);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_verify(int type, const unsigned char *dgst,
-                                     int dgst_len, const unsigned char *sigbuf,
-                                     int siglen, DSA *dsa);
-
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_set_ex_data(DSA *d, int idx, void *arg);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void *DSA_get_ex_data(const DSA *d, int idx);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *d2i_DSAPublicKey(DSA **a, const unsigned char **in, long len); __attribute__((deprecated("Since OpenSSL " "3.0"))) int i2d_DSAPublicKey(const DSA *a, unsigned char **out);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *d2i_DSAPrivateKey(DSA **a, const unsigned char **in, long len); __attribute__((deprecated("Since OpenSSL " "3.0"))) int i2d_DSAPrivateKey(const DSA *a, unsigned char **out);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA *d2i_DSAparams(DSA **a, const unsigned char **in, long len); __attribute__((deprecated("Since OpenSSL " "3.0"))) int i2d_DSAparams(const DSA *a, unsigned char **out);
-
-
-
-
-
-__attribute__((deprecated("Since OpenSSL " "0.9.8")))
-DSA *DSA_generate_parameters(int bits, unsigned char *seed, int seed_len,
-                             int *counter_ret, unsigned long *h_ret,
-                             void (*callback) (int, int, void *),
-                             void *cb_arg);
-
-
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_generate_parameters_ex(DSA *dsa, int bits,
-                                                     const unsigned char *seed,
-                                                     int seed_len,
-                                                     int *counter_ret,
-                                                     unsigned long *h_ret,
-                                                     BN_GENCB *cb);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_generate_key(DSA *a);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSAparams_print(BIO *bp, const DSA *x);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_print(BIO *bp, const DSA *x, int off);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSAparams_print_fp(FILE *fp, const DSA *x);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_print_fp(FILE *bp, const DSA *x, int off);
-# 203 "/usr/include/openssl/dsa.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DH *DSA_dup_DH(const DSA *r);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_get0_pqg(const DSA *d, const BIGNUM **p,
-                                        const BIGNUM **q, const BIGNUM **g);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_set0_pqg(DSA *d, BIGNUM *p, BIGNUM *q, BIGNUM *g);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
-                                        const BIGNUM **priv_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_set0_key(DSA *d, BIGNUM *pub_key,
-                                       BIGNUM *priv_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DSA_get0_p(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DSA_get0_q(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DSA_get0_g(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DSA_get0_pub_key(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const BIGNUM *DSA_get0_priv_key(const DSA *d);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_clear_flags(DSA *d, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_test_flags(const DSA *d, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_set_flags(DSA *d, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) ENGINE *DSA_get0_engine(DSA *d);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA_METHOD *DSA_meth_new(const char *name, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void DSA_meth_free(DSA_METHOD *dsam);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA_METHOD *DSA_meth_dup(const DSA_METHOD *dsam);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const char *DSA_meth_get0_name(const DSA_METHOD *dsam);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set1_name(DSA_METHOD *dsam,
-                                             const char *name);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_get_flags(const DSA_METHOD *dsam);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_flags(DSA_METHOD *dsam, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void *DSA_meth_get0_app_data(const DSA_METHOD *dsam);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set0_app_data(DSA_METHOD *dsam,
-                                                 void *app_data);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) DSA_SIG *(*DSA_meth_get_sign(const DSA_METHOD *dsam))
-        (const unsigned char *, int, DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_sign(DSA_METHOD *dsam,
-                       DSA_SIG *(*sign) (const unsigned char *, int, DSA *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_sign_setup(const DSA_METHOD *dsam))
-        (DSA *, BN_CTX *, BIGNUM **, BIGNUM **);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_sign_setup(DSA_METHOD *dsam,
-        int (*sign_setup) (DSA *, BN_CTX *, BIGNUM **, BIGNUM **));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_verify(const DSA_METHOD *dsam))
-        (const unsigned char *, int, DSA_SIG *, DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_verify(DSA_METHOD *dsam,
-    int (*verify) (const unsigned char *, int, DSA_SIG *, DSA *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_mod_exp(const DSA_METHOD *dsam))
-        (DSA *, BIGNUM *, const BIGNUM *, const BIGNUM *, const BIGNUM *,
-         const BIGNUM *, const BIGNUM *, BN_CTX *, BN_MONT_CTX *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_mod_exp(DSA_METHOD *dsam,
-    int (*mod_exp) (DSA *, BIGNUM *, const BIGNUM *, const BIGNUM *,
-                    const BIGNUM *, const BIGNUM *, const BIGNUM *, BN_CTX *,
-                    BN_MONT_CTX *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_bn_mod_exp(const DSA_METHOD *dsam))
-    (DSA *, BIGNUM *, const BIGNUM *, const BIGNUM *, const BIGNUM *,
-     BN_CTX *, BN_MONT_CTX *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_bn_mod_exp(DSA_METHOD *dsam,
-    int (*bn_mod_exp) (DSA *, BIGNUM *, const BIGNUM *, const BIGNUM *,
-                       const BIGNUM *, BN_CTX *, BN_MONT_CTX *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_init(const DSA_METHOD *dsam))(DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_init(DSA_METHOD *dsam,
-                                            int (*init)(DSA *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_finish(const DSA_METHOD *dsam))(DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_finish(DSA_METHOD *dsam,
-                                              int (*finish)(DSA *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_paramgen(const DSA_METHOD *dsam))
-        (DSA *, int, const unsigned char *, int, int *, unsigned long *,
-         BN_GENCB *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_paramgen(DSA_METHOD *dsam,
-        int (*paramgen) (DSA *, int, const unsigned char *, int, int *,
-                         unsigned long *, BN_GENCB *));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int (*DSA_meth_get_keygen(const DSA_METHOD *dsam))(DSA *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int DSA_meth_set_keygen(DSA_METHOD *dsam,
-                                              int (*keygen) (DSA *));
-
-
-
-
-}
 # 5 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 2
-# 1 "/usr/include/openssl/rand.h" 1 3 4
-# 12 "/usr/include/openssl/rand.h" 3 4
-        
 
 
+# 6 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+void generateKeyPair() {
+    BIGNUM *p = nullptr, *q = nullptr;
+    char *p_str = nullptr, *q_str = nullptr;
 
 
-
-
-# 1 "/usr/include/c++/14/stdlib.h" 1 3 4
-# 20 "/usr/include/openssl/rand.h" 2 3 4
-# 1 "/usr/include/openssl/types.h" 1 3 4
-# 21 "/usr/include/openssl/rand.h" 2 3 4
-
-# 1 "/usr/include/openssl/randerr.h" 1 3 4
-# 13 "/usr/include/openssl/randerr.h" 3 4
-        
-# 23 "/usr/include/openssl/rand.h" 2 3 4
-# 1 "/usr/include/openssl/evp.h" 1 3 4
-# 12 "/usr/include/openssl/evp.h" 3 4
-        
-# 26 "/usr/include/openssl/evp.h" 3 4
-# 1 "/usr/include/openssl/types.h" 1 3 4
-# 27 "/usr/include/openssl/evp.h" 2 3 4
-
-# 1 "/usr/include/openssl/core_dispatch.h" 1 3 4
-# 12 "/usr/include/openssl/core_dispatch.h" 3 4
-        
-
-
-
-
-
-extern "C" {
-# 64 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef const OSSL_PARAM * (OSSL_FUNC_core_gettable_params_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_gettable_params_fn *OSSL_FUNC_core_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_gettable_params_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_core_get_params_fn)(const OSSL_CORE_HANDLE *prov, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_core_get_params_fn *OSSL_FUNC_core_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_get_params_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_core_thread_start_fn)(const OSSL_CORE_HANDLE *prov, OSSL_thread_stop_handler_fn handfn, void *arg); static __attribute__((unused)) inline OSSL_FUNC_core_thread_start_fn *OSSL_FUNC_core_thread_start(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_thread_start_fn *)opf->function; }
-
-
-
-typedef OPENSSL_CORE_CTX * (OSSL_FUNC_core_get_libctx_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_get_libctx_fn *OSSL_FUNC_core_get_libctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_get_libctx_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_core_new_error_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_new_error_fn *OSSL_FUNC_core_new_error(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_new_error_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_core_set_error_debug_fn)(const OSSL_CORE_HANDLE *prov, const char *file, int line, const char *func); static __attribute__((unused)) inline OSSL_FUNC_core_set_error_debug_fn *OSSL_FUNC_core_set_error_debug(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_set_error_debug_fn *)opf->function; }
-
-
-
-typedef void (OSSL_FUNC_core_vset_error_fn)(const OSSL_CORE_HANDLE *prov, uint32_t reason, const char *fmt, va_list args); static __attribute__((unused)) inline OSSL_FUNC_core_vset_error_fn *OSSL_FUNC_core_vset_error(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_vset_error_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_core_set_error_mark_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_set_error_mark_fn *OSSL_FUNC_core_set_error_mark(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_set_error_mark_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_core_clear_last_error_mark_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_clear_last_error_mark_fn *OSSL_FUNC_core_clear_last_error_mark(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_clear_last_error_mark_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_core_pop_error_to_mark_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_core_pop_error_to_mark_fn *OSSL_FUNC_core_pop_error_to_mark(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_pop_error_to_mark_fn *)opf->function; }
-
-
-
-
-
-
-
-typedef int (OSSL_FUNC_core_obj_add_sigid_fn)(const OSSL_CORE_HANDLE *prov, const char *sign_name, const char *digest_name, const char *pkey_name); static __attribute__((unused)) inline OSSL_FUNC_core_obj_add_sigid_fn *OSSL_FUNC_core_obj_add_sigid(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_obj_add_sigid_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_core_obj_create_fn)(const OSSL_CORE_HANDLE *prov, const char *oid, const char *sn, const char *ln); static __attribute__((unused)) inline OSSL_FUNC_core_obj_create_fn *OSSL_FUNC_core_obj_create(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_core_obj_create_fn *)opf->function; }
-
-
-
-
-
-typedef void * (OSSL_FUNC_CRYPTO_malloc_fn)(size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_malloc_fn *OSSL_FUNC_CRYPTO_malloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_malloc_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_CRYPTO_zalloc_fn)(size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_zalloc_fn *OSSL_FUNC_CRYPTO_zalloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_zalloc_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_CRYPTO_free_fn)(void *ptr, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_free_fn *OSSL_FUNC_CRYPTO_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_free_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_CRYPTO_clear_free_fn)(void *ptr, size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_clear_free_fn *OSSL_FUNC_CRYPTO_clear_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_clear_free_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_CRYPTO_realloc_fn)(void *addr, size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_realloc_fn *OSSL_FUNC_CRYPTO_realloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_realloc_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_CRYPTO_clear_realloc_fn)(void *addr, size_t old_num, size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_clear_realloc_fn *OSSL_FUNC_CRYPTO_clear_realloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_clear_realloc_fn *)opf->function; }
-
-
-
-typedef void * (OSSL_FUNC_CRYPTO_secure_malloc_fn)(size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_secure_malloc_fn *OSSL_FUNC_CRYPTO_secure_malloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_secure_malloc_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_CRYPTO_secure_zalloc_fn)(size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_secure_zalloc_fn *OSSL_FUNC_CRYPTO_secure_zalloc(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_secure_zalloc_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_CRYPTO_secure_free_fn)(void *ptr, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_secure_free_fn *OSSL_FUNC_CRYPTO_secure_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_secure_free_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_CRYPTO_secure_clear_free_fn)(void *ptr, size_t num, const char *file, int line); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_secure_clear_free_fn *OSSL_FUNC_CRYPTO_secure_clear_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_secure_clear_free_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_CRYPTO_secure_allocated_fn)(const void *ptr); static __attribute__((unused)) inline OSSL_FUNC_CRYPTO_secure_allocated_fn *OSSL_FUNC_CRYPTO_secure_allocated(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_CRYPTO_secure_allocated_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_OPENSSL_cleanse_fn)(void *ptr, size_t len); static __attribute__((unused)) inline OSSL_FUNC_OPENSSL_cleanse_fn *OSSL_FUNC_OPENSSL_cleanse(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_OPENSSL_cleanse_fn *)opf->function; }
-# 161 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef OSSL_CORE_BIO * (OSSL_FUNC_BIO_new_file_fn)(const char *filename, const char *mode); static __attribute__((unused)) inline OSSL_FUNC_BIO_new_file_fn *OSSL_FUNC_BIO_new_file(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_new_file_fn *)opf->function; }
-
-typedef OSSL_CORE_BIO * (OSSL_FUNC_BIO_new_membuf_fn)(const void *buf, int len); static __attribute__((unused)) inline OSSL_FUNC_BIO_new_membuf_fn *OSSL_FUNC_BIO_new_membuf(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_new_membuf_fn *)opf->function; }
-typedef int (OSSL_FUNC_BIO_read_ex_fn)(OSSL_CORE_BIO *bio, void *data, size_t data_len, size_t *bytes_read); static __attribute__((unused)) inline OSSL_FUNC_BIO_read_ex_fn *OSSL_FUNC_BIO_read_ex(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_read_ex_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_BIO_write_ex_fn)(OSSL_CORE_BIO *bio, const void *data, size_t data_len, size_t *written); static __attribute__((unused)) inline OSSL_FUNC_BIO_write_ex_fn *OSSL_FUNC_BIO_write_ex(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_write_ex_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_BIO_gets_fn)(OSSL_CORE_BIO *bio, char *buf, int size); static __attribute__((unused)) inline OSSL_FUNC_BIO_gets_fn *OSSL_FUNC_BIO_gets(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_gets_fn *)opf->function; }
-typedef int (OSSL_FUNC_BIO_puts_fn)(OSSL_CORE_BIO *bio, const char *str); static __attribute__((unused)) inline OSSL_FUNC_BIO_puts_fn *OSSL_FUNC_BIO_puts(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_puts_fn *)opf->function; }
-typedef int (OSSL_FUNC_BIO_up_ref_fn)(OSSL_CORE_BIO *bio); static __attribute__((unused)) inline OSSL_FUNC_BIO_up_ref_fn *OSSL_FUNC_BIO_up_ref(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_up_ref_fn *)opf->function; }
-typedef int (OSSL_FUNC_BIO_free_fn)(OSSL_CORE_BIO *bio); static __attribute__((unused)) inline OSSL_FUNC_BIO_free_fn *OSSL_FUNC_BIO_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_free_fn *)opf->function; }
-typedef int (OSSL_FUNC_BIO_vprintf_fn)(OSSL_CORE_BIO *bio, const char *format, va_list args); static __attribute__((unused)) inline OSSL_FUNC_BIO_vprintf_fn *OSSL_FUNC_BIO_vprintf(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_vprintf_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_BIO_vsnprintf_fn)(char *buf, size_t n, const char *fmt, va_list args); static __attribute__((unused)) inline OSSL_FUNC_BIO_vsnprintf_fn *OSSL_FUNC_BIO_vsnprintf(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_vsnprintf_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_BIO_ctrl_fn)(OSSL_CORE_BIO *bio, int cmd, long num, void *ptr); static __attribute__((unused)) inline OSSL_FUNC_BIO_ctrl_fn *OSSL_FUNC_BIO_ctrl(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_BIO_ctrl_fn *)opf->function; }
-# 186 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void (OSSL_FUNC_self_test_cb_fn)(OPENSSL_CORE_CTX *ctx, OSSL_CALLBACK **cb, void **cbarg); static __attribute__((unused)) inline OSSL_FUNC_self_test_cb_fn *OSSL_FUNC_self_test_cb(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_self_test_cb_fn *)opf->function; }
-
-
-
-
-
-
-
-typedef size_t (OSSL_FUNC_get_entropy_fn)(const OSSL_CORE_HANDLE *handle, unsigned char **pout, int entropy, size_t min_len, size_t max_len); static __attribute__((unused)) inline OSSL_FUNC_get_entropy_fn *OSSL_FUNC_get_entropy(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_get_entropy_fn *)opf->function; }
-
-
-typedef size_t (OSSL_FUNC_get_user_entropy_fn)(const OSSL_CORE_HANDLE *handle, unsigned char **pout, int entropy, size_t min_len, size_t max_len); static __attribute__((unused)) inline OSSL_FUNC_get_user_entropy_fn *OSSL_FUNC_get_user_entropy(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_get_user_entropy_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_cleanup_entropy_fn)(const OSSL_CORE_HANDLE *handle, unsigned char *buf, size_t len); static __attribute__((unused)) inline OSSL_FUNC_cleanup_entropy_fn *OSSL_FUNC_cleanup_entropy(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cleanup_entropy_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_cleanup_user_entropy_fn)(const OSSL_CORE_HANDLE *handle, unsigned char *buf, size_t len); static __attribute__((unused)) inline OSSL_FUNC_cleanup_user_entropy_fn *OSSL_FUNC_cleanup_user_entropy(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cleanup_user_entropy_fn *)opf->function; }
-
-typedef size_t (OSSL_FUNC_get_nonce_fn)(const OSSL_CORE_HANDLE *handle, unsigned char **pout, size_t min_len, size_t max_len, const void *salt, size_t salt_len); static __attribute__((unused)) inline OSSL_FUNC_get_nonce_fn *OSSL_FUNC_get_nonce(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_get_nonce_fn *)opf->function; }
-
-
-
-typedef size_t (OSSL_FUNC_get_user_nonce_fn)(const OSSL_CORE_HANDLE *handle, unsigned char **pout, size_t min_len, size_t max_len, const void *salt, size_t salt_len); static __attribute__((unused)) inline OSSL_FUNC_get_user_nonce_fn *OSSL_FUNC_get_user_nonce(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_get_user_nonce_fn *)opf->function; }
-
-
-
-typedef void (OSSL_FUNC_cleanup_nonce_fn)(const OSSL_CORE_HANDLE *handle, unsigned char *buf, size_t len); static __attribute__((unused)) inline OSSL_FUNC_cleanup_nonce_fn *OSSL_FUNC_cleanup_nonce(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cleanup_nonce_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_cleanup_user_nonce_fn)(const OSSL_CORE_HANDLE *handle, unsigned char *buf, size_t len); static __attribute__((unused)) inline OSSL_FUNC_cleanup_user_nonce_fn *OSSL_FUNC_cleanup_user_nonce(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cleanup_user_nonce_fn *)opf->function; }
-# 226 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef int (OSSL_FUNC_provider_register_child_cb_fn)(const OSSL_CORE_HANDLE *handle, int (*create_cb)(const OSSL_CORE_HANDLE *provider, void *cbdata), int (*remove_cb)(const OSSL_CORE_HANDLE *provider, void *cbdata), int (*global_props_cb)(const char *props, void *cbdata), void *cbdata); static __attribute__((unused)) inline OSSL_FUNC_provider_register_child_cb_fn *OSSL_FUNC_provider_register_child_cb(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_register_child_cb_fn *)opf->function; }
-
-
-
-
-
-typedef void (OSSL_FUNC_provider_deregister_child_cb_fn)(const OSSL_CORE_HANDLE *handle); static __attribute__((unused)) inline OSSL_FUNC_provider_deregister_child_cb_fn *OSSL_FUNC_provider_deregister_child_cb(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_deregister_child_cb_fn *)opf->function; }
-
-typedef const char * (OSSL_FUNC_provider_name_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_provider_name_fn *OSSL_FUNC_provider_name(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_name_fn *)opf->function; }
-
-typedef void * (OSSL_FUNC_provider_get0_provider_ctx_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_provider_get0_provider_ctx_fn *OSSL_FUNC_provider_get0_provider_ctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_get0_provider_ctx_fn *)opf->function; }
-
-typedef const OSSL_DISPATCH * (OSSL_FUNC_provider_get0_dispatch_fn)(const OSSL_CORE_HANDLE *prov); static __attribute__((unused)) inline OSSL_FUNC_provider_get0_dispatch_fn *OSSL_FUNC_provider_get0_dispatch(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_get0_dispatch_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_provider_up_ref_fn)(const OSSL_CORE_HANDLE *prov, int activate); static __attribute__((unused)) inline OSSL_FUNC_provider_up_ref_fn *OSSL_FUNC_provider_up_ref(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_up_ref_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_provider_free_fn)(const OSSL_CORE_HANDLE *prov, int deactivate); static __attribute__((unused)) inline OSSL_FUNC_provider_free_fn *OSSL_FUNC_provider_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_free_fn *)opf->function; }
-
-
-
-
-typedef void (OSSL_FUNC_provider_teardown_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_provider_teardown_fn *OSSL_FUNC_provider_teardown(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_teardown_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_provider_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_provider_gettable_params_fn *OSSL_FUNC_provider_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_gettable_params_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_provider_get_params_fn)(void *provctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_provider_get_params_fn *OSSL_FUNC_provider_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_get_params_fn *)opf->function; }
-
-
-typedef const OSSL_ALGORITHM * (OSSL_FUNC_provider_query_operation_fn)(void *provctx, int operation_id, int *no_store); static __attribute__((unused)) inline OSSL_FUNC_provider_query_operation_fn *OSSL_FUNC_provider_query_operation(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_query_operation_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_provider_unquery_operation_fn)(void *provctx, int operation_id, const OSSL_ALGORITHM *); static __attribute__((unused)) inline OSSL_FUNC_provider_unquery_operation_fn *OSSL_FUNC_provider_unquery_operation(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_unquery_operation_fn *)opf->function; }
-
-
-typedef const OSSL_ITEM * (OSSL_FUNC_provider_get_reason_strings_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_provider_get_reason_strings_fn *OSSL_FUNC_provider_get_reason_strings(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_get_reason_strings_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_provider_get_capabilities_fn)(void *provctx, const char *capability, OSSL_CALLBACK *cb, void *arg); static __attribute__((unused)) inline OSSL_FUNC_provider_get_capabilities_fn *OSSL_FUNC_provider_get_capabilities(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_get_capabilities_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_provider_self_test_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_provider_self_test_fn *OSSL_FUNC_provider_self_test(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_provider_self_test_fn *)opf->function; }
-# 304 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_digest_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_digest_newctx_fn *OSSL_FUNC_digest_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_newctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_digest_init_fn)(void *dctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_digest_init_fn *OSSL_FUNC_digest_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_init_fn *)opf->function; }
-typedef int (OSSL_FUNC_digest_update_fn)(void *dctx, const unsigned char *in, size_t inl); static __attribute__((unused)) inline OSSL_FUNC_digest_update_fn *OSSL_FUNC_digest_update(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_update_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_digest_final_fn)(void *dctx, unsigned char *out, size_t *outl, size_t outsz); static __attribute__((unused)) inline OSSL_FUNC_digest_final_fn *OSSL_FUNC_digest_final(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_final_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_digest_digest_fn)(void *provctx, const unsigned char *in, size_t inl, unsigned char *out, size_t *outl, size_t outsz); static __attribute__((unused)) inline OSSL_FUNC_digest_digest_fn *OSSL_FUNC_digest_digest(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_digest_fn *)opf->function; }
-
-
-
-typedef void (OSSL_FUNC_digest_freectx_fn)(void *dctx); static __attribute__((unused)) inline OSSL_FUNC_digest_freectx_fn *OSSL_FUNC_digest_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_digest_dupctx_fn)(void *dctx); static __attribute__((unused)) inline OSSL_FUNC_digest_dupctx_fn *OSSL_FUNC_digest_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_dupctx_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_digest_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_digest_get_params_fn *OSSL_FUNC_digest_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_get_params_fn *)opf->function; }
-typedef int (OSSL_FUNC_digest_set_ctx_params_fn)(void *vctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_digest_set_ctx_params_fn *OSSL_FUNC_digest_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_set_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_digest_get_ctx_params_fn)(void *vctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_digest_get_ctx_params_fn *OSSL_FUNC_digest_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_get_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_digest_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_digest_gettable_params_fn *OSSL_FUNC_digest_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_gettable_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_digest_settable_ctx_params_fn)(void *dctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_digest_settable_ctx_params_fn *OSSL_FUNC_digest_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_settable_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_digest_gettable_ctx_params_fn)(void *dctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_digest_gettable_ctx_params_fn *OSSL_FUNC_digest_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_digest_gettable_ctx_params_fn *)opf->function; }
-# 347 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_cipher_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_newctx_fn *OSSL_FUNC_cipher_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_newctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_cipher_encrypt_init_fn)(void *cctx, const unsigned char *key, size_t keylen, const unsigned char *iv, size_t ivlen, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_cipher_encrypt_init_fn *OSSL_FUNC_cipher_encrypt_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_encrypt_init_fn *)opf->function; }
-
-
-
-
-
-typedef int (OSSL_FUNC_cipher_decrypt_init_fn)(void *cctx, const unsigned char *key, size_t keylen, const unsigned char *iv, size_t ivlen, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_cipher_decrypt_init_fn *OSSL_FUNC_cipher_decrypt_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_decrypt_init_fn *)opf->function; }
-
-
-
-
-
-typedef int (OSSL_FUNC_cipher_update_fn)(void *cctx, unsigned char *out, size_t *outl, size_t outsize, const unsigned char *in, size_t inl); static __attribute__((unused)) inline OSSL_FUNC_cipher_update_fn *OSSL_FUNC_cipher_update(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_update_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_cipher_final_fn)(void *cctx, unsigned char *out, size_t *outl, size_t outsize); static __attribute__((unused)) inline OSSL_FUNC_cipher_final_fn *OSSL_FUNC_cipher_final(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_final_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_cipher_cipher_fn)(void *cctx, unsigned char *out, size_t *outl, size_t outsize, const unsigned char *in, size_t inl); static __attribute__((unused)) inline OSSL_FUNC_cipher_cipher_fn *OSSL_FUNC_cipher_cipher(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_cipher_fn *)opf->function; }
-
-
-
-typedef void (OSSL_FUNC_cipher_freectx_fn)(void *cctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_freectx_fn *OSSL_FUNC_cipher_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_cipher_dupctx_fn)(void *cctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_dupctx_fn *OSSL_FUNC_cipher_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_dupctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_cipher_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_cipher_get_params_fn *OSSL_FUNC_cipher_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_get_params_fn *)opf->function; }
-typedef int (OSSL_FUNC_cipher_get_ctx_params_fn)(void *cctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_cipher_get_ctx_params_fn *OSSL_FUNC_cipher_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_get_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_cipher_set_ctx_params_fn)(void *cctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_cipher_set_ctx_params_fn *OSSL_FUNC_cipher_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_cipher_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_gettable_params_fn *OSSL_FUNC_cipher_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_gettable_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_cipher_settable_ctx_params_fn)(void *cctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_settable_ctx_params_fn *OSSL_FUNC_cipher_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_settable_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_cipher_gettable_ctx_params_fn)(void *cctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_cipher_gettable_ctx_params_fn *OSSL_FUNC_cipher_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_cipher_gettable_ctx_params_fn *)opf->function; }
-# 400 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_mac_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_mac_newctx_fn *OSSL_FUNC_mac_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_newctx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_mac_dupctx_fn)(void *src); static __attribute__((unused)) inline OSSL_FUNC_mac_dupctx_fn *OSSL_FUNC_mac_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_dupctx_fn *)opf->function; }
-typedef void (OSSL_FUNC_mac_freectx_fn)(void *mctx); static __attribute__((unused)) inline OSSL_FUNC_mac_freectx_fn *OSSL_FUNC_mac_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_freectx_fn *)opf->function; }
-typedef int (OSSL_FUNC_mac_init_fn)(void *mctx, const unsigned char *key, size_t keylen, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_mac_init_fn *OSSL_FUNC_mac_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_mac_update_fn)(void *mctx, const unsigned char *in, size_t inl); static __attribute__((unused)) inline OSSL_FUNC_mac_update_fn *OSSL_FUNC_mac_update(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_update_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_mac_final_fn)(void *mctx, unsigned char *out, size_t *outl, size_t outsize); static __attribute__((unused)) inline OSSL_FUNC_mac_final_fn *OSSL_FUNC_mac_final(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_final_fn *)opf->function; }
-
-
-typedef const OSSL_PARAM * (OSSL_FUNC_mac_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_mac_gettable_params_fn *OSSL_FUNC_mac_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_gettable_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_mac_gettable_ctx_params_fn)(void *mctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_mac_gettable_ctx_params_fn *OSSL_FUNC_mac_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_gettable_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_mac_settable_ctx_params_fn)(void *mctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_mac_settable_ctx_params_fn *OSSL_FUNC_mac_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_mac_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_mac_get_params_fn *OSSL_FUNC_mac_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_get_params_fn *)opf->function; }
-typedef int (OSSL_FUNC_mac_get_ctx_params_fn)(void *mctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_mac_get_ctx_params_fn *OSSL_FUNC_mac_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_get_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_mac_set_ctx_params_fn)(void *mctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_mac_set_ctx_params_fn *OSSL_FUNC_mac_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_mac_set_ctx_params_fn *)opf->function; }
-# 435 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_kdf_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_newctx_fn *OSSL_FUNC_kdf_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_newctx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_kdf_dupctx_fn)(void *src); static __attribute__((unused)) inline OSSL_FUNC_kdf_dupctx_fn *OSSL_FUNC_kdf_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_dupctx_fn *)opf->function; }
-typedef void (OSSL_FUNC_kdf_freectx_fn)(void *kctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_freectx_fn *OSSL_FUNC_kdf_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_freectx_fn *)opf->function; }
-typedef void (OSSL_FUNC_kdf_reset_fn)(void *kctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_reset_fn *OSSL_FUNC_kdf_reset(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_reset_fn *)opf->function; }
-typedef int (OSSL_FUNC_kdf_derive_fn)(void *kctx, unsigned char *key, size_t keylen, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kdf_derive_fn *OSSL_FUNC_kdf_derive(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_derive_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_kdf_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_gettable_params_fn *OSSL_FUNC_kdf_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_gettable_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_kdf_gettable_ctx_params_fn)(void *kctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_gettable_ctx_params_fn *OSSL_FUNC_kdf_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_gettable_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_kdf_settable_ctx_params_fn)(void *kctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kdf_settable_ctx_params_fn *OSSL_FUNC_kdf_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_kdf_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kdf_get_params_fn *OSSL_FUNC_kdf_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_get_params_fn *)opf->function; }
-typedef int (OSSL_FUNC_kdf_get_ctx_params_fn)(void *kctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kdf_get_ctx_params_fn *OSSL_FUNC_kdf_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_get_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_kdf_set_ctx_params_fn)(void *kctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kdf_set_ctx_params_fn *OSSL_FUNC_kdf_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kdf_set_ctx_params_fn *)opf->function; }
-# 474 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_rand_newctx_fn)(void *provctx, void *parent, const OSSL_DISPATCH *parent_calls); static __attribute__((unused)) inline OSSL_FUNC_rand_newctx_fn *OSSL_FUNC_rand_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_newctx_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_rand_freectx_fn)(void *vctx); static __attribute__((unused)) inline OSSL_FUNC_rand_freectx_fn *OSSL_FUNC_rand_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_freectx_fn *)opf->function; }
-typedef int (OSSL_FUNC_rand_instantiate_fn)(void *vdrbg, unsigned int strength, int prediction_resistance, const unsigned char *pstr, size_t pstr_len, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_rand_instantiate_fn *OSSL_FUNC_rand_instantiate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_instantiate_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_rand_uninstantiate_fn)(void *vdrbg); static __attribute__((unused)) inline OSSL_FUNC_rand_uninstantiate_fn *OSSL_FUNC_rand_uninstantiate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_uninstantiate_fn *)opf->function; }
-typedef int (OSSL_FUNC_rand_generate_fn)(void *vctx, unsigned char *out, size_t outlen, unsigned int strength, int prediction_resistance, const unsigned char *addin, size_t addin_len); static __attribute__((unused)) inline OSSL_FUNC_rand_generate_fn *OSSL_FUNC_rand_generate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_generate_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_rand_reseed_fn)(void *vctx, int prediction_resistance, const unsigned char *ent, size_t ent_len, const unsigned char *addin, size_t addin_len); static __attribute__((unused)) inline OSSL_FUNC_rand_reseed_fn *OSSL_FUNC_rand_reseed(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_reseed_fn *)opf->function; }
-
-
-
-typedef size_t (OSSL_FUNC_rand_nonce_fn)(void *vctx, unsigned char *out, unsigned int strength, size_t min_noncelen, size_t max_noncelen); static __attribute__((unused)) inline OSSL_FUNC_rand_nonce_fn *OSSL_FUNC_rand_nonce(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_nonce_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_rand_enable_locking_fn)(void *vctx); static __attribute__((unused)) inline OSSL_FUNC_rand_enable_locking_fn *OSSL_FUNC_rand_enable_locking(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_enable_locking_fn *)opf->function; }
-typedef int (OSSL_FUNC_rand_lock_fn)(void *vctx); static __attribute__((unused)) inline OSSL_FUNC_rand_lock_fn *OSSL_FUNC_rand_lock(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_lock_fn *)opf->function; }
-typedef void (OSSL_FUNC_rand_unlock_fn)(void *vctx); static __attribute__((unused)) inline OSSL_FUNC_rand_unlock_fn *OSSL_FUNC_rand_unlock(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_unlock_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_rand_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_rand_gettable_params_fn *OSSL_FUNC_rand_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_gettable_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_rand_gettable_ctx_params_fn)(void *vctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_rand_gettable_ctx_params_fn *OSSL_FUNC_rand_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_gettable_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_rand_settable_ctx_params_fn)(void *vctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_rand_settable_ctx_params_fn *OSSL_FUNC_rand_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_rand_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_rand_get_params_fn *OSSL_FUNC_rand_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_get_params_fn *)opf->function; }
-typedef int (OSSL_FUNC_rand_get_ctx_params_fn)(void *vctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_rand_get_ctx_params_fn *OSSL_FUNC_rand_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_get_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_rand_set_ctx_params_fn)(void *vctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_rand_set_ctx_params_fn *OSSL_FUNC_rand_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_set_ctx_params_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_rand_set_callbacks_fn)(void *vctx, OSSL_INOUT_CALLBACK *get_entropy, OSSL_CALLBACK *cleanup_entropy, OSSL_INOUT_CALLBACK *get_nonce, OSSL_CALLBACK *cleanup_nonce, void *arg); static __attribute__((unused)) inline OSSL_FUNC_rand_set_callbacks_fn *OSSL_FUNC_rand_set_callbacks(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_set_callbacks_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_rand_verify_zeroization_fn)(void *vctx); static __attribute__((unused)) inline OSSL_FUNC_rand_verify_zeroization_fn *OSSL_FUNC_rand_verify_zeroization(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_verify_zeroization_fn *)opf->function; }
-
-typedef size_t (OSSL_FUNC_rand_get_seed_fn)(void *vctx, unsigned char **buffer, int entropy, size_t min_len, size_t max_len, int prediction_resistance, const unsigned char *adin, size_t adin_len); static __attribute__((unused)) inline OSSL_FUNC_rand_get_seed_fn *OSSL_FUNC_rand_get_seed(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_get_seed_fn *)opf->function; }
-
-
-
-
-typedef void (OSSL_FUNC_rand_clear_seed_fn)(void *vctx, unsigned char *buffer, size_t b_len); static __attribute__((unused)) inline OSSL_FUNC_rand_clear_seed_fn *OSSL_FUNC_rand_clear_seed(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_rand_clear_seed_fn *)opf->function; }
-# 578 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_keymgmt_new_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_new_fn *OSSL_FUNC_keymgmt_new(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_new_fn *)opf->function; }
-# 587 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_keymgmt_gen_init_fn)(void *provctx, int selection, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_init_fn *OSSL_FUNC_keymgmt_gen_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keymgmt_gen_set_template_fn)(void *genctx, void *templ); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_set_template_fn *OSSL_FUNC_keymgmt_gen_set_template(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_set_template_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keymgmt_gen_set_params_fn)(void *genctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_set_params_fn *OSSL_FUNC_keymgmt_gen_set_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_set_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_gen_settable_params_fn)(void *genctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_settable_params_fn *OSSL_FUNC_keymgmt_gen_settable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_settable_params_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_keymgmt_gen_fn)(void *genctx, OSSL_CALLBACK *cb, void *cbarg); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_fn *OSSL_FUNC_keymgmt_gen(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_keymgmt_gen_cleanup_fn)(void *genctx); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gen_cleanup_fn *OSSL_FUNC_keymgmt_gen_cleanup(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gen_cleanup_fn *)opf->function; }
-
-
-
-typedef void * (OSSL_FUNC_keymgmt_load_fn)(const void *reference, size_t reference_sz); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_load_fn *OSSL_FUNC_keymgmt_load(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_load_fn *)opf->function; }
-
-
-
-
-typedef void (OSSL_FUNC_keymgmt_free_fn)(void *keydata); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_free_fn *OSSL_FUNC_keymgmt_free(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_free_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_keymgmt_get_params_fn)(void *keydata, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_get_params_fn *OSSL_FUNC_keymgmt_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_get_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_gettable_params_fn *OSSL_FUNC_keymgmt_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_gettable_params_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_keymgmt_set_params_fn)(void *keydata, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_set_params_fn *OSSL_FUNC_keymgmt_set_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_set_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_settable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_settable_params_fn *OSSL_FUNC_keymgmt_settable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_settable_params_fn *)opf->function; }
-
-
-
-
-typedef const char * (OSSL_FUNC_keymgmt_query_operation_name_fn)(int operation_id); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_query_operation_name_fn *OSSL_FUNC_keymgmt_query_operation_name(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_query_operation_name_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_keymgmt_has_fn)(const void *keydata, int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_has_fn *OSSL_FUNC_keymgmt_has(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_has_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_keymgmt_validate_fn)(const void *keydata, int selection, int checktype); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_validate_fn *OSSL_FUNC_keymgmt_validate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_validate_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_keymgmt_match_fn)(const void *keydata1, const void *keydata2, int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_match_fn *OSSL_FUNC_keymgmt_match(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_match_fn *)opf->function; }
-# 649 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef int (OSSL_FUNC_keymgmt_import_fn)(void *keydata, int selection, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_import_fn *OSSL_FUNC_keymgmt_import(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_import_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_import_types_fn)(int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_import_types_fn *OSSL_FUNC_keymgmt_import_types(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_import_types_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keymgmt_export_fn)(void *keydata, int selection, OSSL_CALLBACK *param_cb, void *cbarg); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_export_fn *OSSL_FUNC_keymgmt_export(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_export_fn *)opf->function; }
-
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_export_types_fn)(int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_export_types_fn *OSSL_FUNC_keymgmt_export_types(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_export_types_fn *)opf->function; }
-
-
-
-
-typedef void * (OSSL_FUNC_keymgmt_dup_fn)(const void *keydata_from, int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_dup_fn *OSSL_FUNC_keymgmt_dup(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_dup_fn *)opf->function; }
-
-
-
-
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_import_types_ex_fn)(void *provctx, int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_import_types_ex_fn *OSSL_FUNC_keymgmt_import_types_ex(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_import_types_ex_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keymgmt_export_types_ex_fn)(void *provctx, int selection); static __attribute__((unused)) inline OSSL_FUNC_keymgmt_export_types_ex_fn *OSSL_FUNC_keymgmt_export_types_ex(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keymgmt_export_types_ex_fn *)opf->function; }
-# 685 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_keyexch_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keyexch_newctx_fn *OSSL_FUNC_keyexch_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_newctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_keyexch_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keyexch_init_fn *OSSL_FUNC_keyexch_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keyexch_derive_fn)(void *ctx, unsigned char *secret, size_t *secretlen, size_t outlen); static __attribute__((unused)) inline OSSL_FUNC_keyexch_derive_fn *OSSL_FUNC_keyexch_derive(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_derive_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keyexch_set_peer_fn)(void *ctx, void *provkey); static __attribute__((unused)) inline OSSL_FUNC_keyexch_set_peer_fn *OSSL_FUNC_keyexch_set_peer(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_set_peer_fn *)opf->function; }
-typedef void (OSSL_FUNC_keyexch_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_keyexch_freectx_fn *OSSL_FUNC_keyexch_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_keyexch_dupctx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_keyexch_dupctx_fn *OSSL_FUNC_keyexch_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_dupctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_keyexch_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keyexch_set_ctx_params_fn *OSSL_FUNC_keyexch_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keyexch_settable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keyexch_settable_ctx_params_fn *OSSL_FUNC_keyexch_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_keyexch_get_ctx_params_fn)(void *ctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_keyexch_get_ctx_params_fn *OSSL_FUNC_keyexch_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_get_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_keyexch_gettable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_keyexch_gettable_ctx_params_fn *OSSL_FUNC_keyexch_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_keyexch_gettable_ctx_params_fn *)opf->function; }
-# 730 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_signature_newctx_fn)(void *provctx, const char *propq); static __attribute__((unused)) inline OSSL_FUNC_signature_newctx_fn *OSSL_FUNC_signature_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_newctx_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_sign_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_sign_init_fn *OSSL_FUNC_signature_sign_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_sign_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_sign_fn)(void *ctx, unsigned char *sig, size_t *siglen, size_t sigsize, const unsigned char *tbs, size_t tbslen); static __attribute__((unused)) inline OSSL_FUNC_signature_sign_fn *OSSL_FUNC_signature_sign(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_sign_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_signature_verify_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_verify_init_fn *OSSL_FUNC_signature_verify_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_verify_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_verify_fn)(void *ctx, const unsigned char *sig, size_t siglen, const unsigned char *tbs, size_t tbslen); static __attribute__((unused)) inline OSSL_FUNC_signature_verify_fn *OSSL_FUNC_signature_verify(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_verify_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_signature_verify_recover_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_verify_recover_init_fn *OSSL_FUNC_signature_verify_recover_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_verify_recover_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_verify_recover_fn)(void *ctx, unsigned char *rout, size_t *routlen, size_t routsize, const unsigned char *sig, size_t siglen); static __attribute__((unused)) inline OSSL_FUNC_signature_verify_recover_fn *OSSL_FUNC_signature_verify_recover(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_verify_recover_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_signature_digest_sign_init_fn)(void *ctx, const char *mdname, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_sign_init_fn *OSSL_FUNC_signature_digest_sign_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_sign_init_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_signature_digest_sign_update_fn)(void *ctx, const unsigned char *data, size_t datalen); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_sign_update_fn *OSSL_FUNC_signature_digest_sign_update(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_sign_update_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_digest_sign_final_fn)(void *ctx, unsigned char *sig, size_t *siglen, size_t sigsize); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_sign_final_fn *OSSL_FUNC_signature_digest_sign_final(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_sign_final_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_signature_digest_sign_fn)(void *ctx, unsigned char *sigret, size_t *siglen, size_t sigsize, const unsigned char *tbs, size_t tbslen); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_sign_fn *OSSL_FUNC_signature_digest_sign(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_sign_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_signature_digest_verify_init_fn)(void *ctx, const char *mdname, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_verify_init_fn *OSSL_FUNC_signature_digest_verify_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_verify_init_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_signature_digest_verify_update_fn)(void *ctx, const unsigned char *data, size_t datalen); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_verify_update_fn *OSSL_FUNC_signature_digest_verify_update(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_verify_update_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_digest_verify_final_fn)(void *ctx, const unsigned char *sig, size_t siglen); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_verify_final_fn *OSSL_FUNC_signature_digest_verify_final(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_verify_final_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_digest_verify_fn)(void *ctx, const unsigned char *sig, size_t siglen, const unsigned char *tbs, size_t tbslen); static __attribute__((unused)) inline OSSL_FUNC_signature_digest_verify_fn *OSSL_FUNC_signature_digest_verify(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_digest_verify_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_signature_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_signature_freectx_fn *OSSL_FUNC_signature_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_signature_dupctx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_signature_dupctx_fn *OSSL_FUNC_signature_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_dupctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_signature_get_ctx_params_fn)(void *ctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_get_ctx_params_fn *OSSL_FUNC_signature_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_get_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_signature_gettable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_signature_gettable_ctx_params_fn *OSSL_FUNC_signature_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_gettable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_set_ctx_params_fn *OSSL_FUNC_signature_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_signature_settable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_signature_settable_ctx_params_fn *OSSL_FUNC_signature_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_get_ctx_md_params_fn)(void *ctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_get_ctx_md_params_fn *OSSL_FUNC_signature_get_ctx_md_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_get_ctx_md_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_signature_gettable_ctx_md_params_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_signature_gettable_ctx_md_params_fn *OSSL_FUNC_signature_gettable_ctx_md_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_gettable_ctx_md_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_signature_set_ctx_md_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_signature_set_ctx_md_params_fn *OSSL_FUNC_signature_set_ctx_md_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_set_ctx_md_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_signature_settable_ctx_md_params_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_signature_settable_ctx_md_params_fn *OSSL_FUNC_signature_settable_ctx_md_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_signature_settable_ctx_md_params_fn *)opf->function; }
-# 805 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_asym_cipher_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_newctx_fn *OSSL_FUNC_asym_cipher_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_newctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_asym_cipher_encrypt_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_encrypt_init_fn *OSSL_FUNC_asym_cipher_encrypt_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_encrypt_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_asym_cipher_encrypt_fn)(void *ctx, unsigned char *out, size_t *outlen, size_t outsize, const unsigned char *in, size_t inlen); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_encrypt_fn *OSSL_FUNC_asym_cipher_encrypt(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_encrypt_fn *)opf->function; }
-
-
-
-
-typedef int (OSSL_FUNC_asym_cipher_decrypt_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_decrypt_init_fn *OSSL_FUNC_asym_cipher_decrypt_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_decrypt_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_asym_cipher_decrypt_fn)(void *ctx, unsigned char *out, size_t *outlen, size_t outsize, const unsigned char *in, size_t inlen); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_decrypt_fn *OSSL_FUNC_asym_cipher_decrypt(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_decrypt_fn *)opf->function; }
-
-
-
-
-typedef void (OSSL_FUNC_asym_cipher_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_freectx_fn *OSSL_FUNC_asym_cipher_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_asym_cipher_dupctx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_dupctx_fn *OSSL_FUNC_asym_cipher_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_dupctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_asym_cipher_get_ctx_params_fn)(void *ctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_get_ctx_params_fn *OSSL_FUNC_asym_cipher_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_get_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_asym_cipher_gettable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_gettable_ctx_params_fn *OSSL_FUNC_asym_cipher_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_gettable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_asym_cipher_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_set_ctx_params_fn *OSSL_FUNC_asym_cipher_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_asym_cipher_settable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_asym_cipher_settable_ctx_params_fn *OSSL_FUNC_asym_cipher_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_asym_cipher_settable_ctx_params_fn *)opf->function; }
-# 846 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_kem_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kem_newctx_fn *OSSL_FUNC_kem_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_newctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_kem_encapsulate_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_encapsulate_init_fn *OSSL_FUNC_kem_encapsulate_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_encapsulate_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_kem_auth_encapsulate_init_fn)(void *ctx, void *provkey, void *authprivkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_auth_encapsulate_init_fn *OSSL_FUNC_kem_auth_encapsulate_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_auth_encapsulate_init_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_kem_encapsulate_fn)(void *ctx, unsigned char *out, size_t *outlen, unsigned char *secret, size_t *secretlen); static __attribute__((unused)) inline OSSL_FUNC_kem_encapsulate_fn *OSSL_FUNC_kem_encapsulate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_encapsulate_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_kem_decapsulate_init_fn)(void *ctx, void *provkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_decapsulate_init_fn *OSSL_FUNC_kem_decapsulate_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_decapsulate_init_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_kem_auth_decapsulate_init_fn)(void *ctx, void *provkey, void *authpubkey, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_auth_decapsulate_init_fn *OSSL_FUNC_kem_auth_decapsulate_init(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_auth_decapsulate_init_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_kem_decapsulate_fn)(void *ctx, unsigned char *out, size_t *outlen, const unsigned char *in, size_t inlen); static __attribute__((unused)) inline OSSL_FUNC_kem_decapsulate_fn *OSSL_FUNC_kem_decapsulate(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_decapsulate_fn *)opf->function; }
-
-
-typedef void (OSSL_FUNC_kem_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_kem_freectx_fn *OSSL_FUNC_kem_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_freectx_fn *)opf->function; }
-typedef void * (OSSL_FUNC_kem_dupctx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_kem_dupctx_fn *OSSL_FUNC_kem_dupctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_dupctx_fn *)opf->function; }
-typedef int (OSSL_FUNC_kem_get_ctx_params_fn)(void *ctx, OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_get_ctx_params_fn *OSSL_FUNC_kem_get_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_get_ctx_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_kem_gettable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kem_gettable_ctx_params_fn *OSSL_FUNC_kem_gettable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_gettable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_kem_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_kem_set_ctx_params_fn *OSSL_FUNC_kem_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_kem_settable_ctx_params_fn)(void *ctx, void *provctx); static __attribute__((unused)) inline OSSL_FUNC_kem_settable_ctx_params_fn *OSSL_FUNC_kem_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_kem_settable_ctx_params_fn *)opf->function; }
-# 885 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_encoder_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_encoder_newctx_fn *OSSL_FUNC_encoder_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_newctx_fn *)opf->function; }
-typedef void (OSSL_FUNC_encoder_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_encoder_freectx_fn *OSSL_FUNC_encoder_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_freectx_fn *)opf->function; }
-typedef int (OSSL_FUNC_encoder_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_encoder_get_params_fn *OSSL_FUNC_encoder_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_get_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_encoder_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_encoder_gettable_params_fn *OSSL_FUNC_encoder_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_gettable_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_encoder_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_encoder_set_ctx_params_fn *OSSL_FUNC_encoder_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_encoder_settable_ctx_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_encoder_settable_ctx_params_fn *OSSL_FUNC_encoder_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_settable_ctx_params_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_encoder_does_selection_fn)(void *provctx, int selection); static __attribute__((unused)) inline OSSL_FUNC_encoder_does_selection_fn *OSSL_FUNC_encoder_does_selection(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_does_selection_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_encoder_encode_fn)(void *ctx, OSSL_CORE_BIO *out, const void *obj_raw, const OSSL_PARAM obj_abstract[], int selection, OSSL_PASSPHRASE_CALLBACK *cb, void *cbarg); static __attribute__((unused)) inline OSSL_FUNC_encoder_encode_fn *OSSL_FUNC_encoder_encode(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_encode_fn *)opf->function; }
-
-
-
-
-
-typedef void * (OSSL_FUNC_encoder_import_object_fn)(void *ctx, int selection, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_encoder_import_object_fn *OSSL_FUNC_encoder_import_object(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_import_object_fn *)opf->function; }
-
-typedef void (OSSL_FUNC_encoder_free_object_fn)(void *obj); static __attribute__((unused)) inline OSSL_FUNC_encoder_free_object_fn *OSSL_FUNC_encoder_free_object(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_encoder_free_object_fn *)opf->function; }
-# 916 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_decoder_newctx_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_decoder_newctx_fn *OSSL_FUNC_decoder_newctx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_newctx_fn *)opf->function; }
-typedef void (OSSL_FUNC_decoder_freectx_fn)(void *ctx); static __attribute__((unused)) inline OSSL_FUNC_decoder_freectx_fn *OSSL_FUNC_decoder_freectx(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_freectx_fn *)opf->function; }
-typedef int (OSSL_FUNC_decoder_get_params_fn)(OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_decoder_get_params_fn *OSSL_FUNC_decoder_get_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_get_params_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_decoder_gettable_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_decoder_gettable_params_fn *OSSL_FUNC_decoder_gettable_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_gettable_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_decoder_set_ctx_params_fn)(void *ctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_decoder_set_ctx_params_fn *OSSL_FUNC_decoder_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_set_ctx_params_fn *)opf->function; }
-
-typedef const OSSL_PARAM * (OSSL_FUNC_decoder_settable_ctx_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_decoder_settable_ctx_params_fn *OSSL_FUNC_decoder_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_settable_ctx_params_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_decoder_does_selection_fn)(void *provctx, int selection); static __attribute__((unused)) inline OSSL_FUNC_decoder_does_selection_fn *OSSL_FUNC_decoder_does_selection(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_does_selection_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_decoder_decode_fn)(void *ctx, OSSL_CORE_BIO *in, int selection, OSSL_CALLBACK *data_cb, void *data_cbarg, OSSL_PASSPHRASE_CALLBACK *pw_cb, void *pw_cbarg); static __attribute__((unused)) inline OSSL_FUNC_decoder_decode_fn *OSSL_FUNC_decoder_decode(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_decode_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_decoder_export_object_fn)(void *ctx, const void *objref, size_t objref_sz, OSSL_CALLBACK *export_cb, void *export_cbarg); static __attribute__((unused)) inline OSSL_FUNC_decoder_export_object_fn *OSSL_FUNC_decoder_export_object(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_decoder_export_object_fn *)opf->function; }
-# 958 "/usr/include/openssl/core_dispatch.h" 3 4
-typedef void * (OSSL_FUNC_store_open_fn)(void *provctx, const char *uri); static __attribute__((unused)) inline OSSL_FUNC_store_open_fn *OSSL_FUNC_store_open(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_open_fn *)opf->function; }
-typedef void * (OSSL_FUNC_store_attach_fn)(void *provctx, OSSL_CORE_BIO *in); static __attribute__((unused)) inline OSSL_FUNC_store_attach_fn *OSSL_FUNC_store_attach(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_attach_fn *)opf->function; }
-typedef const OSSL_PARAM * (OSSL_FUNC_store_settable_ctx_params_fn)(void *provctx); static __attribute__((unused)) inline OSSL_FUNC_store_settable_ctx_params_fn *OSSL_FUNC_store_settable_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_settable_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_store_set_ctx_params_fn)(void *loaderctx, const OSSL_PARAM params[]); static __attribute__((unused)) inline OSSL_FUNC_store_set_ctx_params_fn *OSSL_FUNC_store_set_ctx_params(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_set_ctx_params_fn *)opf->function; }
-
-typedef int (OSSL_FUNC_store_load_fn)(void *loaderctx, OSSL_CALLBACK *object_cb, void *object_cbarg, OSSL_PASSPHRASE_CALLBACK *pw_cb, void *pw_cbarg); static __attribute__((unused)) inline OSSL_FUNC_store_load_fn *OSSL_FUNC_store_load(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_load_fn *)opf->function; }
-
-
-
-typedef int (OSSL_FUNC_store_eof_fn)(void *loaderctx); static __attribute__((unused)) inline OSSL_FUNC_store_eof_fn *OSSL_FUNC_store_eof(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_eof_fn *)opf->function; }
-typedef int (OSSL_FUNC_store_close_fn)(void *loaderctx); static __attribute__((unused)) inline OSSL_FUNC_store_close_fn *OSSL_FUNC_store_close(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_close_fn *)opf->function; }
-typedef int (OSSL_FUNC_store_export_object_fn)(void *loaderctx, const void *objref, size_t objref_sz, OSSL_CALLBACK *export_cb, void *export_cbarg); static __attribute__((unused)) inline OSSL_FUNC_store_export_object_fn *OSSL_FUNC_store_export_object(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_export_object_fn *)opf->function; }
-
-
-typedef int (OSSL_FUNC_store_delete_fn)(void *provctx, const char *uri, const OSSL_PARAM params[], OSSL_PASSPHRASE_CALLBACK *pw_cb, void *pw_cbarg); static __attribute__((unused)) inline OSSL_FUNC_store_delete_fn *OSSL_FUNC_store_delete(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_delete_fn *)opf->function; }
-
-
-typedef void * (OSSL_FUNC_store_open_ex_fn)(void *provctx, const char *uri, const OSSL_PARAM params[], OSSL_PASSPHRASE_CALLBACK *pw_cb, void *pw_cbarg); static __attribute__((unused)) inline OSSL_FUNC_store_open_ex_fn *OSSL_FUNC_store_open_ex(const OSSL_DISPATCH *opf) { return (OSSL_FUNC_store_open_ex_fn *)opf->function; }
-
-
-
-
-}
-# 29 "/usr/include/openssl/evp.h" 2 3 4
-
-
-# 1 "/usr/include/openssl/evperr.h" 1 3 4
-# 13 "/usr/include/openssl/evperr.h" 3 4
-        
-# 32 "/usr/include/openssl/evp.h" 2 3 4
-# 1 "/usr/include/openssl/params.h" 1 3 4
-# 13 "/usr/include/openssl/params.h" 3 4
-        
-
-
-
-
-
-extern "C" {
-# 71 "/usr/include/openssl/params.h" 3 4
-OSSL_PARAM *OSSL_PARAM_locate(OSSL_PARAM *p, const char *key);
-const OSSL_PARAM *OSSL_PARAM_locate_const(const OSSL_PARAM *p, const char *key);
-
-
-OSSL_PARAM OSSL_PARAM_construct_int(const char *key, int *buf);
-OSSL_PARAM OSSL_PARAM_construct_uint(const char *key, unsigned int *buf);
-OSSL_PARAM OSSL_PARAM_construct_long(const char *key, long int *buf);
-OSSL_PARAM OSSL_PARAM_construct_ulong(const char *key, unsigned long int *buf);
-OSSL_PARAM OSSL_PARAM_construct_int32(const char *key, int32_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_uint32(const char *key, uint32_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_int64(const char *key, int64_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_uint64(const char *key, uint64_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_size_t(const char *key, size_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_time_t(const char *key, time_t *buf);
-OSSL_PARAM OSSL_PARAM_construct_BN(const char *key, unsigned char *buf,
-                                   size_t bsize);
-OSSL_PARAM OSSL_PARAM_construct_double(const char *key, double *buf);
-OSSL_PARAM OSSL_PARAM_construct_utf8_string(const char *key, char *buf,
-                                            size_t bsize);
-OSSL_PARAM OSSL_PARAM_construct_utf8_ptr(const char *key, char **buf,
-                                         size_t bsize);
-OSSL_PARAM OSSL_PARAM_construct_octet_string(const char *key, void *buf,
-                                             size_t bsize);
-OSSL_PARAM OSSL_PARAM_construct_octet_ptr(const char *key, void **buf,
-                                          size_t bsize);
-OSSL_PARAM OSSL_PARAM_construct_end(void);
-
-int OSSL_PARAM_allocate_from_text(OSSL_PARAM *to,
-                                  const OSSL_PARAM *paramdefs,
-                                  const char *key, const char *value,
-                                  size_t value_n, int *found);
-
-int OSSL_PARAM_get_int(const OSSL_PARAM *p, int *val);
-int OSSL_PARAM_get_uint(const OSSL_PARAM *p, unsigned int *val);
-int OSSL_PARAM_get_long(const OSSL_PARAM *p, long int *val);
-int OSSL_PARAM_get_ulong(const OSSL_PARAM *p, unsigned long int *val);
-int OSSL_PARAM_get_int32(const OSSL_PARAM *p, int32_t *val);
-int OSSL_PARAM_get_uint32(const OSSL_PARAM *p, uint32_t *val);
-int OSSL_PARAM_get_int64(const OSSL_PARAM *p, int64_t *val);
-int OSSL_PARAM_get_uint64(const OSSL_PARAM *p, uint64_t *val);
-int OSSL_PARAM_get_size_t(const OSSL_PARAM *p, size_t *val);
-int OSSL_PARAM_get_time_t(const OSSL_PARAM *p, time_t *val);
-
-int OSSL_PARAM_set_int(OSSL_PARAM *p, int val);
-int OSSL_PARAM_set_uint(OSSL_PARAM *p, unsigned int val);
-int OSSL_PARAM_set_long(OSSL_PARAM *p, long int val);
-int OSSL_PARAM_set_ulong(OSSL_PARAM *p, unsigned long int val);
-int OSSL_PARAM_set_int32(OSSL_PARAM *p, int32_t val);
-int OSSL_PARAM_set_uint32(OSSL_PARAM *p, uint32_t val);
-int OSSL_PARAM_set_int64(OSSL_PARAM *p, int64_t val);
-int OSSL_PARAM_set_uint64(OSSL_PARAM *p, uint64_t val);
-int OSSL_PARAM_set_size_t(OSSL_PARAM *p, size_t val);
-int OSSL_PARAM_set_time_t(OSSL_PARAM *p, time_t val);
-
-int OSSL_PARAM_get_double(const OSSL_PARAM *p, double *val);
-int OSSL_PARAM_set_double(OSSL_PARAM *p, double val);
-
-int OSSL_PARAM_get_BN(const OSSL_PARAM *p, BIGNUM **val);
-int OSSL_PARAM_set_BN(OSSL_PARAM *p, const BIGNUM *val);
-
-int OSSL_PARAM_get_utf8_string(const OSSL_PARAM *p, char **val, size_t max_len);
-int OSSL_PARAM_set_utf8_string(OSSL_PARAM *p, const char *val);
-
-int OSSL_PARAM_get_octet_string(const OSSL_PARAM *p, void **val, size_t max_len,
-                                size_t *used_len);
-int OSSL_PARAM_set_octet_string(OSSL_PARAM *p, const void *val, size_t len);
-
-int OSSL_PARAM_get_utf8_ptr(const OSSL_PARAM *p, const char **val);
-int OSSL_PARAM_set_utf8_ptr(OSSL_PARAM *p, const char *val);
-
-int OSSL_PARAM_get_octet_ptr(const OSSL_PARAM *p, const void **val,
-                             size_t *used_len);
-int OSSL_PARAM_set_octet_ptr(OSSL_PARAM *p, const void *val,
-                             size_t used_len);
-
-int OSSL_PARAM_get_utf8_string_ptr(const OSSL_PARAM *p, const char **val);
-int OSSL_PARAM_get_octet_string_ptr(const OSSL_PARAM *p, const void **val,
-                                    size_t *used_len);
-
-int OSSL_PARAM_modified(const OSSL_PARAM *p);
-void OSSL_PARAM_set_all_unmodified(OSSL_PARAM *p);
-
-OSSL_PARAM *OSSL_PARAM_dup(const OSSL_PARAM *p);
-OSSL_PARAM *OSSL_PARAM_merge(const OSSL_PARAM *p1, const OSSL_PARAM *p2);
-void OSSL_PARAM_free(OSSL_PARAM *p);
-
-
-}
-# 33 "/usr/include/openssl/evp.h" 2 3 4
-# 44 "/usr/include/openssl/evp.h" 3 4
-# 1 "/usr/include/openssl/objects.h" 1 3 4
-# 12 "/usr/include/openssl/objects.h" 3 4
-        
-
-
-
-
-
-
-# 1 "/usr/include/openssl/obj_mac.h" 1 3 4
-# 14 "/usr/include/openssl/obj_mac.h" 3 4
-        
-# 20 "/usr/include/openssl/objects.h" 2 3 4
-
-
-# 1 "/usr/include/openssl/objectserr.h" 1 3 4
-# 13 "/usr/include/openssl/objectserr.h" 3 4
-        
-# 23 "/usr/include/openssl/objects.h" 2 3 4
-# 40 "/usr/include/openssl/objects.h" 3 4
-extern "C" {
-
-
-typedef struct obj_name_st {
-    int type;
-    int alias;
-    const char *name;
-    const char *data;
-} OBJ_NAME;
-
-
-
-int OBJ_NAME_init(void);
-int OBJ_NAME_new_index(unsigned long (*hash_func) (const char *),
-                       int (*cmp_func) (const char *, const char *),
-                       void (*free_func) (const char *, int, const char *));
-const char *OBJ_NAME_get(const char *name, int type);
-int OBJ_NAME_add(const char *name, int type, const char *data);
-int OBJ_NAME_remove(const char *name, int type);
-void OBJ_NAME_cleanup(int type);
-void OBJ_NAME_do_all(int type, void (*fn) (const OBJ_NAME *, void *arg),
-                     void *arg);
-void OBJ_NAME_do_all_sorted(int type,
-                            void (*fn) (const OBJ_NAME *, void *arg),
-                            void *arg);
-
-extern ASN1_OBJECT *OBJ_dup(const ASN1_OBJECT *a);
-ASN1_OBJECT *OBJ_nid2obj(int n);
-const char *OBJ_nid2ln(int n);
-const char *OBJ_nid2sn(int n);
-int OBJ_obj2nid(const ASN1_OBJECT *o);
-ASN1_OBJECT *OBJ_txt2obj(const char *s, int no_name);
-int OBJ_obj2txt(char *buf, int buf_len, const ASN1_OBJECT *a, int no_name);
-int OBJ_txt2nid(const char *s);
-int OBJ_ln2nid(const char *s);
-int OBJ_sn2nid(const char *s);
-int OBJ_cmp(const ASN1_OBJECT *a, const ASN1_OBJECT *b);
-const void *OBJ_bsearch_(const void *key, const void *base, int num, int size,
-                         int (*cmp) (const void *, const void *));
-const void *OBJ_bsearch_ex_(const void *key, const void *base, int num,
-                            int size,
-                            int (*cmp) (const void *, const void *),
-                            int flags);
-# 163 "/usr/include/openssl/objects.h" 3 4
-int OBJ_new_nid(int num);
-int OBJ_add_object(const ASN1_OBJECT *obj);
-int OBJ_create(const char *oid, const char *sn, const char *ln);
-
-
-
-int OBJ_create_objects(BIO *in);
-
-size_t OBJ_length(const ASN1_OBJECT *obj);
-const unsigned char *OBJ_get0_data(const ASN1_OBJECT *obj);
-
-int OBJ_find_sigid_algs(int signid, int *pdig_nid, int *ppkey_nid);
-int OBJ_find_sigid_by_algs(int *psignid, int dig_nid, int pkey_nid);
-int OBJ_add_sigid(int signid, int dig_id, int pkey_id);
-void OBJ_sigid_free(void);
-
-
-
-}
-# 45 "/usr/include/openssl/evp.h" 2 3 4
-# 97 "/usr/include/openssl/evp.h" 3 4
-extern "C" {
-
-
-int EVP_set_default_properties(OSSL_LIB_CTX *libctx, const char *propq);
-int EVP_default_properties_is_fips_enabled(OSSL_LIB_CTX *libctx);
-int EVP_default_properties_enable_fips(OSSL_LIB_CTX *libctx, int enable);
-# 111 "/usr/include/openssl/evp.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0"))) EVP_MD *EVP_MD_meth_new(int md_type, int pkey_type);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) EVP_MD *EVP_MD_meth_dup(const EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_MD_meth_free(EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_input_blocksize(EVP_MD *md, int blocksize);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_result_size(EVP_MD *md, int resultsize);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_app_datasize(EVP_MD *md, int datasize);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_flags(EVP_MD *md, unsigned long flags);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_init(EVP_MD *md, int (*init)(EVP_MD_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_update(EVP_MD *md, int (*update)(EVP_MD_CTX *ctx,
-                                                     const void *data,
-                                                     size_t count));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_final(EVP_MD *md, int (*final)(EVP_MD_CTX *ctx,
-                                                   unsigned char *md));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_copy(EVP_MD *md, int (*copy)(EVP_MD_CTX *to,
-                                                 const EVP_MD_CTX *from));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_cleanup(EVP_MD *md, int (*cleanup)(EVP_MD_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_MD_meth_set_ctrl(EVP_MD *md, int (*ctrl)(EVP_MD_CTX *ctx, int cmd,
-                                                 int p1, void *p2));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_MD_meth_get_input_blocksize(const EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_MD_meth_get_result_size(const EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_MD_meth_get_app_datasize(const EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) unsigned long EVP_MD_meth_get_flags(const EVP_MD *md);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_init(const EVP_MD *md))(EVP_MD_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_update(const EVP_MD *md))(EVP_MD_CTX *ctx,
-                                                const void *data, size_t count);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_final(const EVP_MD *md))(EVP_MD_CTX *ctx,
-                                               unsigned char *md);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_copy(const EVP_MD *md))(EVP_MD_CTX *to,
-                                              const EVP_MD_CTX *from);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_cleanup(const EVP_MD *md))(EVP_MD_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_meth_get_ctrl(const EVP_MD *md))(EVP_MD_CTX *ctx, int cmd,
-                                              int p1, void *p2);
-# 235 "/usr/include/openssl/evp.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-EVP_CIPHER *EVP_CIPHER_meth_new(int cipher_type, int block_size, int key_len);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-EVP_CIPHER *EVP_CIPHER_meth_dup(const EVP_CIPHER *cipher);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-void EVP_CIPHER_meth_free(EVP_CIPHER *cipher);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_iv_length(EVP_CIPHER *cipher, int iv_len);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_flags(EVP_CIPHER *cipher, unsigned long flags);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_impl_ctx_size(EVP_CIPHER *cipher, int ctx_size);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_init(EVP_CIPHER *cipher,
-                             int (*init) (EVP_CIPHER_CTX *ctx,
-                                          const unsigned char *key,
-                                          const unsigned char *iv,
-                                          int enc));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_do_cipher(EVP_CIPHER *cipher,
-                                  int (*do_cipher) (EVP_CIPHER_CTX *ctx,
-                                                    unsigned char *out,
-                                                    const unsigned char *in,
-                                                    size_t inl));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_cleanup(EVP_CIPHER *cipher,
-                                int (*cleanup) (EVP_CIPHER_CTX *));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_set_asn1_params(EVP_CIPHER *cipher,
-                                        int (*set_asn1_parameters) (EVP_CIPHER_CTX *,
-                                                                    ASN1_TYPE *));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_get_asn1_params(EVP_CIPHER *cipher,
-                                        int (*get_asn1_parameters) (EVP_CIPHER_CTX *,
-                                                                    ASN1_TYPE *));
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_meth_set_ctrl(EVP_CIPHER *cipher,
-                             int (*ctrl) (EVP_CIPHER_CTX *, int type,
-                                          int arg, void *ptr));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_init(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *ctx,
-                                                      const unsigned char *key,
-                                                      const unsigned char *iv,
-                                                      int enc);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_do_cipher(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *ctx,
-                                                           unsigned char *out,
-                                                           const unsigned char *in,
-                                                           size_t inl);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_cleanup(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_set_asn1_params(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *,
-                                                                 ASN1_TYPE *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_get_asn1_params(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *,
-                                                                 ASN1_TYPE *);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int
-(*EVP_CIPHER_meth_get_ctrl(const EVP_CIPHER *cipher))(EVP_CIPHER_CTX *, int type,
-                                                      int arg, void *ptr);
-# 453 "/usr/include/openssl/evp.h" 3 4
-typedef struct {
-    unsigned char *out;
-    const unsigned char *inp;
-    size_t len;
-    unsigned int interleave;
-} EVP_CTRL_TLS1_1_MULTIBLOCK_PARAM;
-# 483 "/usr/include/openssl/evp.h" 3 4
-typedef struct evp_cipher_info_st {
-    const EVP_CIPHER *cipher;
-    unsigned char iv[16];
-} EVP_CIPHER_INFO;
-
-
-
-typedef int (EVP_PBE_KEYGEN) (EVP_CIPHER_CTX *ctx, const char *pass,
-                              int passlen, ASN1_TYPE *param,
-                              const EVP_CIPHER *cipher, const EVP_MD *md,
-                              int en_de);
-
-typedef int (EVP_PBE_KEYGEN_EX) (EVP_CIPHER_CTX *ctx, const char *pass,
-                                 int passlen, ASN1_TYPE *param,
-                                 const EVP_CIPHER *cipher, const EVP_MD *md,
-                                 int en_de, OSSL_LIB_CTX *libctx, const char *propq);
-# 536 "/usr/include/openssl/evp.h" 3 4
-int EVP_MD_get_type(const EVP_MD *md);
-
-
-const char *EVP_MD_get0_name(const EVP_MD *md);
-
-const char *EVP_MD_get0_description(const EVP_MD *md);
-int EVP_MD_is_a(const EVP_MD *md, const char *name);
-int EVP_MD_names_do_all(const EVP_MD *md,
-                        void (*fn)(const char *name, void *data),
-                        void *data);
-const OSSL_PROVIDER *EVP_MD_get0_provider(const EVP_MD *md);
-int EVP_MD_get_pkey_type(const EVP_MD *md);
-
-int EVP_MD_get_size(const EVP_MD *md);
-
-int EVP_MD_get_block_size(const EVP_MD *md);
-
-unsigned long EVP_MD_get_flags(const EVP_MD *md);
-
-
-const EVP_MD *EVP_MD_CTX_get0_md(const EVP_MD_CTX *ctx);
-EVP_MD *EVP_MD_CTX_get1_md(EVP_MD_CTX *ctx);
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const EVP_MD *EVP_MD_CTX_md(const EVP_MD_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int (*EVP_MD_CTX_update_fn(EVP_MD_CTX *ctx))(EVP_MD_CTX *ctx,
-                                             const void *data, size_t count);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-void EVP_MD_CTX_set_update_fn(EVP_MD_CTX *ctx,
-                              int (*update) (EVP_MD_CTX *ctx,
-                                             const void *data, size_t count));
-# 576 "/usr/include/openssl/evp.h" 3 4
-EVP_PKEY_CTX *EVP_MD_CTX_get_pkey_ctx(const EVP_MD_CTX *ctx);
-
-void EVP_MD_CTX_set_pkey_ctx(EVP_MD_CTX *ctx, EVP_PKEY_CTX *pctx);
-void *EVP_MD_CTX_get0_md_data(const EVP_MD_CTX *ctx);
-
-
-int EVP_CIPHER_get_nid(const EVP_CIPHER *cipher);
-
-const char *EVP_CIPHER_get0_name(const EVP_CIPHER *cipher);
-
-const char *EVP_CIPHER_get0_description(const EVP_CIPHER *cipher);
-int EVP_CIPHER_is_a(const EVP_CIPHER *cipher, const char *name);
-int EVP_CIPHER_names_do_all(const EVP_CIPHER *cipher,
-                            void (*fn)(const char *name, void *data),
-                            void *data);
-const OSSL_PROVIDER *EVP_CIPHER_get0_provider(const EVP_CIPHER *cipher);
-int EVP_CIPHER_get_block_size(const EVP_CIPHER *cipher);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_CIPHER_impl_ctx_size(const EVP_CIPHER *cipher);
-
-int EVP_CIPHER_get_key_length(const EVP_CIPHER *cipher);
-
-int EVP_CIPHER_get_iv_length(const EVP_CIPHER *cipher);
-
-unsigned long EVP_CIPHER_get_flags(const EVP_CIPHER *cipher);
-
-int EVP_CIPHER_get_mode(const EVP_CIPHER *cipher);
-
-int EVP_CIPHER_get_type(const EVP_CIPHER *cipher);
-
-EVP_CIPHER *EVP_CIPHER_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                             const char *properties);
-int EVP_CIPHER_up_ref(EVP_CIPHER *cipher);
-void EVP_CIPHER_free(EVP_CIPHER *cipher);
-
-const EVP_CIPHER *EVP_CIPHER_CTX_get0_cipher(const EVP_CIPHER_CTX *ctx);
-EVP_CIPHER *EVP_CIPHER_CTX_get1_cipher(EVP_CIPHER_CTX *ctx);
-int EVP_CIPHER_CTX_is_encrypting(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_nid(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_block_size(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_key_length(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_iv_length(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_tag_length(const EVP_CIPHER_CTX *ctx);
-
-
-const EVP_CIPHER *EVP_CIPHER_CTX_cipher(const EVP_CIPHER_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const unsigned char *EVP_CIPHER_CTX_iv(const EVP_CIPHER_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const unsigned char *EVP_CIPHER_CTX_original_iv(const EVP_CIPHER_CTX *ctx);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) unsigned char *EVP_CIPHER_CTX_iv_noconst(EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_updated_iv(EVP_CIPHER_CTX *ctx, void *buf, size_t len);
-int EVP_CIPHER_CTX_get_original_iv(EVP_CIPHER_CTX *ctx, void *buf, size_t len);
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-unsigned char *EVP_CIPHER_CTX_buf_noconst(EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_get_num(const EVP_CIPHER_CTX *ctx);
-
-int EVP_CIPHER_CTX_set_num(EVP_CIPHER_CTX *ctx, int num);
-EVP_CIPHER_CTX *EVP_CIPHER_CTX_dup(const EVP_CIPHER_CTX *in);
-int EVP_CIPHER_CTX_copy(EVP_CIPHER_CTX *out, const EVP_CIPHER_CTX *in);
-void *EVP_CIPHER_CTX_get_app_data(const EVP_CIPHER_CTX *ctx);
-void EVP_CIPHER_CTX_set_app_data(EVP_CIPHER_CTX *ctx, void *data);
-void *EVP_CIPHER_CTX_get_cipher_data(const EVP_CIPHER_CTX *ctx);
-void *EVP_CIPHER_CTX_set_cipher_data(EVP_CIPHER_CTX *ctx, void *cipher_data);
-# 680 "/usr/include/openssl/evp.h" 3 4
- int EVP_Cipher(EVP_CIPHER_CTX *c,
-                          unsigned char *out,
-                          const unsigned char *in, unsigned int inl);
-# 693 "/usr/include/openssl/evp.h" 3 4
-int EVP_MD_get_params(const EVP_MD *digest, OSSL_PARAM params[]);
-int EVP_MD_CTX_set_params(EVP_MD_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_MD_CTX_get_params(EVP_MD_CTX *ctx, OSSL_PARAM params[]);
-const OSSL_PARAM *EVP_MD_gettable_params(const EVP_MD *digest);
-const OSSL_PARAM *EVP_MD_settable_ctx_params(const EVP_MD *md);
-const OSSL_PARAM *EVP_MD_gettable_ctx_params(const EVP_MD *md);
-const OSSL_PARAM *EVP_MD_CTX_settable_params(EVP_MD_CTX *ctx);
-const OSSL_PARAM *EVP_MD_CTX_gettable_params(EVP_MD_CTX *ctx);
-int EVP_MD_CTX_ctrl(EVP_MD_CTX *ctx, int cmd, int p1, void *p2);
-EVP_MD_CTX *EVP_MD_CTX_new(void);
-int EVP_MD_CTX_reset(EVP_MD_CTX *ctx);
-void EVP_MD_CTX_free(EVP_MD_CTX *ctx);
-
-
-
- EVP_MD_CTX *EVP_MD_CTX_dup(const EVP_MD_CTX *in);
- int EVP_MD_CTX_copy_ex(EVP_MD_CTX *out, const EVP_MD_CTX *in);
-void EVP_MD_CTX_set_flags(EVP_MD_CTX *ctx, int flags);
-void EVP_MD_CTX_clear_flags(EVP_MD_CTX *ctx, int flags);
-int EVP_MD_CTX_test_flags(const EVP_MD_CTX *ctx, int flags);
- int EVP_DigestInit_ex2(EVP_MD_CTX *ctx, const EVP_MD *type,
-                              const OSSL_PARAM params[]);
- int EVP_DigestInit_ex(EVP_MD_CTX *ctx, const EVP_MD *type,
-                                 ENGINE *impl);
- int EVP_DigestUpdate(EVP_MD_CTX *ctx, const void *d,
-                                size_t cnt);
- int EVP_DigestFinal_ex(EVP_MD_CTX *ctx, unsigned char *md,
-                                  unsigned int *s);
- int EVP_Digest(const void *data, size_t count,
-                          unsigned char *md, unsigned int *size,
-                          const EVP_MD *type, ENGINE *impl);
- int EVP_Q_digest(OSSL_LIB_CTX *libctx, const char *name,
-                        const char *propq, const void *data, size_t datalen,
-                        unsigned char *md, size_t *mdlen);
-
- int EVP_MD_CTX_copy(EVP_MD_CTX *out, const EVP_MD_CTX *in);
- int EVP_DigestInit(EVP_MD_CTX *ctx, const EVP_MD *type);
- int EVP_DigestFinal(EVP_MD_CTX *ctx, unsigned char *md,
-                           unsigned int *s);
- int EVP_DigestFinalXOF(EVP_MD_CTX *ctx, unsigned char *md,
-                              size_t len);
-
- EVP_MD *EVP_MD_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                            const char *properties);
-
-int EVP_MD_up_ref(EVP_MD *md);
-void EVP_MD_free(EVP_MD *md);
-
-int EVP_read_pw_string(char *buf, int length, const char *prompt, int verify);
-int EVP_read_pw_string_min(char *buf, int minlen, int maxlen,
-                           const char *prompt, int verify);
-void EVP_set_pw_prompt(const char *prompt);
-char *EVP_get_pw_prompt(void);
-
- int EVP_BytesToKey(const EVP_CIPHER *type, const EVP_MD *md,
-                          const unsigned char *salt,
-                          const unsigned char *data, int datal, int count,
-                          unsigned char *key, unsigned char *iv);
-
-void EVP_CIPHER_CTX_set_flags(EVP_CIPHER_CTX *ctx, int flags);
-void EVP_CIPHER_CTX_clear_flags(EVP_CIPHER_CTX *ctx, int flags);
-int EVP_CIPHER_CTX_test_flags(const EVP_CIPHER_CTX *ctx, int flags);
-
-
-
-
-
- int EVP_EncryptInit(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                           const unsigned char *key, const unsigned char *iv);
- int EVP_EncryptInit_ex(EVP_CIPHER_CTX *ctx,
-                                  const EVP_CIPHER *cipher, ENGINE *impl,
-                                  const unsigned char *key,
-                                  const unsigned char *iv);
- int EVP_EncryptInit_ex2(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                               const unsigned char *key,
-                               const unsigned char *iv,
-                               const OSSL_PARAM params[]);
- int EVP_EncryptUpdate(EVP_CIPHER_CTX *ctx, unsigned char *out,
-                                 int *outl, const unsigned char *in, int inl);
- int EVP_EncryptFinal_ex(EVP_CIPHER_CTX *ctx, unsigned char *out,
-                                   int *outl);
- int EVP_EncryptFinal(EVP_CIPHER_CTX *ctx, unsigned char *out,
-                                int *outl);
-
- int EVP_DecryptInit(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                           const unsigned char *key, const unsigned char *iv);
- int EVP_DecryptInit_ex(EVP_CIPHER_CTX *ctx,
-                                  const EVP_CIPHER *cipher, ENGINE *impl,
-                                  const unsigned char *key,
-                                  const unsigned char *iv);
- int EVP_DecryptInit_ex2(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                               const unsigned char *key,
-                               const unsigned char *iv,
-                               const OSSL_PARAM params[]);
- int EVP_DecryptUpdate(EVP_CIPHER_CTX *ctx, unsigned char *out,
-                                 int *outl, const unsigned char *in, int inl);
- int EVP_DecryptFinal(EVP_CIPHER_CTX *ctx, unsigned char *outm,
-                            int *outl);
- int EVP_DecryptFinal_ex(EVP_CIPHER_CTX *ctx, unsigned char *outm,
-                                   int *outl);
-
- int EVP_CipherInit(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                          const unsigned char *key, const unsigned char *iv,
-                          int enc);
- int EVP_CipherInit_ex(EVP_CIPHER_CTX *ctx,
-                                 const EVP_CIPHER *cipher, ENGINE *impl,
-                                 const unsigned char *key,
-                                 const unsigned char *iv, int enc);
- int EVP_CipherInit_ex2(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *cipher,
-                              const unsigned char *key, const unsigned char *iv,
-                              int enc, const OSSL_PARAM params[]);
- int EVP_CipherUpdate(EVP_CIPHER_CTX *ctx, unsigned char *out,
-                            int *outl, const unsigned char *in, int inl);
- int EVP_CipherFinal(EVP_CIPHER_CTX *ctx, unsigned char *outm,
-                           int *outl);
- int EVP_CipherFinal_ex(EVP_CIPHER_CTX *ctx, unsigned char *outm,
-                              int *outl);
-
-
-
-
-
- int EVP_SignFinal(EVP_MD_CTX *ctx, unsigned char *md, unsigned int *s,
-                         EVP_PKEY *pkey);
- int EVP_SignFinal_ex(EVP_MD_CTX *ctx, unsigned char *md, unsigned int *s,
-                            EVP_PKEY *pkey, OSSL_LIB_CTX *libctx,
-                            const char *propq);
-
- int EVP_DigestSign(EVP_MD_CTX *ctx, unsigned char *sigret,
-                          size_t *siglen, const unsigned char *tbs,
-                          size_t tbslen);
-
- int EVP_VerifyFinal(EVP_MD_CTX *ctx, const unsigned char *sigbuf,
-                           unsigned int siglen, EVP_PKEY *pkey);
- int EVP_VerifyFinal_ex(EVP_MD_CTX *ctx, const unsigned char *sigbuf,
-                              unsigned int siglen, EVP_PKEY *pkey,
-                              OSSL_LIB_CTX *libctx, const char *propq);
-
- int EVP_DigestVerify(EVP_MD_CTX *ctx, const unsigned char *sigret,
-                            size_t siglen, const unsigned char *tbs,
-                            size_t tbslen);
-
- int EVP_DigestSignInit_ex(EVP_MD_CTX *ctx, EVP_PKEY_CTX **pctx,
-                          const char *mdname, OSSL_LIB_CTX *libctx,
-                          const char *props, EVP_PKEY *pkey,
-                          const OSSL_PARAM params[]);
- int EVP_DigestSignInit(EVP_MD_CTX *ctx, EVP_PKEY_CTX **pctx,
-                                  const EVP_MD *type, ENGINE *e,
-                                  EVP_PKEY *pkey);
- int EVP_DigestSignUpdate(EVP_MD_CTX *ctx, const void *data, size_t dsize);
- int EVP_DigestSignFinal(EVP_MD_CTX *ctx, unsigned char *sigret,
-                               size_t *siglen);
-
- int EVP_DigestVerifyInit_ex(EVP_MD_CTX *ctx, EVP_PKEY_CTX **pctx,
-                            const char *mdname, OSSL_LIB_CTX *libctx,
-                            const char *props, EVP_PKEY *pkey,
-                            const OSSL_PARAM params[]);
- int EVP_DigestVerifyInit(EVP_MD_CTX *ctx, EVP_PKEY_CTX **pctx,
-                                const EVP_MD *type, ENGINE *e,
-                                EVP_PKEY *pkey);
-int EVP_DigestVerifyUpdate(EVP_MD_CTX *ctx, const void *data, size_t dsize);
- int EVP_DigestVerifyFinal(EVP_MD_CTX *ctx, const unsigned char *sig,
-                                 size_t siglen);
-
- int EVP_OpenInit(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *type,
-                        const unsigned char *ek, int ekl,
-                        const unsigned char *iv, EVP_PKEY *priv);
- int EVP_OpenFinal(EVP_CIPHER_CTX *ctx, unsigned char *out, int *outl);
-
- int EVP_SealInit(EVP_CIPHER_CTX *ctx, const EVP_CIPHER *type,
-                        unsigned char **ek, int *ekl, unsigned char *iv,
-                        EVP_PKEY **pubk, int npubk);
- int EVP_SealFinal(EVP_CIPHER_CTX *ctx, unsigned char *out, int *outl);
-
-EVP_ENCODE_CTX *EVP_ENCODE_CTX_new(void);
-void EVP_ENCODE_CTX_free(EVP_ENCODE_CTX *ctx);
-int EVP_ENCODE_CTX_copy(EVP_ENCODE_CTX *dctx, const EVP_ENCODE_CTX *sctx);
-int EVP_ENCODE_CTX_num(EVP_ENCODE_CTX *ctx);
-void EVP_EncodeInit(EVP_ENCODE_CTX *ctx);
-int EVP_EncodeUpdate(EVP_ENCODE_CTX *ctx, unsigned char *out, int *outl,
-                     const unsigned char *in, int inl);
-void EVP_EncodeFinal(EVP_ENCODE_CTX *ctx, unsigned char *out, int *outl);
-int EVP_EncodeBlock(unsigned char *t, const unsigned char *f, int n);
-
-void EVP_DecodeInit(EVP_ENCODE_CTX *ctx);
-int EVP_DecodeUpdate(EVP_ENCODE_CTX *ctx, unsigned char *out, int *outl,
-                     const unsigned char *in, int inl);
-int EVP_DecodeFinal(EVP_ENCODE_CTX *ctx, unsigned
-                    char *out, int *outl);
-int EVP_DecodeBlock(unsigned char *t, const unsigned char *f, int n);
-
-
-
-
-
-EVP_CIPHER_CTX *EVP_CIPHER_CTX_new(void);
-int EVP_CIPHER_CTX_reset(EVP_CIPHER_CTX *c);
-void EVP_CIPHER_CTX_free(EVP_CIPHER_CTX *c);
-int EVP_CIPHER_CTX_set_key_length(EVP_CIPHER_CTX *x, int keylen);
-int EVP_CIPHER_CTX_set_padding(EVP_CIPHER_CTX *c, int pad);
-int EVP_CIPHER_CTX_ctrl(EVP_CIPHER_CTX *ctx, int type, int arg, void *ptr);
-int EVP_CIPHER_CTX_rand_key(EVP_CIPHER_CTX *ctx, unsigned char *key);
-int EVP_CIPHER_get_params(EVP_CIPHER *cipher, OSSL_PARAM params[]);
-int EVP_CIPHER_CTX_set_params(EVP_CIPHER_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_CIPHER_CTX_get_params(EVP_CIPHER_CTX *ctx, OSSL_PARAM params[]);
-const OSSL_PARAM *EVP_CIPHER_gettable_params(const EVP_CIPHER *cipher);
-const OSSL_PARAM *EVP_CIPHER_settable_ctx_params(const EVP_CIPHER *cipher);
-const OSSL_PARAM *EVP_CIPHER_gettable_ctx_params(const EVP_CIPHER *cipher);
-const OSSL_PARAM *EVP_CIPHER_CTX_settable_params(EVP_CIPHER_CTX *ctx);
-const OSSL_PARAM *EVP_CIPHER_CTX_gettable_params(EVP_CIPHER_CTX *ctx);
-
-const BIO_METHOD *BIO_f_md(void);
-const BIO_METHOD *BIO_f_base64(void);
-const BIO_METHOD *BIO_f_cipher(void);
-const BIO_METHOD *BIO_f_reliable(void);
- int BIO_set_cipher(BIO *b, const EVP_CIPHER *c, const unsigned char *k,
-                          const unsigned char *i, int enc);
-
-const EVP_MD *EVP_md_null(void);
-
-const EVP_MD *EVP_md2(void);
-
-
-const EVP_MD *EVP_md4(void);
-
-
-const EVP_MD *EVP_md5(void);
-const EVP_MD *EVP_md5_sha1(void);
-
-
-const EVP_MD *EVP_blake2b512(void);
-const EVP_MD *EVP_blake2s256(void);
-
-const EVP_MD *EVP_sha1(void);
-const EVP_MD *EVP_sha224(void);
-const EVP_MD *EVP_sha256(void);
-const EVP_MD *EVP_sha384(void);
-const EVP_MD *EVP_sha512(void);
-const EVP_MD *EVP_sha512_224(void);
-const EVP_MD *EVP_sha512_256(void);
-const EVP_MD *EVP_sha3_224(void);
-const EVP_MD *EVP_sha3_256(void);
-const EVP_MD *EVP_sha3_384(void);
-const EVP_MD *EVP_sha3_512(void);
-const EVP_MD *EVP_shake128(void);
-const EVP_MD *EVP_shake256(void);
-
-
-
-
-
-const EVP_MD *EVP_ripemd160(void);
-
-
-const EVP_MD *EVP_whirlpool(void);
-
-
-const EVP_MD *EVP_sm3(void);
-
-const EVP_CIPHER *EVP_enc_null(void);
-
-const EVP_CIPHER *EVP_des_ecb(void);
-const EVP_CIPHER *EVP_des_ede(void);
-const EVP_CIPHER *EVP_des_ede3(void);
-const EVP_CIPHER *EVP_des_ede_ecb(void);
-const EVP_CIPHER *EVP_des_ede3_ecb(void);
-const EVP_CIPHER *EVP_des_cfb64(void);
-
-const EVP_CIPHER *EVP_des_cfb1(void);
-const EVP_CIPHER *EVP_des_cfb8(void);
-const EVP_CIPHER *EVP_des_ede_cfb64(void);
-
-const EVP_CIPHER *EVP_des_ede3_cfb64(void);
-
-const EVP_CIPHER *EVP_des_ede3_cfb1(void);
-const EVP_CIPHER *EVP_des_ede3_cfb8(void);
-const EVP_CIPHER *EVP_des_ofb(void);
-const EVP_CIPHER *EVP_des_ede_ofb(void);
-const EVP_CIPHER *EVP_des_ede3_ofb(void);
-const EVP_CIPHER *EVP_des_cbc(void);
-const EVP_CIPHER *EVP_des_ede_cbc(void);
-const EVP_CIPHER *EVP_des_ede3_cbc(void);
-const EVP_CIPHER *EVP_desx_cbc(void);
-const EVP_CIPHER *EVP_des_ede3_wrap(void);
-
-
-
-
-
-
-
-const EVP_CIPHER *EVP_rc4(void);
-const EVP_CIPHER *EVP_rc4_40(void);
-
-const EVP_CIPHER *EVP_rc4_hmac_md5(void);
-
-
-
-const EVP_CIPHER *EVP_idea_ecb(void);
-const EVP_CIPHER *EVP_idea_cfb64(void);
-
-const EVP_CIPHER *EVP_idea_ofb(void);
-const EVP_CIPHER *EVP_idea_cbc(void);
-
-
-const EVP_CIPHER *EVP_rc2_ecb(void);
-const EVP_CIPHER *EVP_rc2_cbc(void);
-const EVP_CIPHER *EVP_rc2_40_cbc(void);
-const EVP_CIPHER *EVP_rc2_64_cbc(void);
-const EVP_CIPHER *EVP_rc2_cfb64(void);
-
-const EVP_CIPHER *EVP_rc2_ofb(void);
-
-
-const EVP_CIPHER *EVP_bf_ecb(void);
-const EVP_CIPHER *EVP_bf_cbc(void);
-const EVP_CIPHER *EVP_bf_cfb64(void);
-
-const EVP_CIPHER *EVP_bf_ofb(void);
-
-
-const EVP_CIPHER *EVP_cast5_ecb(void);
-const EVP_CIPHER *EVP_cast5_cbc(void);
-const EVP_CIPHER *EVP_cast5_cfb64(void);
-
-const EVP_CIPHER *EVP_cast5_ofb(void);
-
-
-const EVP_CIPHER *EVP_rc5_32_12_16_cbc(void);
-const EVP_CIPHER *EVP_rc5_32_12_16_ecb(void);
-const EVP_CIPHER *EVP_rc5_32_12_16_cfb64(void);
-
-const EVP_CIPHER *EVP_rc5_32_12_16_ofb(void);
-
-const EVP_CIPHER *EVP_aes_128_ecb(void);
-const EVP_CIPHER *EVP_aes_128_cbc(void);
-const EVP_CIPHER *EVP_aes_128_cfb1(void);
-const EVP_CIPHER *EVP_aes_128_cfb8(void);
-const EVP_CIPHER *EVP_aes_128_cfb128(void);
-
-const EVP_CIPHER *EVP_aes_128_ofb(void);
-const EVP_CIPHER *EVP_aes_128_ctr(void);
-const EVP_CIPHER *EVP_aes_128_ccm(void);
-const EVP_CIPHER *EVP_aes_128_gcm(void);
-const EVP_CIPHER *EVP_aes_128_xts(void);
-const EVP_CIPHER *EVP_aes_128_wrap(void);
-const EVP_CIPHER *EVP_aes_128_wrap_pad(void);
-
-const EVP_CIPHER *EVP_aes_128_ocb(void);
-
-const EVP_CIPHER *EVP_aes_192_ecb(void);
-const EVP_CIPHER *EVP_aes_192_cbc(void);
-const EVP_CIPHER *EVP_aes_192_cfb1(void);
-const EVP_CIPHER *EVP_aes_192_cfb8(void);
-const EVP_CIPHER *EVP_aes_192_cfb128(void);
-
-const EVP_CIPHER *EVP_aes_192_ofb(void);
-const EVP_CIPHER *EVP_aes_192_ctr(void);
-const EVP_CIPHER *EVP_aes_192_ccm(void);
-const EVP_CIPHER *EVP_aes_192_gcm(void);
-const EVP_CIPHER *EVP_aes_192_wrap(void);
-const EVP_CIPHER *EVP_aes_192_wrap_pad(void);
-
-const EVP_CIPHER *EVP_aes_192_ocb(void);
-
-const EVP_CIPHER *EVP_aes_256_ecb(void);
-const EVP_CIPHER *EVP_aes_256_cbc(void);
-const EVP_CIPHER *EVP_aes_256_cfb1(void);
-const EVP_CIPHER *EVP_aes_256_cfb8(void);
-const EVP_CIPHER *EVP_aes_256_cfb128(void);
-
-const EVP_CIPHER *EVP_aes_256_ofb(void);
-const EVP_CIPHER *EVP_aes_256_ctr(void);
-const EVP_CIPHER *EVP_aes_256_ccm(void);
-const EVP_CIPHER *EVP_aes_256_gcm(void);
-const EVP_CIPHER *EVP_aes_256_xts(void);
-const EVP_CIPHER *EVP_aes_256_wrap(void);
-const EVP_CIPHER *EVP_aes_256_wrap_pad(void);
-
-const EVP_CIPHER *EVP_aes_256_ocb(void);
-
-const EVP_CIPHER *EVP_aes_128_cbc_hmac_sha1(void);
-const EVP_CIPHER *EVP_aes_256_cbc_hmac_sha1(void);
-const EVP_CIPHER *EVP_aes_128_cbc_hmac_sha256(void);
-const EVP_CIPHER *EVP_aes_256_cbc_hmac_sha256(void);
-
-const EVP_CIPHER *EVP_aria_128_ecb(void);
-const EVP_CIPHER *EVP_aria_128_cbc(void);
-const EVP_CIPHER *EVP_aria_128_cfb1(void);
-const EVP_CIPHER *EVP_aria_128_cfb8(void);
-const EVP_CIPHER *EVP_aria_128_cfb128(void);
-
-const EVP_CIPHER *EVP_aria_128_ctr(void);
-const EVP_CIPHER *EVP_aria_128_ofb(void);
-const EVP_CIPHER *EVP_aria_128_gcm(void);
-const EVP_CIPHER *EVP_aria_128_ccm(void);
-const EVP_CIPHER *EVP_aria_192_ecb(void);
-const EVP_CIPHER *EVP_aria_192_cbc(void);
-const EVP_CIPHER *EVP_aria_192_cfb1(void);
-const EVP_CIPHER *EVP_aria_192_cfb8(void);
-const EVP_CIPHER *EVP_aria_192_cfb128(void);
-
-const EVP_CIPHER *EVP_aria_192_ctr(void);
-const EVP_CIPHER *EVP_aria_192_ofb(void);
-const EVP_CIPHER *EVP_aria_192_gcm(void);
-const EVP_CIPHER *EVP_aria_192_ccm(void);
-const EVP_CIPHER *EVP_aria_256_ecb(void);
-const EVP_CIPHER *EVP_aria_256_cbc(void);
-const EVP_CIPHER *EVP_aria_256_cfb1(void);
-const EVP_CIPHER *EVP_aria_256_cfb8(void);
-const EVP_CIPHER *EVP_aria_256_cfb128(void);
-
-const EVP_CIPHER *EVP_aria_256_ctr(void);
-const EVP_CIPHER *EVP_aria_256_ofb(void);
-const EVP_CIPHER *EVP_aria_256_gcm(void);
-const EVP_CIPHER *EVP_aria_256_ccm(void);
-
-
-const EVP_CIPHER *EVP_camellia_128_ecb(void);
-const EVP_CIPHER *EVP_camellia_128_cbc(void);
-const EVP_CIPHER *EVP_camellia_128_cfb1(void);
-const EVP_CIPHER *EVP_camellia_128_cfb8(void);
-const EVP_CIPHER *EVP_camellia_128_cfb128(void);
-
-const EVP_CIPHER *EVP_camellia_128_ofb(void);
-const EVP_CIPHER *EVP_camellia_128_ctr(void);
-const EVP_CIPHER *EVP_camellia_192_ecb(void);
-const EVP_CIPHER *EVP_camellia_192_cbc(void);
-const EVP_CIPHER *EVP_camellia_192_cfb1(void);
-const EVP_CIPHER *EVP_camellia_192_cfb8(void);
-const EVP_CIPHER *EVP_camellia_192_cfb128(void);
-
-const EVP_CIPHER *EVP_camellia_192_ofb(void);
-const EVP_CIPHER *EVP_camellia_192_ctr(void);
-const EVP_CIPHER *EVP_camellia_256_ecb(void);
-const EVP_CIPHER *EVP_camellia_256_cbc(void);
-const EVP_CIPHER *EVP_camellia_256_cfb1(void);
-const EVP_CIPHER *EVP_camellia_256_cfb8(void);
-const EVP_CIPHER *EVP_camellia_256_cfb128(void);
-
-const EVP_CIPHER *EVP_camellia_256_ofb(void);
-const EVP_CIPHER *EVP_camellia_256_ctr(void);
-
-
-const EVP_CIPHER *EVP_chacha20(void);
-
-const EVP_CIPHER *EVP_chacha20_poly1305(void);
-
-
-
-
-const EVP_CIPHER *EVP_seed_ecb(void);
-const EVP_CIPHER *EVP_seed_cbc(void);
-const EVP_CIPHER *EVP_seed_cfb128(void);
-
-const EVP_CIPHER *EVP_seed_ofb(void);
-# 1183 "/usr/include/openssl/evp.h" 3 4
-int EVP_add_cipher(const EVP_CIPHER *cipher);
-int EVP_add_digest(const EVP_MD *digest);
-
-const EVP_CIPHER *EVP_get_cipherbyname(const char *name);
-const EVP_MD *EVP_get_digestbyname(const char *name);
-
-void EVP_CIPHER_do_all(void (*fn) (const EVP_CIPHER *ciph,
-                                   const char *from, const char *to, void *x),
-                       void *arg);
-void EVP_CIPHER_do_all_sorted(void (*fn)
-                               (const EVP_CIPHER *ciph, const char *from,
-                                const char *to, void *x), void *arg);
-void EVP_CIPHER_do_all_provided(OSSL_LIB_CTX *libctx,
-                                void (*fn)(EVP_CIPHER *cipher, void *arg),
-                                void *arg);
-
-void EVP_MD_do_all(void (*fn) (const EVP_MD *ciph,
-                               const char *from, const char *to, void *x),
-                   void *arg);
-void EVP_MD_do_all_sorted(void (*fn)
-                           (const EVP_MD *ciph, const char *from,
-                            const char *to, void *x), void *arg);
-void EVP_MD_do_all_provided(OSSL_LIB_CTX *libctx,
-                            void (*fn)(EVP_MD *md, void *arg),
-                            void *arg);
-
-
-
-
-
-
-EVP_MAC *EVP_MAC_fetch(OSSL_LIB_CTX *libctx, const char *algorithm,
-                       const char *properties);
-int EVP_MAC_up_ref(EVP_MAC *mac);
-void EVP_MAC_free(EVP_MAC *mac);
-const char *EVP_MAC_get0_name(const EVP_MAC *mac);
-const char *EVP_MAC_get0_description(const EVP_MAC *mac);
-int EVP_MAC_is_a(const EVP_MAC *mac, const char *name);
-const OSSL_PROVIDER *EVP_MAC_get0_provider(const EVP_MAC *mac);
-int EVP_MAC_get_params(EVP_MAC *mac, OSSL_PARAM params[]);
-
-EVP_MAC_CTX *EVP_MAC_CTX_new(EVP_MAC *mac);
-void EVP_MAC_CTX_free(EVP_MAC_CTX *ctx);
-EVP_MAC_CTX *EVP_MAC_CTX_dup(const EVP_MAC_CTX *src);
-EVP_MAC *EVP_MAC_CTX_get0_mac(EVP_MAC_CTX *ctx);
-int EVP_MAC_CTX_get_params(EVP_MAC_CTX *ctx, OSSL_PARAM params[]);
-int EVP_MAC_CTX_set_params(EVP_MAC_CTX *ctx, const OSSL_PARAM params[]);
-
-size_t EVP_MAC_CTX_get_mac_size(EVP_MAC_CTX *ctx);
-size_t EVP_MAC_CTX_get_block_size(EVP_MAC_CTX *ctx);
-unsigned char *EVP_Q_mac(OSSL_LIB_CTX *libctx, const char *name, const char *propq,
-                         const char *subalg, const OSSL_PARAM *params,
-                         const void *key, size_t keylen,
-                         const unsigned char *data, size_t datalen,
-                         unsigned char *out, size_t outsize, size_t *outlen);
-int EVP_MAC_init(EVP_MAC_CTX *ctx, const unsigned char *key, size_t keylen,
-                 const OSSL_PARAM params[]);
-int EVP_MAC_update(EVP_MAC_CTX *ctx, const unsigned char *data, size_t datalen);
-int EVP_MAC_final(EVP_MAC_CTX *ctx,
-                  unsigned char *out, size_t *outl, size_t outsize);
-int EVP_MAC_finalXOF(EVP_MAC_CTX *ctx, unsigned char *out, size_t outsize);
-const OSSL_PARAM *EVP_MAC_gettable_params(const EVP_MAC *mac);
-const OSSL_PARAM *EVP_MAC_gettable_ctx_params(const EVP_MAC *mac);
-const OSSL_PARAM *EVP_MAC_settable_ctx_params(const EVP_MAC *mac);
-const OSSL_PARAM *EVP_MAC_CTX_gettable_params(EVP_MAC_CTX *ctx);
-const OSSL_PARAM *EVP_MAC_CTX_settable_params(EVP_MAC_CTX *ctx);
-
-void EVP_MAC_do_all_provided(OSSL_LIB_CTX *libctx,
-                             void (*fn)(EVP_MAC *mac, void *arg),
-                             void *arg);
-int EVP_MAC_names_do_all(const EVP_MAC *mac,
-                         void (*fn)(const char *name, void *data),
-                         void *data);
-
-
-EVP_RAND *EVP_RAND_fetch(OSSL_LIB_CTX *libctx, const char *algorithm,
-                         const char *properties);
-int EVP_RAND_up_ref(EVP_RAND *rand);
-void EVP_RAND_free(EVP_RAND *rand);
-const char *EVP_RAND_get0_name(const EVP_RAND *rand);
-const char *EVP_RAND_get0_description(const EVP_RAND *md);
-int EVP_RAND_is_a(const EVP_RAND *rand, const char *name);
-const OSSL_PROVIDER *EVP_RAND_get0_provider(const EVP_RAND *rand);
-int EVP_RAND_get_params(EVP_RAND *rand, OSSL_PARAM params[]);
-
-EVP_RAND_CTX *EVP_RAND_CTX_new(EVP_RAND *rand, EVP_RAND_CTX *parent);
-int EVP_RAND_CTX_up_ref(EVP_RAND_CTX *ctx);
-void EVP_RAND_CTX_free(EVP_RAND_CTX *ctx);
-EVP_RAND *EVP_RAND_CTX_get0_rand(EVP_RAND_CTX *ctx);
-int EVP_RAND_CTX_get_params(EVP_RAND_CTX *ctx, OSSL_PARAM params[]);
-int EVP_RAND_CTX_set_params(EVP_RAND_CTX *ctx, const OSSL_PARAM params[]);
-const OSSL_PARAM *EVP_RAND_gettable_params(const EVP_RAND *rand);
-const OSSL_PARAM *EVP_RAND_gettable_ctx_params(const EVP_RAND *rand);
-const OSSL_PARAM *EVP_RAND_settable_ctx_params(const EVP_RAND *rand);
-const OSSL_PARAM *EVP_RAND_CTX_gettable_params(EVP_RAND_CTX *ctx);
-const OSSL_PARAM *EVP_RAND_CTX_settable_params(EVP_RAND_CTX *ctx);
-
-void EVP_RAND_do_all_provided(OSSL_LIB_CTX *libctx,
-                              void (*fn)(EVP_RAND *rand, void *arg),
-                              void *arg);
-int EVP_RAND_names_do_all(const EVP_RAND *rand,
-                          void (*fn)(const char *name, void *data),
-                          void *data);
-
- int EVP_RAND_instantiate(EVP_RAND_CTX *ctx, unsigned int strength,
-                                int prediction_resistance,
-                                const unsigned char *pstr, size_t pstr_len,
-                                const OSSL_PARAM params[]);
-int EVP_RAND_uninstantiate(EVP_RAND_CTX *ctx);
- int EVP_RAND_generate(EVP_RAND_CTX *ctx, unsigned char *out,
-                             size_t outlen, unsigned int strength,
-                             int prediction_resistance,
-                             const unsigned char *addin, size_t addin_len);
-int EVP_RAND_reseed(EVP_RAND_CTX *ctx, int prediction_resistance,
-                    const unsigned char *ent, size_t ent_len,
-                    const unsigned char *addin, size_t addin_len);
- int EVP_RAND_nonce(EVP_RAND_CTX *ctx, unsigned char *out, size_t outlen);
- int EVP_RAND_enable_locking(EVP_RAND_CTX *ctx);
-
-int EVP_RAND_verify_zeroization(EVP_RAND_CTX *ctx);
-unsigned int EVP_RAND_get_strength(EVP_RAND_CTX *ctx);
-int EVP_RAND_get_state(EVP_RAND_CTX *ctx);
-
-
-
-
-
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_PKEY_decrypt_old(unsigned char *dec_key,
-                                          const unsigned char *enc_key,
-                                          int enc_key_len,
-                                          EVP_PKEY *private_key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_PKEY_encrypt_old(unsigned char *enc_key,
-                                          const unsigned char *key,
-                                          int key_len, EVP_PKEY *pub_key);
-
-int EVP_PKEY_is_a(const EVP_PKEY *pkey, const char *name);
-int EVP_PKEY_type_names_do_all(const EVP_PKEY *pkey,
-                               void (*fn)(const char *name, void *data),
-                               void *data);
-int EVP_PKEY_type(int type);
-int EVP_PKEY_get_id(const EVP_PKEY *pkey);
-
-int EVP_PKEY_get_base_id(const EVP_PKEY *pkey);
-
-int EVP_PKEY_get_bits(const EVP_PKEY *pkey);
-
-int EVP_PKEY_get_security_bits(const EVP_PKEY *pkey);
-
-int EVP_PKEY_get_size(const EVP_PKEY *pkey);
-
-int EVP_PKEY_can_sign(const EVP_PKEY *pkey);
-int EVP_PKEY_set_type(EVP_PKEY *pkey, int type);
-int EVP_PKEY_set_type_str(EVP_PKEY *pkey, const char *str, int len);
-int EVP_PKEY_set_type_by_keymgmt(EVP_PKEY *pkey, EVP_KEYMGMT *keymgmt);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_set1_engine(EVP_PKEY *pkey, ENGINE *e);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-ENGINE *EVP_PKEY_get0_engine(const EVP_PKEY *pkey);
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-void *EVP_PKEY_get0(const EVP_PKEY *pkey);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const unsigned char *EVP_PKEY_get0_hmac(const EVP_PKEY *pkey, size_t *len);
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const unsigned char *EVP_PKEY_get0_poly1305(const EVP_PKEY *pkey, size_t *len);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const unsigned char *EVP_PKEY_get0_siphash(const EVP_PKEY *pkey, size_t *len);
-
-
-struct rsa_st;
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_set1_RSA(EVP_PKEY *pkey, struct rsa_st *key);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-struct rsa_st *EVP_PKEY_get1_RSA(EVP_PKEY *pkey);
-
-
-struct dsa_st;
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_set1_DSA(EVP_PKEY *pkey, struct dsa_st *key);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-struct dsa_st *EVP_PKEY_get1_DSA(EVP_PKEY *pkey);
-
-
-
-struct dh_st;
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_PKEY_set1_DH(EVP_PKEY *pkey, struct dh_st *key);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) struct dh_st *EVP_PKEY_get1_DH(EVP_PKEY *pkey);
-
-
-
-struct ec_key_st;
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_set1_EC_KEY(EVP_PKEY *pkey, struct ec_key_st *key);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-struct ec_key_st *EVP_PKEY_get1_EC_KEY(EVP_PKEY *pkey);
-
-
-
-EVP_PKEY *EVP_PKEY_new(void);
-int EVP_PKEY_up_ref(EVP_PKEY *pkey);
-EVP_PKEY *EVP_PKEY_dup(EVP_PKEY *pkey);
-void EVP_PKEY_free(EVP_PKEY *pkey);
-const char *EVP_PKEY_get0_description(const EVP_PKEY *pkey);
-const OSSL_PROVIDER *EVP_PKEY_get0_provider(const EVP_PKEY *key);
-
-EVP_PKEY *d2i_PublicKey(int type, EVP_PKEY **a, const unsigned char **pp,
-                        long length);
-int i2d_PublicKey(const EVP_PKEY *a, unsigned char **pp);
-
-
-EVP_PKEY *d2i_PrivateKey_ex(int type, EVP_PKEY **a, const unsigned char **pp,
-                            long length, OSSL_LIB_CTX *libctx,
-                            const char *propq);
-EVP_PKEY *d2i_PrivateKey(int type, EVP_PKEY **a, const unsigned char **pp,
-                         long length);
-EVP_PKEY *d2i_AutoPrivateKey_ex(EVP_PKEY **a, const unsigned char **pp,
-                                long length, OSSL_LIB_CTX *libctx,
-                                const char *propq);
-EVP_PKEY *d2i_AutoPrivateKey(EVP_PKEY **a, const unsigned char **pp,
-                             long length);
-int i2d_PrivateKey(const EVP_PKEY *a, unsigned char **pp);
-
-int i2d_KeyParams(const EVP_PKEY *a, unsigned char **pp);
-EVP_PKEY *d2i_KeyParams(int type, EVP_PKEY **a, const unsigned char **pp,
-                        long length);
-int i2d_KeyParams_bio(BIO *bp, const EVP_PKEY *pkey);
-EVP_PKEY *d2i_KeyParams_bio(int type, EVP_PKEY **a, BIO *in);
-
-int EVP_PKEY_copy_parameters(EVP_PKEY *to, const EVP_PKEY *from);
-int EVP_PKEY_missing_parameters(const EVP_PKEY *pkey);
-int EVP_PKEY_save_parameters(EVP_PKEY *pkey, int mode);
-int EVP_PKEY_parameters_eq(const EVP_PKEY *a, const EVP_PKEY *b);
-int EVP_PKEY_eq(const EVP_PKEY *a, const EVP_PKEY *b);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_cmp_parameters(const EVP_PKEY *a, const EVP_PKEY *b);
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-int EVP_PKEY_cmp(const EVP_PKEY *a, const EVP_PKEY *b);
-
-
-int EVP_PKEY_print_public(BIO *out, const EVP_PKEY *pkey,
-                          int indent, ASN1_PCTX *pctx);
-int EVP_PKEY_print_private(BIO *out, const EVP_PKEY *pkey,
-                           int indent, ASN1_PCTX *pctx);
-int EVP_PKEY_print_params(BIO *out, const EVP_PKEY *pkey,
-                          int indent, ASN1_PCTX *pctx);
-
-int EVP_PKEY_print_public_fp(FILE *fp, const EVP_PKEY *pkey,
-                             int indent, ASN1_PCTX *pctx);
-int EVP_PKEY_print_private_fp(FILE *fp, const EVP_PKEY *pkey,
-                              int indent, ASN1_PCTX *pctx);
-int EVP_PKEY_print_params_fp(FILE *fp, const EVP_PKEY *pkey,
-                             int indent, ASN1_PCTX *pctx);
-
-
-int EVP_PKEY_get_default_digest_nid(EVP_PKEY *pkey, int *pnid);
-int EVP_PKEY_get_default_digest_name(EVP_PKEY *pkey,
-                                     char *mdname, size_t mdname_sz);
-int EVP_PKEY_digestsign_supports_digest(EVP_PKEY *pkey, OSSL_LIB_CTX *libctx,
-                                        const char *name, const char *propq);
-# 1470 "/usr/include/openssl/evp.h" 3 4
-int EVP_PKEY_set1_encoded_public_key(EVP_PKEY *pkey,
-                                     const unsigned char *pub, size_t publen);
-# 1482 "/usr/include/openssl/evp.h" 3 4
-size_t EVP_PKEY_get1_encoded_public_key(EVP_PKEY *pkey, unsigned char **ppub);
-
-
-int EVP_CIPHER_param_to_asn1(EVP_CIPHER_CTX *c, ASN1_TYPE *type);
-int EVP_CIPHER_asn1_to_param(EVP_CIPHER_CTX *c, ASN1_TYPE *type);
-
-
-int EVP_CIPHER_set_asn1_iv(EVP_CIPHER_CTX *c, ASN1_TYPE *type);
-int EVP_CIPHER_get_asn1_iv(EVP_CIPHER_CTX *c, ASN1_TYPE *type);
-
-
-int PKCS5_PBE_keyivgen(EVP_CIPHER_CTX *ctx, const char *pass, int passlen,
-                       ASN1_TYPE *param, const EVP_CIPHER *cipher,
-                       const EVP_MD *md, int en_de);
-int PKCS5_PBE_keyivgen_ex(EVP_CIPHER_CTX *cctx, const char *pass, int passlen,
-                          ASN1_TYPE *param, const EVP_CIPHER *cipher,
-                          const EVP_MD *md, int en_de, OSSL_LIB_CTX *libctx,
-                          const char *propq);
-int PKCS5_PBKDF2_HMAC_SHA1(const char *pass, int passlen,
-                           const unsigned char *salt, int saltlen, int iter,
-                           int keylen, unsigned char *out);
-int PKCS5_PBKDF2_HMAC(const char *pass, int passlen,
-                      const unsigned char *salt, int saltlen, int iter,
-                      const EVP_MD *digest, int keylen, unsigned char *out);
-int PKCS5_v2_PBE_keyivgen(EVP_CIPHER_CTX *ctx, const char *pass, int passlen,
-                          ASN1_TYPE *param, const EVP_CIPHER *cipher,
-                          const EVP_MD *md, int en_de);
-int PKCS5_v2_PBE_keyivgen_ex(EVP_CIPHER_CTX *ctx, const char *pass, int passlen,
-                             ASN1_TYPE *param, const EVP_CIPHER *cipher,
-                             const EVP_MD *md, int en_de,
-                             OSSL_LIB_CTX *libctx, const char *propq);
-
-
-int EVP_PBE_scrypt(const char *pass, size_t passlen,
-                   const unsigned char *salt, size_t saltlen,
-                   uint64_t N, uint64_t r, uint64_t p, uint64_t maxmem,
-                   unsigned char *key, size_t keylen);
-int EVP_PBE_scrypt_ex(const char *pass, size_t passlen,
-                      const unsigned char *salt, size_t saltlen,
-                      uint64_t N, uint64_t r, uint64_t p, uint64_t maxmem,
-                      unsigned char *key, size_t keylen,
-                      OSSL_LIB_CTX *ctx, const char *propq);
-
-int PKCS5_v2_scrypt_keyivgen(EVP_CIPHER_CTX *ctx, const char *pass,
-                             int passlen, ASN1_TYPE *param,
-                             const EVP_CIPHER *c, const EVP_MD *md, int en_de);
-int PKCS5_v2_scrypt_keyivgen_ex(EVP_CIPHER_CTX *ctx, const char *pass,
-                                int passlen, ASN1_TYPE *param,
-                                const EVP_CIPHER *c, const EVP_MD *md, int en_de,
-                                OSSL_LIB_CTX *libctx, const char *propq);
-
-
-void PKCS5_PBE_add(void);
-
-int EVP_PBE_CipherInit(ASN1_OBJECT *pbe_obj, const char *pass, int passlen,
-                       ASN1_TYPE *param, EVP_CIPHER_CTX *ctx, int en_de);
-
-int EVP_PBE_CipherInit_ex(ASN1_OBJECT *pbe_obj, const char *pass, int passlen,
-                          ASN1_TYPE *param, EVP_CIPHER_CTX *ctx, int en_de,
-                          OSSL_LIB_CTX *libctx, const char *propq);
-# 1552 "/usr/include/openssl/evp.h" 3 4
-int EVP_PBE_alg_add_type(int pbe_type, int pbe_nid, int cipher_nid,
-                         int md_nid, EVP_PBE_KEYGEN *keygen);
-int EVP_PBE_alg_add(int nid, const EVP_CIPHER *cipher, const EVP_MD *md,
-                    EVP_PBE_KEYGEN *keygen);
-int EVP_PBE_find(int type, int pbe_nid, int *pcnid, int *pmnid,
-                 EVP_PBE_KEYGEN **pkeygen);
-int EVP_PBE_find_ex(int type, int pbe_nid, int *pcnid, int *pmnid,
-                    EVP_PBE_KEYGEN **pkeygen, EVP_PBE_KEYGEN_EX **pkeygen_ex);
-void EVP_PBE_cleanup(void);
-int EVP_PBE_get(int *ptype, int *ppbe_nid, size_t num);
-# 1578 "/usr/include/openssl/evp.h" 3 4
-int EVP_PKEY_asn1_get_count(void);
-const EVP_PKEY_ASN1_METHOD *EVP_PKEY_asn1_get0(int idx);
-const EVP_PKEY_ASN1_METHOD *EVP_PKEY_asn1_find(ENGINE **pe, int type);
-const EVP_PKEY_ASN1_METHOD *EVP_PKEY_asn1_find_str(ENGINE **pe,
-                                                   const char *str, int len);
-int EVP_PKEY_asn1_add0(const EVP_PKEY_ASN1_METHOD *ameth);
-int EVP_PKEY_asn1_add_alias(int to, int from);
-int EVP_PKEY_asn1_get0_info(int *ppkey_id, int *pkey_base_id,
-                            int *ppkey_flags, const char **pinfo,
-                            const char **ppem_str,
-                            const EVP_PKEY_ASN1_METHOD *ameth);
-
-const EVP_PKEY_ASN1_METHOD *EVP_PKEY_get0_asn1(const EVP_PKEY *pkey);
-EVP_PKEY_ASN1_METHOD *EVP_PKEY_asn1_new(int id, int flags,
-                                        const char *pem_str,
-                                        const char *info);
-void EVP_PKEY_asn1_copy(EVP_PKEY_ASN1_METHOD *dst,
-                        const EVP_PKEY_ASN1_METHOD *src);
-void EVP_PKEY_asn1_free(EVP_PKEY_ASN1_METHOD *ameth);
-void EVP_PKEY_asn1_set_public(EVP_PKEY_ASN1_METHOD *ameth,
-                              int (*pub_decode) (EVP_PKEY *pk,
-                                                 const X509_PUBKEY *pub),
-                              int (*pub_encode) (X509_PUBKEY *pub,
-                                                 const EVP_PKEY *pk),
-                              int (*pub_cmp) (const EVP_PKEY *a,
-                                              const EVP_PKEY *b),
-                              int (*pub_print) (BIO *out,
-                                                const EVP_PKEY *pkey,
-                                                int indent, ASN1_PCTX *pctx),
-                              int (*pkey_size) (const EVP_PKEY *pk),
-                              int (*pkey_bits) (const EVP_PKEY *pk));
-void EVP_PKEY_asn1_set_private(EVP_PKEY_ASN1_METHOD *ameth,
-                               int (*priv_decode) (EVP_PKEY *pk,
-                                                   const PKCS8_PRIV_KEY_INFO
-                                                   *p8inf),
-                               int (*priv_encode) (PKCS8_PRIV_KEY_INFO *p8,
-                                                   const EVP_PKEY *pk),
-                               int (*priv_print) (BIO *out,
-                                                  const EVP_PKEY *pkey,
-                                                  int indent,
-                                                  ASN1_PCTX *pctx));
-void EVP_PKEY_asn1_set_param(EVP_PKEY_ASN1_METHOD *ameth,
-                             int (*param_decode) (EVP_PKEY *pkey,
-                                                  const unsigned char **pder,
-                                                  int derlen),
-                             int (*param_encode) (const EVP_PKEY *pkey,
-                                                  unsigned char **pder),
-                             int (*param_missing) (const EVP_PKEY *pk),
-                             int (*param_copy) (EVP_PKEY *to,
-                                                const EVP_PKEY *from),
-                             int (*param_cmp) (const EVP_PKEY *a,
-                                               const EVP_PKEY *b),
-                             int (*param_print) (BIO *out,
-                                                 const EVP_PKEY *pkey,
-                                                 int indent,
-                                                 ASN1_PCTX *pctx));
-
-void EVP_PKEY_asn1_set_free(EVP_PKEY_ASN1_METHOD *ameth,
-                            void (*pkey_free) (EVP_PKEY *pkey));
-void EVP_PKEY_asn1_set_ctrl(EVP_PKEY_ASN1_METHOD *ameth,
-                            int (*pkey_ctrl) (EVP_PKEY *pkey, int op,
-                                              long arg1, void *arg2));
-void EVP_PKEY_asn1_set_item(EVP_PKEY_ASN1_METHOD *ameth,
-                            int (*item_verify) (EVP_MD_CTX *ctx,
-                                                const ASN1_ITEM *it,
-                                                const void *data,
-                                                const X509_ALGOR *a,
-                                                const ASN1_BIT_STRING *sig,
-                                                EVP_PKEY *pkey),
-                            int (*item_sign) (EVP_MD_CTX *ctx,
-                                              const ASN1_ITEM *it,
-                                              const void *data,
-                                              X509_ALGOR *alg1,
-                                              X509_ALGOR *alg2,
-                                              ASN1_BIT_STRING *sig));
-
-void EVP_PKEY_asn1_set_siginf(EVP_PKEY_ASN1_METHOD *ameth,
-                              int (*siginf_set) (X509_SIG_INFO *siginf,
-                                                 const X509_ALGOR *alg,
-                                                 const ASN1_STRING *sig));
-
-void EVP_PKEY_asn1_set_check(EVP_PKEY_ASN1_METHOD *ameth,
-                             int (*pkey_check) (const EVP_PKEY *pk));
-
-void EVP_PKEY_asn1_set_public_check(EVP_PKEY_ASN1_METHOD *ameth,
-                                    int (*pkey_pub_check) (const EVP_PKEY *pk));
-
-void EVP_PKEY_asn1_set_param_check(EVP_PKEY_ASN1_METHOD *ameth,
-                                   int (*pkey_param_check) (const EVP_PKEY *pk));
-
-void EVP_PKEY_asn1_set_set_priv_key(EVP_PKEY_ASN1_METHOD *ameth,
-                                    int (*set_priv_key) (EVP_PKEY *pk,
-                                                         const unsigned char
-                                                            *priv,
-                                                         size_t len));
-void EVP_PKEY_asn1_set_set_pub_key(EVP_PKEY_ASN1_METHOD *ameth,
-                                   int (*set_pub_key) (EVP_PKEY *pk,
-                                                       const unsigned char *pub,
-                                                       size_t len));
-void EVP_PKEY_asn1_set_get_priv_key(EVP_PKEY_ASN1_METHOD *ameth,
-                                    int (*get_priv_key) (const EVP_PKEY *pk,
-                                                         unsigned char *priv,
-                                                         size_t *len));
-void EVP_PKEY_asn1_set_get_pub_key(EVP_PKEY_ASN1_METHOD *ameth,
-                                   int (*get_pub_key) (const EVP_PKEY *pk,
-                                                       unsigned char *pub,
-                                                       size_t *len));
-
-void EVP_PKEY_asn1_set_security_bits(EVP_PKEY_ASN1_METHOD *ameth,
-                                     int (*pkey_security_bits) (const EVP_PKEY
-                                                                *pk));
-
-int EVP_PKEY_CTX_get_signature_md(EVP_PKEY_CTX *ctx, const EVP_MD **md);
-int EVP_PKEY_CTX_set_signature_md(EVP_PKEY_CTX *ctx, const EVP_MD *md);
-
-int EVP_PKEY_CTX_set1_id(EVP_PKEY_CTX *ctx, const void *id, int len);
-int EVP_PKEY_CTX_get1_id(EVP_PKEY_CTX *ctx, void *id);
-int EVP_PKEY_CTX_get1_id_len(EVP_PKEY_CTX *ctx, size_t *id_len);
-
-int EVP_PKEY_CTX_set_kem_op(EVP_PKEY_CTX *ctx, const char *op);
-
-const char *EVP_PKEY_get0_type_name(const EVP_PKEY *key);
-# 1730 "/usr/include/openssl/evp.h" 3 4
-int EVP_PKEY_CTX_set_mac_key(EVP_PKEY_CTX *ctx, const unsigned char *key,
-                             int keylen);
-# 1762 "/usr/include/openssl/evp.h" 3 4
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const EVP_PKEY_METHOD *EVP_PKEY_meth_find(int type);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) EVP_PKEY_METHOD *EVP_PKEY_meth_new(int id, int flags);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get0_info(int *ppkey_id, int *pflags,
-                                              const EVP_PKEY_METHOD *meth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_copy(EVP_PKEY_METHOD *dst,
-                                         const EVP_PKEY_METHOD *src);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_free(EVP_PKEY_METHOD *pmeth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_PKEY_meth_add0(const EVP_PKEY_METHOD *pmeth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int EVP_PKEY_meth_remove(const EVP_PKEY_METHOD *pmeth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) size_t EVP_PKEY_meth_get_count(void);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const EVP_PKEY_METHOD *EVP_PKEY_meth_get0(size_t idx);
-
-
-
-
-
-
-EVP_KEYMGMT *EVP_KEYMGMT_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                               const char *properties);
-int EVP_KEYMGMT_up_ref(EVP_KEYMGMT *keymgmt);
-void EVP_KEYMGMT_free(EVP_KEYMGMT *keymgmt);
-const OSSL_PROVIDER *EVP_KEYMGMT_get0_provider(const EVP_KEYMGMT *keymgmt);
-const char *EVP_KEYMGMT_get0_name(const EVP_KEYMGMT *keymgmt);
-const char *EVP_KEYMGMT_get0_description(const EVP_KEYMGMT *keymgmt);
-int EVP_KEYMGMT_is_a(const EVP_KEYMGMT *keymgmt, const char *name);
-void EVP_KEYMGMT_do_all_provided(OSSL_LIB_CTX *libctx,
-                                 void (*fn)(EVP_KEYMGMT *keymgmt, void *arg),
-                                 void *arg);
-int EVP_KEYMGMT_names_do_all(const EVP_KEYMGMT *keymgmt,
-                             void (*fn)(const char *name, void *data),
-                             void *data);
-const OSSL_PARAM *EVP_KEYMGMT_gettable_params(const EVP_KEYMGMT *keymgmt);
-const OSSL_PARAM *EVP_KEYMGMT_settable_params(const EVP_KEYMGMT *keymgmt);
-const OSSL_PARAM *EVP_KEYMGMT_gen_settable_params(const EVP_KEYMGMT *keymgmt);
-
-EVP_PKEY_CTX *EVP_PKEY_CTX_new(EVP_PKEY *pkey, ENGINE *e);
-EVP_PKEY_CTX *EVP_PKEY_CTX_new_id(int id, ENGINE *e);
-EVP_PKEY_CTX *EVP_PKEY_CTX_new_from_name(OSSL_LIB_CTX *libctx,
-                                         const char *name,
-                                         const char *propquery);
-EVP_PKEY_CTX *EVP_PKEY_CTX_new_from_pkey(OSSL_LIB_CTX *libctx,
-                                         EVP_PKEY *pkey, const char *propquery);
-EVP_PKEY_CTX *EVP_PKEY_CTX_dup(const EVP_PKEY_CTX *ctx);
-void EVP_PKEY_CTX_free(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_CTX_is_a(EVP_PKEY_CTX *ctx, const char *keytype);
-
-int EVP_PKEY_CTX_get_params(EVP_PKEY_CTX *ctx, OSSL_PARAM *params);
-const OSSL_PARAM *EVP_PKEY_CTX_gettable_params(const EVP_PKEY_CTX *ctx);
-int EVP_PKEY_CTX_set_params(EVP_PKEY_CTX *ctx, const OSSL_PARAM *params);
-const OSSL_PARAM *EVP_PKEY_CTX_settable_params(const EVP_PKEY_CTX *ctx);
-int EVP_PKEY_CTX_ctrl(EVP_PKEY_CTX *ctx, int keytype, int optype,
-                      int cmd, int p1, void *p2);
-int EVP_PKEY_CTX_ctrl_str(EVP_PKEY_CTX *ctx, const char *type,
-                          const char *value);
-int EVP_PKEY_CTX_ctrl_uint64(EVP_PKEY_CTX *ctx, int keytype, int optype,
-                             int cmd, uint64_t value);
-
-int EVP_PKEY_CTX_str2ctrl(EVP_PKEY_CTX *ctx, int cmd, const char *str);
-int EVP_PKEY_CTX_hex2ctrl(EVP_PKEY_CTX *ctx, int cmd, const char *hex);
-
-int EVP_PKEY_CTX_md(EVP_PKEY_CTX *ctx, int optype, int cmd, const char *md);
-
-int EVP_PKEY_CTX_get_operation(EVP_PKEY_CTX *ctx);
-void EVP_PKEY_CTX_set0_keygen_info(EVP_PKEY_CTX *ctx, int *dat, int datlen);
-
-EVP_PKEY *EVP_PKEY_new_mac_key(int type, ENGINE *e,
-                               const unsigned char *key, int keylen);
-EVP_PKEY *EVP_PKEY_new_raw_private_key_ex(OSSL_LIB_CTX *libctx,
-                                          const char *keytype,
-                                          const char *propq,
-                                          const unsigned char *priv, size_t len);
-EVP_PKEY *EVP_PKEY_new_raw_private_key(int type, ENGINE *e,
-                                       const unsigned char *priv,
-                                       size_t len);
-EVP_PKEY *EVP_PKEY_new_raw_public_key_ex(OSSL_LIB_CTX *libctx,
-                                         const char *keytype, const char *propq,
-                                         const unsigned char *pub, size_t len);
-EVP_PKEY *EVP_PKEY_new_raw_public_key(int type, ENGINE *e,
-                                      const unsigned char *pub,
-                                      size_t len);
-int EVP_PKEY_get_raw_private_key(const EVP_PKEY *pkey, unsigned char *priv,
-                                 size_t *len);
-int EVP_PKEY_get_raw_public_key(const EVP_PKEY *pkey, unsigned char *pub,
-                                size_t *len);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0")))
-EVP_PKEY *EVP_PKEY_new_CMAC_key(ENGINE *e, const unsigned char *priv,
-                                size_t len, const EVP_CIPHER *cipher);
-
-
-void EVP_PKEY_CTX_set_data(EVP_PKEY_CTX *ctx, void *data);
-void *EVP_PKEY_CTX_get_data(const EVP_PKEY_CTX *ctx);
-EVP_PKEY *EVP_PKEY_CTX_get0_pkey(EVP_PKEY_CTX *ctx);
-
-EVP_PKEY *EVP_PKEY_CTX_get0_peerkey(EVP_PKEY_CTX *ctx);
-
-void EVP_PKEY_CTX_set_app_data(EVP_PKEY_CTX *ctx, void *data);
-void *EVP_PKEY_CTX_get_app_data(EVP_PKEY_CTX *ctx);
-
-void EVP_SIGNATURE_free(EVP_SIGNATURE *signature);
-int EVP_SIGNATURE_up_ref(EVP_SIGNATURE *signature);
-OSSL_PROVIDER *EVP_SIGNATURE_get0_provider(const EVP_SIGNATURE *signature);
-EVP_SIGNATURE *EVP_SIGNATURE_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                                   const char *properties);
-int EVP_SIGNATURE_is_a(const EVP_SIGNATURE *signature, const char *name);
-const char *EVP_SIGNATURE_get0_name(const EVP_SIGNATURE *signature);
-const char *EVP_SIGNATURE_get0_description(const EVP_SIGNATURE *signature);
-void EVP_SIGNATURE_do_all_provided(OSSL_LIB_CTX *libctx,
-                                   void (*fn)(EVP_SIGNATURE *signature,
-                                              void *data),
-                                   void *data);
-int EVP_SIGNATURE_names_do_all(const EVP_SIGNATURE *signature,
-                               void (*fn)(const char *name, void *data),
-                               void *data);
-const OSSL_PARAM *EVP_SIGNATURE_gettable_ctx_params(const EVP_SIGNATURE *sig);
-const OSSL_PARAM *EVP_SIGNATURE_settable_ctx_params(const EVP_SIGNATURE *sig);
-
-void EVP_ASYM_CIPHER_free(EVP_ASYM_CIPHER *cipher);
-int EVP_ASYM_CIPHER_up_ref(EVP_ASYM_CIPHER *cipher);
-OSSL_PROVIDER *EVP_ASYM_CIPHER_get0_provider(const EVP_ASYM_CIPHER *cipher);
-EVP_ASYM_CIPHER *EVP_ASYM_CIPHER_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                                       const char *properties);
-int EVP_ASYM_CIPHER_is_a(const EVP_ASYM_CIPHER *cipher, const char *name);
-const char *EVP_ASYM_CIPHER_get0_name(const EVP_ASYM_CIPHER *cipher);
-const char *EVP_ASYM_CIPHER_get0_description(const EVP_ASYM_CIPHER *cipher);
-void EVP_ASYM_CIPHER_do_all_provided(OSSL_LIB_CTX *libctx,
-                                     void (*fn)(EVP_ASYM_CIPHER *cipher,
-                                                void *arg),
-                                     void *arg);
-int EVP_ASYM_CIPHER_names_do_all(const EVP_ASYM_CIPHER *cipher,
-                                 void (*fn)(const char *name, void *data),
-                                 void *data);
-const OSSL_PARAM *EVP_ASYM_CIPHER_gettable_ctx_params(const EVP_ASYM_CIPHER *ciph);
-const OSSL_PARAM *EVP_ASYM_CIPHER_settable_ctx_params(const EVP_ASYM_CIPHER *ciph);
-
-void EVP_KEM_free(EVP_KEM *wrap);
-int EVP_KEM_up_ref(EVP_KEM *wrap);
-OSSL_PROVIDER *EVP_KEM_get0_provider(const EVP_KEM *wrap);
-EVP_KEM *EVP_KEM_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                       const char *properties);
-int EVP_KEM_is_a(const EVP_KEM *wrap, const char *name);
-const char *EVP_KEM_get0_name(const EVP_KEM *wrap);
-const char *EVP_KEM_get0_description(const EVP_KEM *wrap);
-void EVP_KEM_do_all_provided(OSSL_LIB_CTX *libctx,
-                             void (*fn)(EVP_KEM *wrap, void *arg), void *arg);
-int EVP_KEM_names_do_all(const EVP_KEM *wrap,
-                         void (*fn)(const char *name, void *data), void *data);
-const OSSL_PARAM *EVP_KEM_gettable_ctx_params(const EVP_KEM *kem);
-const OSSL_PARAM *EVP_KEM_settable_ctx_params(const EVP_KEM *kem);
-
-int EVP_PKEY_sign_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_sign_init_ex(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_sign(EVP_PKEY_CTX *ctx,
-                  unsigned char *sig, size_t *siglen,
-                  const unsigned char *tbs, size_t tbslen);
-int EVP_PKEY_verify_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_verify_init_ex(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_verify(EVP_PKEY_CTX *ctx,
-                    const unsigned char *sig, size_t siglen,
-                    const unsigned char *tbs, size_t tbslen);
-int EVP_PKEY_verify_recover_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_verify_recover_init_ex(EVP_PKEY_CTX *ctx,
-                                    const OSSL_PARAM params[]);
-int EVP_PKEY_verify_recover(EVP_PKEY_CTX *ctx,
-                            unsigned char *rout, size_t *routlen,
-                            const unsigned char *sig, size_t siglen);
-int EVP_PKEY_encrypt_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_encrypt_init_ex(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_encrypt(EVP_PKEY_CTX *ctx,
-                     unsigned char *out, size_t *outlen,
-                     const unsigned char *in, size_t inlen);
-int EVP_PKEY_decrypt_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_decrypt_init_ex(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_decrypt(EVP_PKEY_CTX *ctx,
-                     unsigned char *out, size_t *outlen,
-                     const unsigned char *in, size_t inlen);
-
-int EVP_PKEY_derive_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_derive_init_ex(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_derive_set_peer_ex(EVP_PKEY_CTX *ctx, EVP_PKEY *peer,
-                                int validate_peer);
-int EVP_PKEY_derive_set_peer(EVP_PKEY_CTX *ctx, EVP_PKEY *peer);
-int EVP_PKEY_derive(EVP_PKEY_CTX *ctx, unsigned char *key, size_t *keylen);
-
-int EVP_PKEY_encapsulate_init(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_auth_encapsulate_init(EVP_PKEY_CTX *ctx, EVP_PKEY *authpriv,
-                                   const OSSL_PARAM params[]);
-int EVP_PKEY_encapsulate(EVP_PKEY_CTX *ctx,
-                         unsigned char *wrappedkey, size_t *wrappedkeylen,
-                         unsigned char *genkey, size_t *genkeylen);
-int EVP_PKEY_decapsulate_init(EVP_PKEY_CTX *ctx, const OSSL_PARAM params[]);
-int EVP_PKEY_auth_decapsulate_init(EVP_PKEY_CTX *ctx, EVP_PKEY *authpub,
-                                   const OSSL_PARAM params[]);
-int EVP_PKEY_decapsulate(EVP_PKEY_CTX *ctx,
-                         unsigned char *unwrapped, size_t *unwrappedlen,
-                         const unsigned char *wrapped, size_t wrappedlen);
-typedef int EVP_PKEY_gen_cb(EVP_PKEY_CTX *ctx);
-
-int EVP_PKEY_fromdata_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_fromdata(EVP_PKEY_CTX *ctx, EVP_PKEY **ppkey, int selection,
-                      OSSL_PARAM param[]);
-const OSSL_PARAM *EVP_PKEY_fromdata_settable(EVP_PKEY_CTX *ctx, int selection);
-
-int EVP_PKEY_todata(const EVP_PKEY *pkey, int selection, OSSL_PARAM **params);
-int EVP_PKEY_export(const EVP_PKEY *pkey, int selection,
-                    OSSL_CALLBACK *export_cb, void *export_cbarg);
-
-const OSSL_PARAM *EVP_PKEY_gettable_params(const EVP_PKEY *pkey);
-int EVP_PKEY_get_params(const EVP_PKEY *pkey, OSSL_PARAM params[]);
-int EVP_PKEY_get_int_param(const EVP_PKEY *pkey, const char *key_name,
-                           int *out);
-int EVP_PKEY_get_size_t_param(const EVP_PKEY *pkey, const char *key_name,
-                              size_t *out);
-int EVP_PKEY_get_bn_param(const EVP_PKEY *pkey, const char *key_name,
-                          BIGNUM **bn);
-int EVP_PKEY_get_utf8_string_param(const EVP_PKEY *pkey, const char *key_name,
-                                    char *str, size_t max_buf_sz, size_t *out_sz);
-int EVP_PKEY_get_octet_string_param(const EVP_PKEY *pkey, const char *key_name,
-                                    unsigned char *buf, size_t max_buf_sz,
-                                    size_t *out_sz);
-
-const OSSL_PARAM *EVP_PKEY_settable_params(const EVP_PKEY *pkey);
-int EVP_PKEY_set_params(EVP_PKEY *pkey, OSSL_PARAM params[]);
-int EVP_PKEY_set_int_param(EVP_PKEY *pkey, const char *key_name, int in);
-int EVP_PKEY_set_size_t_param(EVP_PKEY *pkey, const char *key_name, size_t in);
-int EVP_PKEY_set_bn_param(EVP_PKEY *pkey, const char *key_name,
-                          const BIGNUM *bn);
-int EVP_PKEY_set_utf8_string_param(EVP_PKEY *pkey, const char *key_name,
-                                   const char *str);
-int EVP_PKEY_set_octet_string_param(EVP_PKEY *pkey, const char *key_name,
-                                    const unsigned char *buf, size_t bsize);
-
-int EVP_PKEY_get_ec_point_conv_form(const EVP_PKEY *pkey);
-int EVP_PKEY_get_field_type(const EVP_PKEY *pkey);
-
-EVP_PKEY *EVP_PKEY_Q_keygen(OSSL_LIB_CTX *libctx, const char *propq,
-                            const char *type, ...);
-int EVP_PKEY_paramgen_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_paramgen(EVP_PKEY_CTX *ctx, EVP_PKEY **ppkey);
-int EVP_PKEY_keygen_init(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_keygen(EVP_PKEY_CTX *ctx, EVP_PKEY **ppkey);
-int EVP_PKEY_generate(EVP_PKEY_CTX *ctx, EVP_PKEY **ppkey);
-int EVP_PKEY_check(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_public_check(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_public_check_quick(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_param_check(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_param_check_quick(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_private_check(EVP_PKEY_CTX *ctx);
-int EVP_PKEY_pairwise_check(EVP_PKEY_CTX *ctx);
-
-
-
-int EVP_PKEY_set_ex_data(EVP_PKEY *key, int idx, void *arg);
-void *EVP_PKEY_get_ex_data(const EVP_PKEY *key, int idx);
-
-void EVP_PKEY_CTX_set_cb(EVP_PKEY_CTX *ctx, EVP_PKEY_gen_cb *cb);
-EVP_PKEY_gen_cb *EVP_PKEY_CTX_get_cb(EVP_PKEY_CTX *ctx);
-
-int EVP_PKEY_CTX_get_keygen_info(EVP_PKEY_CTX *ctx, int idx);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_init(EVP_PKEY_METHOD *pmeth,
-                                             int (*init) (EVP_PKEY_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_copy
-    (EVP_PKEY_METHOD *pmeth, int (*copy) (EVP_PKEY_CTX *dst,
-                                          const EVP_PKEY_CTX *src));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_cleanup
-    (EVP_PKEY_METHOD *pmeth, void (*cleanup) (EVP_PKEY_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_paramgen
-    (EVP_PKEY_METHOD *pmeth, int (*paramgen_init) (EVP_PKEY_CTX *ctx),
-     int (*paramgen) (EVP_PKEY_CTX *ctx, EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_keygen
-    (EVP_PKEY_METHOD *pmeth, int (*keygen_init) (EVP_PKEY_CTX *ctx),
-     int (*keygen) (EVP_PKEY_CTX *ctx, EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_sign
-    (EVP_PKEY_METHOD *pmeth, int (*sign_init) (EVP_PKEY_CTX *ctx),
-     int (*sign) (EVP_PKEY_CTX *ctx, unsigned char *sig, size_t *siglen,
-                  const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_verify
-    (EVP_PKEY_METHOD *pmeth, int (*verify_init) (EVP_PKEY_CTX *ctx),
-     int (*verify) (EVP_PKEY_CTX *ctx, const unsigned char *sig, size_t siglen,
-                    const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_verify_recover
-    (EVP_PKEY_METHOD *pmeth, int (*verify_recover_init) (EVP_PKEY_CTX *ctx),
-     int (*verify_recover) (EVP_PKEY_CTX *ctx, unsigned char *sig,
-                            size_t *siglen, const unsigned char *tbs,
-                            size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_signctx
-    (EVP_PKEY_METHOD *pmeth, int (*signctx_init) (EVP_PKEY_CTX *ctx,
-                                                  EVP_MD_CTX *mctx),
-     int (*signctx) (EVP_PKEY_CTX *ctx, unsigned char *sig, size_t *siglen,
-                     EVP_MD_CTX *mctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_verifyctx
-    (EVP_PKEY_METHOD *pmeth, int (*verifyctx_init) (EVP_PKEY_CTX *ctx,
-                                                    EVP_MD_CTX *mctx),
-     int (*verifyctx) (EVP_PKEY_CTX *ctx, const unsigned char *sig, int siglen,
-                       EVP_MD_CTX *mctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_encrypt
-    (EVP_PKEY_METHOD *pmeth, int (*encrypt_init) (EVP_PKEY_CTX *ctx),
-     int (*encryptfn) (EVP_PKEY_CTX *ctx, unsigned char *out, size_t *outlen,
-                       const unsigned char *in, size_t inlen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_decrypt
-    (EVP_PKEY_METHOD *pmeth, int (*decrypt_init) (EVP_PKEY_CTX *ctx),
-     int (*decrypt) (EVP_PKEY_CTX *ctx, unsigned char *out, size_t *outlen,
-                     const unsigned char *in, size_t inlen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_derive
-    (EVP_PKEY_METHOD *pmeth, int (*derive_init) (EVP_PKEY_CTX *ctx),
-     int (*derive) (EVP_PKEY_CTX *ctx, unsigned char *key, size_t *keylen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_ctrl
-    (EVP_PKEY_METHOD *pmeth, int (*ctrl) (EVP_PKEY_CTX *ctx, int type, int p1,
-                                          void *p2),
-     int (*ctrl_str) (EVP_PKEY_CTX *ctx, const char *type, const char *value));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_digestsign
-    (EVP_PKEY_METHOD *pmeth,
-     int (*digestsign) (EVP_MD_CTX *ctx, unsigned char *sig, size_t *siglen,
-                        const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_digestverify
-    (EVP_PKEY_METHOD *pmeth,
-     int (*digestverify) (EVP_MD_CTX *ctx, const unsigned char *sig,
-                          size_t siglen, const unsigned char *tbs,
-                          size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_check
-    (EVP_PKEY_METHOD *pmeth, int (*check) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_public_check
-    (EVP_PKEY_METHOD *pmeth, int (*check) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_param_check
-    (EVP_PKEY_METHOD *pmeth, int (*check) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_set_digest_custom
-    (EVP_PKEY_METHOD *pmeth, int (*digest_custom) (EVP_PKEY_CTX *ctx,
-                                                   EVP_MD_CTX *mctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_init
-    (const EVP_PKEY_METHOD *pmeth, int (**pinit) (EVP_PKEY_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_copy
-    (const EVP_PKEY_METHOD *pmeth, int (**pcopy) (EVP_PKEY_CTX *dst,
-                                                  const EVP_PKEY_CTX *src));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_cleanup
-    (const EVP_PKEY_METHOD *pmeth, void (**pcleanup) (EVP_PKEY_CTX *ctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_paramgen
-    (const EVP_PKEY_METHOD *pmeth, int (**pparamgen_init) (EVP_PKEY_CTX *ctx),
-     int (**pparamgen) (EVP_PKEY_CTX *ctx, EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_keygen
-    (const EVP_PKEY_METHOD *pmeth, int (**pkeygen_init) (EVP_PKEY_CTX *ctx),
-     int (**pkeygen) (EVP_PKEY_CTX *ctx, EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_sign
-    (const EVP_PKEY_METHOD *pmeth, int (**psign_init) (EVP_PKEY_CTX *ctx),
-     int (**psign) (EVP_PKEY_CTX *ctx, unsigned char *sig, size_t *siglen,
-                    const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_verify
-    (const EVP_PKEY_METHOD *pmeth, int (**pverify_init) (EVP_PKEY_CTX *ctx),
-     int (**pverify) (EVP_PKEY_CTX *ctx, const unsigned char *sig,
-                      size_t siglen, const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_verify_recover
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**pverify_recover_init) (EVP_PKEY_CTX *ctx),
-     int (**pverify_recover) (EVP_PKEY_CTX *ctx, unsigned char *sig,
-                              size_t *siglen, const unsigned char *tbs,
-                              size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_signctx
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**psignctx_init) (EVP_PKEY_CTX *ctx, EVP_MD_CTX *mctx),
-     int (**psignctx) (EVP_PKEY_CTX *ctx, unsigned char *sig, size_t *siglen,
-                       EVP_MD_CTX *mctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_verifyctx
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**pverifyctx_init) (EVP_PKEY_CTX *ctx, EVP_MD_CTX *mctx),
-     int (**pverifyctx) (EVP_PKEY_CTX *ctx, const unsigned char *sig,
-                          int siglen, EVP_MD_CTX *mctx));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_encrypt
-    (const EVP_PKEY_METHOD *pmeth, int (**pencrypt_init) (EVP_PKEY_CTX *ctx),
-     int (**pencryptfn) (EVP_PKEY_CTX *ctx, unsigned char *out, size_t *outlen,
-                         const unsigned char *in, size_t inlen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_decrypt
-    (const EVP_PKEY_METHOD *pmeth, int (**pdecrypt_init) (EVP_PKEY_CTX *ctx),
-     int (**pdecrypt) (EVP_PKEY_CTX *ctx, unsigned char *out, size_t *outlen,
-                       const unsigned char *in, size_t inlen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_derive
-    (const EVP_PKEY_METHOD *pmeth, int (**pderive_init) (EVP_PKEY_CTX *ctx),
-     int (**pderive) (EVP_PKEY_CTX *ctx, unsigned char *key, size_t *keylen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_ctrl
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**pctrl) (EVP_PKEY_CTX *ctx, int type, int p1, void *p2),
-     int (**pctrl_str) (EVP_PKEY_CTX *ctx, const char *type,
-                        const char *value));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_digestsign
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**digestsign) (EVP_MD_CTX *ctx, unsigned char *sig, size_t *siglen,
-                         const unsigned char *tbs, size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_digestverify
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**digestverify) (EVP_MD_CTX *ctx, const unsigned char *sig,
-                           size_t siglen, const unsigned char *tbs,
-                           size_t tbslen));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_check
-    (const EVP_PKEY_METHOD *pmeth, int (**pcheck) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_public_check
-    (const EVP_PKEY_METHOD *pmeth, int (**pcheck) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_param_check
-    (const EVP_PKEY_METHOD *pmeth, int (**pcheck) (EVP_PKEY *pkey));
-__attribute__((deprecated("Since OpenSSL " "3.0"))) void EVP_PKEY_meth_get_digest_custom
-    (const EVP_PKEY_METHOD *pmeth,
-     int (**pdigest_custom) (EVP_PKEY_CTX *ctx, EVP_MD_CTX *mctx));
-
-
-void EVP_KEYEXCH_free(EVP_KEYEXCH *exchange);
-int EVP_KEYEXCH_up_ref(EVP_KEYEXCH *exchange);
-EVP_KEYEXCH *EVP_KEYEXCH_fetch(OSSL_LIB_CTX *ctx, const char *algorithm,
-                               const char *properties);
-OSSL_PROVIDER *EVP_KEYEXCH_get0_provider(const EVP_KEYEXCH *exchange);
-int EVP_KEYEXCH_is_a(const EVP_KEYEXCH *keyexch, const char *name);
-const char *EVP_KEYEXCH_get0_name(const EVP_KEYEXCH *keyexch);
-const char *EVP_KEYEXCH_get0_description(const EVP_KEYEXCH *keyexch);
-void EVP_KEYEXCH_do_all_provided(OSSL_LIB_CTX *libctx,
-                                 void (*fn)(EVP_KEYEXCH *keyexch, void *data),
-                                 void *data);
-int EVP_KEYEXCH_names_do_all(const EVP_KEYEXCH *keyexch,
-                             void (*fn)(const char *name, void *data),
-                             void *data);
-const OSSL_PARAM *EVP_KEYEXCH_gettable_ctx_params(const EVP_KEYEXCH *keyexch);
-const OSSL_PARAM *EVP_KEYEXCH_settable_ctx_params(const EVP_KEYEXCH *keyexch);
-
-void EVP_add_alg_module(void);
-
-int EVP_PKEY_CTX_set_group_name(EVP_PKEY_CTX *ctx, const char *name);
-int EVP_PKEY_CTX_get_group_name(EVP_PKEY_CTX *ctx, char *name, size_t namelen);
-int EVP_PKEY_get_group_name(const EVP_PKEY *pkey, char *name, size_t name_sz,
-                            size_t *gname_len);
-
-OSSL_LIB_CTX *EVP_PKEY_CTX_get0_libctx(EVP_PKEY_CTX *ctx);
-const char *EVP_PKEY_CTX_get0_propq(const EVP_PKEY_CTX *ctx);
-const OSSL_PROVIDER *EVP_PKEY_CTX_get0_provider(const EVP_PKEY_CTX *ctx);
-
-
-}
-# 24 "/usr/include/openssl/rand.h" 2 3 4
-
-
-extern "C" {
-# 40 "/usr/include/openssl/rand.h" 3 4
-struct rand_meth_st {
-    int (*seed) (const void *buf, int num);
-    int (*bytes) (unsigned char *buf, int num);
-    void (*cleanup) (void);
-    int (*add) (const void *buf, int num, double randomness);
-    int (*pseudorand) (unsigned char *buf, int num);
-    int (*status) (void);
-};
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int RAND_set_rand_method(const RAND_METHOD *meth);
-__attribute__((deprecated("Since OpenSSL " "3.0"))) const RAND_METHOD *RAND_get_rand_method(void);
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) int RAND_set_rand_engine(ENGINE *engine);
-
-
-__attribute__((deprecated("Since OpenSSL " "3.0"))) RAND_METHOD *RAND_OpenSSL(void);
-
-
-
-
-
-int RAND_bytes(unsigned char *buf, int num);
-int RAND_priv_bytes(unsigned char *buf, int num);
-
-
-
-
-
-int RAND_priv_bytes_ex(OSSL_LIB_CTX *ctx, unsigned char *buf, size_t num,
-                       unsigned int strength);
-
-
-
-
-
-int RAND_bytes_ex(OSSL_LIB_CTX *ctx, unsigned char *buf, size_t num,
-                  unsigned int strength);
-
-
-__attribute__((deprecated("Since OpenSSL " "1.1.0"))) int RAND_pseudo_bytes(unsigned char *buf, int num);
-
-
-EVP_RAND_CTX *RAND_get0_primary(OSSL_LIB_CTX *ctx);
-EVP_RAND_CTX *RAND_get0_public(OSSL_LIB_CTX *ctx);
-EVP_RAND_CTX *RAND_get0_private(OSSL_LIB_CTX *ctx);
-int RAND_set0_public(OSSL_LIB_CTX *ctx, EVP_RAND_CTX *rand);
-int RAND_set0_private(OSSL_LIB_CTX *ctx, EVP_RAND_CTX *rand);
-
-int RAND_set_DRBG_type(OSSL_LIB_CTX *ctx, const char *drbg, const char *propq,
-                       const char *cipher, const char *digest);
-int RAND_set_seed_source_type(OSSL_LIB_CTX *ctx, const char *seed,
-                              const char *propq);
-
-void RAND_seed(const void *buf, int num);
-void RAND_keep_random_devices_open(int keep);
-
-
-
-
-void RAND_add(const void *buf, int num, double randomness);
-int RAND_load_file(const char *file, long max_bytes);
-int RAND_write_file(const char *file);
-const char *RAND_file_name(char *file, size_t num);
-int RAND_status(void);
-
-
-
-
-
-
-
-int RAND_poll(void);
-# 122 "/usr/include/openssl/rand.h" 3 4
-}
-# 6 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 2
-
-
-
-# 8 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
-void generateKeyPair()
-{
-
-    DSA *dsa = DSA_new();
-
-    constexpr int bits = 2048;
-
-    constexpr unsigned int seed_len = 32;
-    unsigned char seed[seed_len];
-
-
-    if (RAND_bytes(seed, seed_len) != 1) {
-        throw std::invalid_argument("Error generating random seed.");
+    if (!generate_primes(&p, &q, 4028, 224)) {
+        fprintf(
+# 12 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+               stderr
+# 12 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                     , "Prime generation failed\n");
+        return;
     }
 
 
-    DSA_generate_parameters_ex(dsa,bits,seed, seed_len, nullptr, nullptr,nullptr);
-    DSA_generate_key(dsa);
+    p_str = BN_bn2dec(p);
+    q_str = BN_bn2dec(q);
+
+    printf("Generated Large Prime p: %s\n", p_str);
+    printf("Generated Smaller Prime q: %s\n", q_str);
+
+
+    BN_free(p);
+    BN_free(q);
+    
+# 26 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   CRYPTO_free(
+# 26 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+   p_str
+# 26 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   , "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp", 26)
+# 26 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                      ;
+    
+# 27 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   CRYPTO_free(
+# 27 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+   q_str
+# 27 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   , "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp", 27)
+# 27 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                      ;
+}
+
+
+bool generate_primes(BIGNUM **p, BIGNUM **q, const int p_bits, const int q_bits) {
+    BN_CTX *ctx = BN_CTX_new();
+    if (!ctx) return false;
+
+
+    *q = BN_new();
+    if (!BN_generate_prime_ex(*q, q_bits, 0, 
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                            __null
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                                , 
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                                  __null
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                                      , 
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                                        __null
+# 37 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                                            )) {
+        fprintf(
+# 38 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+               stderr
+# 38 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                     , "Failed to generate q\n");
+        BN_free(*q);
+        BN_CTX_free(ctx);
+        return false;
+    }
+
+
+    *p = BN_new();
+    BIGNUM *tmp = BN_new();
+    BIGNUM *rem = BN_new();
+
+
+    BIGNUM *two_q = BN_new();
+
+
+    BIGNUM *one = BN_new();
+    
+# 54 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   (BN_set_word((
+# 54 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+   one
+# 54 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+   ),1))
+# 54 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+              ;
+
+
+    BN_copy(two_q, *q);
+    BN_lshift1(two_q, two_q);
+
+    bool found = false;
+    while (!found) {
+
+        if (!BN_rand(*p, p_bits, 
+# 63 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                0
+# 63 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                               , 
+# 63 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                                 1
+# 63 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                                                   )) {
+            fprintf(
+# 64 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                   stderr
+# 64 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                         , "Failed to generate random p\n");
+            BN_free(*q);
+            BN_free(*p);
+            BN_CTX_free(ctx);
+            return false;
+        }
+
+
+
+        
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+       BN_div(__null,(
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+       rem
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+       ),(
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+       *p
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+       ),(
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+       two_q
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+       ),(
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+       ctx
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+       ))
+# 73 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                  ;
+
+        BN_sub(tmp, rem, one);
+
+        BN_sub(*p, *p, tmp);
+
+
+        if (BN_is_prime_ex(*p, 
+# 80 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                              0
+# 80 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                             , ctx, 
+# 80 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp" 3 4
+                                                    __null
+# 80 "/home/jordanpang/Documents/Blockchain/A2/blockchain-A2/src/version_1/dsi/digital_signature.cpp"
+                                                        )) {
+            found = true;
+        }
+    }
+
+
+    BN_free(tmp);
+    BN_free(rem);
+    BN_free(two_q);
+    BN_free(one);
+    BN_CTX_free(ctx);
+
+    return true;
 }
