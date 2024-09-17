@@ -1,5 +1,4 @@
-#include "src/hash/hash.h"
-#include "src/version_1/dsi/dsa_key_generation.h"
+#include "src/version_1/dsa/dsa_key_generation.h"
 
 int main() {
     //run();
