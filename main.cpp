@@ -1,5 +1,5 @@
 #include "src/hash/hash.h"
-#include "src/version_1/dsi/digital_signature.h"
+#include "src/version_1/dsi/dsa_key_generation.h"
 
 int main() {
     //run();
