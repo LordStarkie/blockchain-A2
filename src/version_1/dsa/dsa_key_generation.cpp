@@ -23,6 +23,10 @@ void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
         goto cleanup;
     }
 
+    // SET VALUES FOR TESTING
+    BN_set_word(*p, 48731);
+    BN_set_word(*q, 443);
+
     // GENERATE G
     if (!generate_g(*p, *q, g, &h)) {
         fprintf(stderr, "g generation failed\n");
@@ -34,6 +38,8 @@ void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
         fprintf(stderr, "d generation failed\n");
         goto cleanup;
     }
+
+    BN_set_word(d, 242);
 
     // GENERATE V
     if (!generate_v(*g, d, *p, v)) {
@@ -145,6 +151,9 @@ bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h) {
             continue;
         }
     } while (!is_primitive_root(*h, p, ctx));
+
+    // TESTING
+    BN_set_word(*h, 7);
 
     // Calculate
     *g = BN_new();
