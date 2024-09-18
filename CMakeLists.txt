@@ -4,10 +4,18 @@ project(blockchain_A2)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(blockchain_A2 main.cpp
-        src/version_1/dsi/digital_signature.h
-        src/version_1/dsi/digital_signature.cpp
+        src/version_1/dsa/dsa_main.cpp
+        src/version_1/dsa/dsa_main.h
+
+        src/version_1/dsa/dsa_signing.cpp
+        src/version_1/dsa/dsa_signing.h
+
+        src/version_1/dsa/dsa_key_generation.cpp
+        src/version_1/dsa/dsa_key_generation.h
+
         src/hash/hash.cpp
         src/hash/hash.h)
+
 
 # Find OpenSSL package
 find_package(OpenSSL REQUIRED)

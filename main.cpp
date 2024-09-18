@@ -1,7 +1,7 @@
-#include "src/version_1/dsa/dsa_key_generation.h"
+#include "src/version_1/dsa/dsa_main.h"
 
 int main() {
     //run();
-    generateKeyPair();
+    dsa();
     return 0;
 }
