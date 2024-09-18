@@ -1,58 +1,70 @@
 #include "dsa_key_generation.h"
 #include <openssl/bn.h>
 
-void generateKeyPair() {
-    // Store p and q parameters in memory
-    BIGNUM *p = nullptr, *q = nullptr;
-    // GENERATE P AND Q
-    if (!generate_primes(&p, &q, 1024, 160)) {
+void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
+    // Allocate memory for BIGNUMs if not already allocated
+    *p = BN_new();
+    *q = BN_new();
+    *g = BN_new();
+    *v = BN_new();
+
+    BIGNUM *d = BN_new();
+    BIGNUM *h = BN_new();
+
+    char *p_str = nullptr;
+    char *q_str = nullptr;
+    char *g_str = nullptr;
+    char *d_str = nullptr;
+    char *v_str = nullptr;
+
+    // GENERATE P, Q
+    if (!generate_primes(p, q, 1024, 160)) {
         fprintf(stderr, "Prime generation failed\n");
-        return;
+        goto cleanup;
     }
 
-    // Store g,h in memory
-    BIGNUM *g = nullptr, *h = nullptr;
     // GENERATE G
-    if (!generate_g(p, q, &g, &h)) {
+    if (!generate_g(*p, *q, g, &h)) {
         fprintf(stderr, "g generation failed\n");
-        return;
+        goto cleanup;
     }
 
-    // Store d in memory
-    BIGNUM *d = nullptr;
     // GENERATE D
-    if (!generate_d(q,&d)) {
+    if (!generate_d(*q, &d)) {
         fprintf(stderr, "d generation failed\n");
-        return;
+        goto cleanup;
     }
 
-    // Store v in memory
-    BIGNUM *v = nullptr;
     // GENERATE V
-    if (!generate_v(g,d,p,&v)) {
+    if (!generate_v(*g, d, *p, v)) {
         fprintf(stderr, "v generation failed\n");
-        return;
+        goto cleanup;
     }
 
-    // Print p,q for testing
-    char *p_str = BN_bn2dec(p), *q_str = BN_bn2dec(q);;
+    // Print generated values for testing
+    p_str = BN_bn2dec(*p);
+    q_str = BN_bn2dec(*q);
+    g_str = BN_bn2dec(*g);
+    d_str = BN_bn2dec(d);
+    v_str = BN_bn2dec(*v);
+
     printf("Generated p: %s\n", p_str);
     printf("Generated q: %s\n", q_str);
-    // Print g for testing
-    char *g_str = BN_bn2dec(g);
     printf("Generated g: %s\n", g_str);
-    // Print d for testing
-    char *d_str = BN_bn2dec(d);
     printf("Generated d: %s\n", d_str);
-    // Print v for testing
-    char *v_str = BN_bn2dec(v);
     printf("Generated v: %s\n", v_str);
 
-    // Free memory
-    BN_free(p);
-    BN_free(q);
+    // Free string representations
     OPENSSL_free(p_str);
     OPENSSL_free(q_str);
+    OPENSSL_free(g_str);
+    OPENSSL_free(d_str);
+    OPENSSL_free(v_str);
+
+    cleanup:
+    // Free memory for BIGNUMs
+    BN_free(d);
+    BN_free(h);
 }
 
 // Generate a pair of primes where p = 1 mod q and p,q is exactly p_bits,q_bits in size
