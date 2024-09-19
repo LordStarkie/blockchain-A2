@@ -2,7 +2,7 @@
 #define BLOCKCHAIN_A2_DSA_KEY_GENERATION_H
 #include <openssl/types.h>
 
-void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v);
+void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **d);
 bool generate_primes(BIGNUM **p, BIGNUM **q, int bits, int q_bits);
 bool is_primitive_root(const BIGNUM *h, const BIGNUM *p, BN_CTX *ctx);
 bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h);

@@ -1,14 +1,13 @@
 #include "dsa_key_generation.h"
 #include <openssl/bn.h>
 
-void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
-    // Allocate memory for BIGNUMs if not already allocated
+void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **d) {
+    // Allocate memory
     *p = BN_new();
     *q = BN_new();
     *g = BN_new();
     *v = BN_new();
-
-    BIGNUM *d = BN_new();
+    *d = BN_new();
     BIGNUM *h = BN_new();
 
     char *p_str = nullptr;
@@ -34,15 +33,15 @@ void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
     }
 
     // GENERATE D
-    if (!generate_d(*q, &d)) {
+    if (!generate_d(*q, d)) {
         fprintf(stderr, "d generation failed\n");
         goto cleanup;
     }
 
-    BN_set_word(d, 242);
+    BN_set_word(*d, 242);
 
     // GENERATE V
-    if (!generate_v(*g, d, *p, v)) {
+    if (!generate_v(*g, *d, *p, v)) {
         fprintf(stderr, "v generation failed\n");
         goto cleanup;
     }
@@ -51,7 +50,7 @@ void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
     p_str = BN_bn2dec(*p);
     q_str = BN_bn2dec(*q);
     g_str = BN_bn2dec(*g);
-    d_str = BN_bn2dec(d);
+    d_str = BN_bn2dec(*d);
     v_str = BN_bn2dec(*v);
 
     printf("Generated p: %s\n", p_str);
@@ -68,8 +67,6 @@ void generateKeyPair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v) {
     OPENSSL_free(v_str);
 
     cleanup:
-    // Free memory for BIGNUMs
-    BN_free(d);
     BN_free(h);
 }
 
@@ -78,7 +75,6 @@ bool generate_primes(BIGNUM **p, BIGNUM **q, const int p_bits, const int q_bits)
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
-    *q = BN_new();
     if (!*q || !BN_generate_prime_ex(*q, q_bits, 0, nullptr, nullptr, nullptr)) {
         fprintf(stderr, "Failed to generate q\n");
         if (*q) BN_free(*q);
@@ -86,8 +82,6 @@ bool generate_primes(BIGNUM **p, BIGNUM **q, const int p_bits, const int q_bits)
         return false;
     }
 
-    // Generate p and placeholders
-    *p = BN_new();
     BIGNUM *tmp = BN_new();
     BIGNUM *rem = BN_new();
     BIGNUM *two_q = BN_new();
