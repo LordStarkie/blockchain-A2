@@ -23,8 +23,8 @@ void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **
     }
 
     // SET VALUES FOR TESTING
-    BN_set_word(*p, 48731);
-    BN_set_word(*q, 443);
+    //BN_set_word(*p, 48731);
+    //BN_set_word(*q, 443);
 
     // GENERATE G
     if (!generate_g(*p, *q, g, &h)) {
@@ -38,7 +38,7 @@ void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **
         goto cleanup;
     }
 
-    BN_set_word(*d, 242);
+    //BN_set_word(*d, 242);
 
     // GENERATE V
     if (!generate_v(*g, *d, *p, v)) {
@@ -142,7 +142,7 @@ bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h) {
     } while (!is_primitive_root(*h, p, ctx));
 
     // TESTING
-    BN_set_word(*h, 7);
+    //BN_set_word(*h, 7);
 
     // Calculate
     *g = BN_new();

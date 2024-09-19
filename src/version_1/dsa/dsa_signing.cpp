@@ -6,16 +6,12 @@ void key_sign(const BIGNUM *p, const BIGNUM *q, const BIGNUM *g, const BIGNUM *d
     // Init
     *r = BN_new();
     *s = BN_new();
-    *m = BN_new();
     BIGNUM *e = BN_new();
 
     char *m_str = nullptr;
     char *e_str = nullptr;
     char *r_str = nullptr;
     char *s_str = nullptr;
-
-    // SET VALUES FOR TESTING
-    BN_set_word(*m, 343);
 
     // GENERATE E
     if (!generate_e(&e, p))
@@ -132,7 +128,7 @@ bool generate_e(BIGNUM **e, const BIGNUM *p)
     } while (BN_is_one(*e) || BN_is_zero(*e));
 
     // SET VALUES FOR TESTING
-    BN_set_word(*e,427);
+    //BN_set_word(*e,427);
 
     // Cleanup
     BN_free(one);

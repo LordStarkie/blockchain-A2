@@ -13,7 +13,9 @@ void dsa()
     generate_key_pair(&p, &q, &g, &v, &d);
 
     // Signing
-    BIGNUM *r,*s,*m;
+    BIGNUM *r,*s, *m = BN_new();
+    // Set Message
+    BN_set_word(m, 2131223);
     key_sign(p,q,g,d,&r,&s,&m);
 
     // Verification
