@@ -3,6 +3,7 @@
 
 void key_sign(const BIGNUM *p, const BIGNUM *q, const BIGNUM *g, const BIGNUM *d, BIGNUM **r, BIGNUM **s, BIGNUM **m)
 {
+    // Init
     *r = BN_new();
     *s = BN_new();
     *m = BN_new();
@@ -48,13 +49,13 @@ void key_sign(const BIGNUM *p, const BIGNUM *q, const BIGNUM *g, const BIGNUM *d
     printf("Generated r: %s\n", r_str);
     printf("Generated s: %s\n", s_str);
 
+
+    cleanup:
     // Free string representations
     OPENSSL_free(m_str);
     OPENSSL_free(e_str);
     OPENSSL_free(r_str);
     OPENSSL_free(s_str);
-
-    cleanup:
     BN_free(e);
 }
 
@@ -64,6 +65,7 @@ bool generate_r(BIGNUM** r,const BIGNUM *g, const BIGNUM *e, const BIGNUM *p, co
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
+    // Init
     *r = BN_new();
     BIGNUM *mod_p = BN_new();
 
@@ -82,6 +84,7 @@ bool generate_s(BIGNUM **s, const BIGNUM *m, const BIGNUM *d, const BIGNUM *r, c
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
+    // Init
     BIGNUM *e_1_mod_q = BN_new();
     BIGNUM *dr = BN_new();
     BIGNUM *m_dr = BN_new();
@@ -109,13 +112,11 @@ bool generate_e(BIGNUM **e, const BIGNUM *p)
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
-    // phi_p = p-1
+    // Init
     BIGNUM *phi_p = BN_new();
     BIGNUM *one = BN_new();
     BN_one(one);
     BN_sub(phi_p, p, one);
-
-    // Init r
     *e = BN_new();
 
     do {

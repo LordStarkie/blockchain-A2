@@ -1,4 +1,6 @@
 #ifndef BLOCKCHAIN_A2_DSA_MAIN_H
 #define BLOCKCHAIN_A2_DSA_MAIN_H
+
 void dsa();
+
 #endif //BLOCKCHAIN_A2_DSA_MAIN_H

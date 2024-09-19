@@ -2,7 +2,7 @@
 #include <openssl/bn.h>
 
 void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **d) {
-    // Allocate memory
+    // Init
     *p = BN_new();
     *q = BN_new();
     *g = BN_new();
@@ -59,14 +59,13 @@ void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **
     printf("Generated d: %s\n", d_str);
     printf("Generated v: %s\n", v_str);
 
+    cleanup:
     // Free string representations
     OPENSSL_free(p_str);
     OPENSSL_free(q_str);
     OPENSSL_free(g_str);
     OPENSSL_free(d_str);
     OPENSSL_free(v_str);
-
-    cleanup:
     BN_free(h);
 }
 
