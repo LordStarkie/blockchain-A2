@@ -82,21 +82,16 @@ bool generate_primes(BIGNUM **p, BIGNUM **q, const int p_bits, const int q_bits)
         return false;
     }
 
+    // Init
     BIGNUM *tmp = BN_new();
     BIGNUM *rem = BN_new();
     BIGNUM *two_q = BN_new();
     BIGNUM *one = BN_new();
-    BIGNUM *gcd = BN_new(); // GCD placeholder
-    if (!*p || !tmp || !rem || !two_q || !one || !gcd) {
-        fprintf(stderr, "Failed to allocate BIGNUMs\n");
-        BN_free(*q); BN_free(*p); BN_free(tmp); BN_free(rem);
-        BN_free(two_q); BN_free(one); BN_free(gcd);
-        BN_CTX_free(ctx);
-        return false;
-    }
+    BIGNUM *gcd = BN_new();
 
     BN_one(one);
     BN_copy(two_q, *q);
+    // q*2
     BN_lshift1(two_q, two_q);
 
     bool found = false;
@@ -132,12 +127,13 @@ bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h) {
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
+    // Init
     BIGNUM *phi_p = BN_new();
     BIGNUM *one = BN_new();
+    *h = BN_new();
     BN_one(one);
     BN_sub(phi_p, p, one);
 
-    *h = BN_new();
 
     // Find primitive root
     do {
@@ -172,17 +168,10 @@ bool generate_d(const BIGNUM *q, BIGNUM **d)
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
+    // Init
     *d = BN_new();
     BIGNUM *one = BN_new();
     BIGNUM *q_minus_1 = BN_new();
-    if (!*d || !one || !q_minus_1) {
-        BN_free(*d);
-        BN_free(one);
-        BN_free(q_minus_1);
-        BN_CTX_free(ctx);
-        return false;
-    }
-
     BN_one(one);
     BN_sub(q_minus_1, q, one);
 
@@ -210,15 +199,11 @@ bool generate_v(const BIGNUM *g, const BIGNUM *d, const BIGNUM *p, BIGNUM **v) {
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
 
+    // Init
     *v = BN_new();
 
-    // Calculate v = g^d mod p
-    if (!BN_mod_exp(*v, g, d, p, ctx)) {
-        fprintf(stderr, "Failed to compute g^d mod p\n");
-        BN_free(*v);
-        BN_CTX_free(ctx);
-        return false;
-    }
+    // v = g^d mod p
+    BN_mod_exp(*v, g, d, p, ctx);
 
     // Clean up
     BN_CTX_free(ctx);
@@ -227,6 +212,7 @@ bool generate_v(const BIGNUM *g, const BIGNUM *d, const BIGNUM *p, BIGNUM **v) {
 }
 
 bool is_primitive_root(const BIGNUM *h, const BIGNUM *p, BN_CTX *ctx) {
+    // Init
     BIGNUM *phi_p = BN_new();
     BIGNUM *one = BN_new();
     BN_one(one);
