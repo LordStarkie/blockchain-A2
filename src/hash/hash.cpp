@@ -1,7 +1,3 @@
-#include <openssl/evp.h>
-#include <openssl/err.h>
-
-#include <string>
 #include <iomanip>
 #include <iostream>
 #include <cstring>
@@ -40,14 +36,14 @@ void printDigest(const unsigned char* digest, const unsigned int digest_len) {
     std::cout << std::endl;
 }
 
-inline void handleErrors()
+void handleErrors()
 {
     ERR_print_errors_fp(stderr);
     abort();
 }
 
 int run() {
-    const char* message = "Hello";
+    const char* message = "10341";
 
     // pointer to hash
     unsigned char* digest;
@@ -55,7 +51,8 @@ int run() {
     unsigned int digest_len;
 
     // call to run hash function
-    digest_message(reinterpret_cast<const unsigned char*>(message), strlen(message), &digest, &digest_len);
+    digest_message(reinterpret_cast<const unsigned char*>(message),
+                   strlen(message), &digest, &digest_len);
     printDigest(digest, digest_len);
 
     // free memory
