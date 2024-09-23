@@ -12,6 +12,7 @@ int main() {
     PoA poa;
     // designate 3/4 inventories as validators
     std::vector<Inventory> inventories = ledger.get_inventories();
+
     poa.add_validator(inventories[0]);
     poa.add_validator(inventories[1]);
     poa.add_validator(inventories[2]);

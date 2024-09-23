@@ -1,6 +1,6 @@
 #include "poa.h"
 
-// Add to validator list
+// add to validator list
 void PoA::add_validator(const Inventory& validator) {
     // Check if it exists
     if (std::find(validators.begin(), validators.end(), validator) == validators.end()) {
@@ -11,7 +11,7 @@ void PoA::add_validator(const Inventory& validator) {
     }
 }
 
-// Remove from validator list
+// remove from validator list
 void PoA::remove_validator(const Inventory& validator) {
     auto it = std::remove(validators.begin(), validators.end(), validator);
     if (it != validators.end()) {
@@ -22,12 +22,12 @@ void PoA::remove_validator(const Inventory& validator) {
     }
 }
 
-// Check if inventory is a validator
+// check if inventory is a validator
 bool PoA::is_validator(const Inventory& validator) const {
     return std::find(validators.begin(), validators.end(), validator) != validators.end();
 }
 
-// List all validators
+// list all validators
 void PoA::list_validators() const {
     std::cout << "Validators: ";
     for (const auto& validator : validators) {

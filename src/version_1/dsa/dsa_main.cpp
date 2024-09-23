@@ -5,7 +5,6 @@
 #include <iostream>
 #include <openssl/bn.h>
 
-
 void dsa()
 {
     // Key Generation

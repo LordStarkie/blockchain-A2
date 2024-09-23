@@ -4,16 +4,16 @@
 #include <iomanip>
 #include <iostream>
 
-// Constructor
+// constructor
 Inventory::Inventory(Location loc) : location(loc) {}
 
-// Add block to inventory
+// add block to inventory
 void Inventory::add_block(const Transaction& transaction) {
     int index = blocks.size();
-    // Genesis block will have no previous hash
+    // genesis block will have no previous hash
     std::string prev_hash = (index != 0) ? get_last_block_hash() : "0";
 
-    // Create block and set values
+    // create block and set values
     Block new_block(transaction);
     new_block.set_index(index);
     new_block.set_previous_hash(prev_hash);
@@ -23,7 +23,7 @@ void Inventory::add_block(const Transaction& transaction) {
     blocks.push_back(new_block);
 }
 
-// Get hash of the last block in the chain
+// get hash of the last block in the chain
 std::string Inventory::get_last_block_hash() const {
     if (!blocks.empty()) {
         return blocks.back().get_current_hash();
@@ -31,7 +31,7 @@ std::string Inventory::get_last_block_hash() const {
     return "0";
 }
 
-// Get inventory name
+// get inventory name
 std::string Inventory::get_inventory_name() const {
     switch (location) {
         case Location::A: return "Inventory A";
@@ -42,7 +42,7 @@ std::string Inventory::get_inventory_name() const {
     }
 }
 
-// Concatenate and hash
+// concatenate and hash
 std::string Inventory::hash_block(const Block &block) {
     unsigned char* digest = nullptr;
     unsigned int digest_len = 0;
@@ -72,7 +72,7 @@ std::string Inventory::hash_block(const Block &block) {
     return hexStream.str();
 }
 
-// Print blocks
+// print blocks
 void Inventory::print_blocks() const {
     for (const auto& block : blocks) {
         std::cout << "Block Index: " << block.get_index() << "\n"
