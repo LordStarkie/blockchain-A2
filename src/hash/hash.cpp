@@ -27,35 +27,8 @@ void digest_message(const unsigned char *message, const size_t message_len, unsi
     EVP_MD_CTX_free(mdctx);
 }
 
-// print hash value
-void printDigest(const unsigned char* digest, const unsigned int digest_len) {
-    std::cout << "Digest is: ";
-    for (unsigned int i = 0; i < digest_len; i++) {
-        std::cout << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(digest[i]);
-    }
-    std::cout << std::endl;
-}
-
 void handleErrors()
 {
     ERR_print_errors_fp(stderr);
     abort();
-}
-
-int run() {
-    const char* message = "10341";
-
-    // pointer to hash
-    unsigned char* digest;
-    // pointer to hash length
-    unsigned int digest_len;
-
-    // call to run hash function
-    digest_message(reinterpret_cast<const unsigned char*>(message),
-                   strlen(message), &digest, &digest_len);
-    printDigest(digest, digest_len);
-
-    // free memory
-    OPENSSL_free(digest);
-    return 0;
 }

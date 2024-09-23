@@ -7,13 +7,12 @@
 
 class Ledger {
 public:
-    // Mock data
     static Ledger create_mock_ledger();
     void add_inventory(const Inventory& inventory);
     void print_all_inventories() const;
 
 private:
-    std::vector<Inventory> inventories; // List of inventories
+    std::vector<Inventory> inventories;
 };
 
 

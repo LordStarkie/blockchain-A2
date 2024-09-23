@@ -5,13 +5,10 @@
 #include <ctime>
 #include "transaction.h"
 
-// Class to represent a block in the ledger
 class Block {
 public:
-    // Constructor
     Block(Transaction  txn);
 
-    // Get methods
     [[nodiscard]] int get_index() const;
     [[nodiscard]] const std::string& get_previous_hash() const;
     [[nodiscard]] const Transaction& get_transaction() const;
@@ -20,6 +17,8 @@ public:
 
     void set_index(int idx);
     void set_previous_hash(const std::string& prev_hash);
+    void set_current_hash(const std::string& cur_hash);
+
 
 private:
     int index{};

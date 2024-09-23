@@ -5,15 +5,15 @@
 #include "block.h"
 #include "transaction.h"
 
-// Class to represent an inventory
 class Inventory {
 public:
-    // Constructor
-    Inventory(Location loc);
+    explicit Inventory(Location loc);
 
     void add_block(const Transaction& transaction);
     void print_blocks() const;
-    std::string get_last_block_hash() const;
+    [[nodiscard]] std::string get_last_block_hash() const;
+
+    std::string hash_block(const Block& block);
 
 private:
     Location location;

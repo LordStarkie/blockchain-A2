@@ -10,17 +10,14 @@ enum Location {
     D
 };
 
-// Class to represent a transaction in the ledger
 class Transaction {
 public:
-    // Constructor
     Transaction(std::string id, int qty, int price, Location loc);
 
-    // Get methods
-    const std::string& get_item_id() const;
-    int get_item_qty() const;
-    int get_item_price() const;
-    Location get_location() const;
+    [[nodiscard]] const std::string& get_item_id() const;
+    [[nodiscard]] int get_item_qty() const;
+    [[nodiscard]] int get_item_price() const;
+    [[nodiscard]] Location get_location() const;
 
 private:
     std::string item_id;

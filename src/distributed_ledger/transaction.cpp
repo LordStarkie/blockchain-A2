@@ -1,10 +1,10 @@
 #include "transaction.h"
 
-// Constructor
+// constructors
 Transaction::Transaction(std::string id, int qty, int price, Location loc)
         : item_id(std::move(id)), item_qty(qty), item_price(price), location(loc) {}
 
-// Get methods
+// getters
 const std::string& Transaction::get_item_id() const {
     return item_id;
 }
