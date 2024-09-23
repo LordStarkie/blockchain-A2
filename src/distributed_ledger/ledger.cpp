@@ -30,22 +30,20 @@ Ledger Ledger::create_mock_ledger() {
     Transaction trans_3("item3", 25, 234, Location::D);
 
     // Add three identical transactions to each inventory
-    for (int i = 0; i < 3; ++i) {
-        inventoryA.add_block(trans_1);
-        inventoryB.add_block(trans_1);
-        inventoryC.add_block(trans_1);
-        inventoryD.add_block(trans_1);
+    inventoryA.add_block(trans_1);
+    inventoryB.add_block(trans_1);
+    inventoryC.add_block(trans_1);
+    inventoryD.add_block(trans_1);
 
-        inventoryA.add_block(trans_2);
-        inventoryB.add_block(trans_2);
-        inventoryC.add_block(trans_2);
-        inventoryD.add_block(trans_2);
+    inventoryA.add_block(trans_2);
+    inventoryB.add_block(trans_2);
+    inventoryC.add_block(trans_2);
+    inventoryD.add_block(trans_2);
 
-        inventoryA.add_block(trans_3);
-        inventoryB.add_block(trans_3);
-        inventoryC.add_block(trans_3);
-        inventoryD.add_block(trans_3);
-    }
+    inventoryA.add_block(trans_3);
+    inventoryB.add_block(trans_3);
+    inventoryC.add_block(trans_3);
+    inventoryD.add_block(trans_3);
 
     // Add inventories to the ledger
     ledger.add_inventory(inventoryA);
