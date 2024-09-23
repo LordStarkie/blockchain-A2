@@ -4,26 +4,26 @@
 #include <iomanip>
 #include <iostream>
 
-// constructor
+// Constructor
 Inventory::Inventory(Location loc) : location(loc) {}
 
-// add block to inventory
+// Add block to inventory
 void Inventory::add_block(const Transaction& transaction) {
     int index = blocks.size();
-    // genesis block will have no prev hash
+    // Genesis block will have no previous hash
     std::string prev_hash = (index != 0) ? get_last_block_hash() : "0";
 
-    // create block and set values
+    // Create block and set values
     Block new_block(transaction);
     new_block.set_index(index);
     new_block.set_previous_hash(prev_hash);
     new_block.set_current_hash(hash_block(new_block));
 
-    // add to block to inventory
+    // Add the block to inventory
     blocks.push_back(new_block);
 }
 
-// get hash of last block in chain
+// Get hash of the last block in the chain
 std::string Inventory::get_last_block_hash() const {
     if (!blocks.empty()) {
         return blocks.back().get_current_hash();
@@ -31,7 +31,18 @@ std::string Inventory::get_last_block_hash() const {
     return "0";
 }
 
-// concatenate and hash
+// Get inventory name
+std::string Inventory::get_inventory_name() const {
+    switch (location) {
+        case Location::A: return "Inventory A";
+        case Location::B: return "Inventory B";
+        case Location::C: return "Inventory C";
+        case Location::D: return "Inventory D";
+        default: return "Unknown Inventory";
+    }
+}
+
+// Concatenate and hash
 std::string Inventory::hash_block(const Block &block) {
     unsigned char* digest = nullptr;
     unsigned int digest_len = 0;
@@ -48,21 +59,20 @@ std::string Inventory::hash_block(const Block &block) {
     digest_message(reinterpret_cast<const unsigned char*>(data.c_str()), data.size(),
                    &digest, &digest_len);
 
-    // convert to string
+    // Convert to string
     std::ostringstream hexStream;
     for (unsigned int i = 0; i < digest_len; ++i) {
         hexStream << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(digest[i]);
     }
 
-    // free memory
+    // Free memory
     OPENSSL_free(digest);
 
-    // return string
+    // Return string
     return hexStream.str();
 }
 
-
-// print blocks
+// Print blocks
 void Inventory::print_blocks() const {
     for (const auto& block : blocks) {
         std::cout << "Block Index: " << block.get_index() << "\n"
@@ -76,6 +86,3 @@ void Inventory::print_blocks() const {
                   << std::endl;
     }
 }
-
-
-

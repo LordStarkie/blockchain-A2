@@ -19,6 +19,14 @@ public:
     [[nodiscard]] int get_item_price() const;
     [[nodiscard]] Location get_location() const;
 
+    // equality operator
+    bool operator==(const Transaction& other) const {
+        return item_id == other.item_id &&
+               item_qty == other.item_qty &&
+               item_price == other.item_price &&
+               location == other.location; // Compare location
+    }
+
 private:
     std::string item_id;
     int item_qty;

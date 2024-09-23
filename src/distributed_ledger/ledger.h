@@ -10,6 +10,7 @@ public:
     static Ledger create_mock_ledger();
     void add_inventory(const Inventory& inventory);
     void print_all_inventories() const;
+    [[nodiscard]] std::vector<Inventory> get_inventories() const;
 
 private:
     std::vector<Inventory> inventories;

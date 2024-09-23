@@ -5,13 +5,9 @@ void Ledger::add_inventory(const Inventory& inventory) {
     inventories.push_back(inventory);
 }
 
-// print ledger details
-void Ledger::print_all_inventories() const {
-    for (size_t i = 0; i < inventories.size(); ++i) {
-        std::cout << "Inventory " << i + 1 << ":\n";
-        inventories[i].print_blocks();
-        std::cout << std::endl;
-    }
+// get list of inventories
+std::vector<Inventory> Ledger::get_inventories() const {
+    return inventories;
 }
 
 // create mock ledger
@@ -51,4 +47,13 @@ Ledger Ledger::create_mock_ledger() {
     ledger.add_inventory(inventoryD);
 
     return ledger;
+}
+
+// print ledger details
+void Ledger::print_all_inventories() const {
+    for (size_t i = 0; i < inventories.size(); ++i) {
+        std::cout << "Inventory " << i + 1 << ":\n";
+        inventories[i].print_blocks();
+        std::cout << std::endl;
+    }
 }

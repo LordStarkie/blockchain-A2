@@ -19,6 +19,13 @@ public:
     void set_previous_hash(const std::string& prev_hash);
     void set_current_hash(const std::string& cur_hash);
 
+    // equality operator
+    bool operator==(const Block& other) const {
+        return index == other.index &&
+               previous_hash == other.previous_hash &&
+               transaction == other.transaction && // Ensure Transaction has operator==
+               timestamp == other.timestamp;
+    }
 
 private:
     int index{};
