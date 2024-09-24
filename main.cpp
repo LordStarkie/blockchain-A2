@@ -17,6 +17,9 @@ int main() {
     poa.add_validator(inventories[1]);
     poa.add_validator(inventories[2]);
     poa.list_validators();
+    poa.remove_validator(inventories[0]);
+    poa.remove_validator(inventories[1]);
+    poa.remove_validator(inventories[2]);
 
     return 0;
 }

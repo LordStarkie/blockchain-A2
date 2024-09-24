@@ -42,6 +42,10 @@ std::string Inventory::get_inventory_name() const {
     }
 }
 
+Location Inventory::get_location() const {
+    return location;
+}
+
 // concatenate and hash
 std::string Inventory::hash_block(const Block &block) {
     unsigned char* digest = nullptr;

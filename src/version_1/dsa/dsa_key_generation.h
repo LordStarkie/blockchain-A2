@@ -1,6 +1,7 @@
 #ifndef BLOCKCHAIN_A2_DSA_KEY_GENERATION_H
 #define BLOCKCHAIN_A2_DSA_KEY_GENERATION_H
 #include <openssl/types.h>
+#include "../../distributed_ledger/transaction.h"
 
 void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **d);
 bool generate_primes(BIGNUM **p, BIGNUM **q, int bits, int q_bits);

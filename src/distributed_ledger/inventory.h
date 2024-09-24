@@ -16,13 +16,15 @@ public:
 
     std::string hash_block(const Block& block);
 
-    // Equality operator
+    // equality operator
     bool operator==(const Inventory& other) const {
         return location == other.location && blocks == other.blocks;
     }
 
-    // Get inventory name
-    std::string get_inventory_name() const;
+    // get inventory name
+    [[nodiscard]] std::string get_inventory_name() const;
+    // get location
+    Location get_location() const;
 
 private:
     Location location;

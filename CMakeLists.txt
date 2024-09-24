@@ -24,6 +24,8 @@ add_executable(blockchain_A2 main.cpp
         src/distributed_ledger/inventory.cpp
         src/distributed_ledger/ledger.h
         src/distributed_ledger/ledger.cpp
+        src/version_1/proof_of_authority/poa.h
+        src/version_1/proof_of_authority/poa.cpp
 
 )
 
