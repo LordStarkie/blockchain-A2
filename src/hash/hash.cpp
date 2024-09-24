@@ -27,6 +27,24 @@ void digest_message(const unsigned char *message, const size_t message_len, unsi
     EVP_MD_CTX_free(mdctx);
 }
 
+// convert SHA-256 hash to decimal string
+void sha256_to_decimal(const unsigned char *digest, unsigned int digest_len, char **decimal_str) {
+    BIGNUM *bn = BN_new();
+    if (bn == nullptr) {
+        throw std::runtime_error("Failed to create BIGNUM");
+    }
+
+    BN_bin2bn(digest, digest_len, bn);
+
+    *decimal_str = BN_bn2dec(bn);
+    if (*decimal_str == nullptr) {
+        BN_free(bn);
+        throw std::runtime_error("Failed to convert BIGNUM to decimal string");
+    }
+
+    BN_free(bn);
+}
+
 void handleErrors()
 {
     ERR_print_errors_fp(stderr);

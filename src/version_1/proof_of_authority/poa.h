@@ -2,7 +2,6 @@
 #define BLOCKCHAIN_A2_POA_H
 
 #include "../../distributed_ledger/inventory.h"
-#include "../../version_1/dsa/dsa_key_generation.h"
 
 #include "map"
 #include <vector>
@@ -29,16 +28,15 @@ struct Validator {
     }
 };
 
-struct Private_Keys {
+struct Private_Key {
     Location location;
     BIGNUM *d;
 
     // Constructor
-    explicit Private_Keys(Location loc) : location(loc) {
+    explicit Private_Key(Location loc) : location(loc) {
         d = BN_new();
     }
 };
-
 
 class PoA {
 public:
@@ -48,9 +46,14 @@ public:
     [[nodiscard]] bool is_validator(const Inventory& validator) const;
     void list_validators() const;
 
+    Validator* get_validator(Location location);
+    Private_Key* get_private_key(Location location);
+
+    void propose_block(const Transaction &transaction, Location location);
+
 private:
     std::vector<Validator> validators;
-    std::vector<Private_Keys> private_keys;
+    std::vector<Private_Key> private_keys;
 
 };
 

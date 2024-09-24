@@ -8,9 +8,9 @@ bool key_verification(const BIGNUM *m, const BIGNUM *s, const BIGNUM *r, const B
     BIGNUM *v2 = BN_new();
     BIGNUM *x = BN_new();
 
-    char *v1_str = nullptr;
-    char *v2_str = nullptr;
-    char *x_str = nullptr;
+    //char *v1_str = nullptr;
+    //char *v2_str = nullptr;
+    //char *x_str = nullptr;
 
     if (!key_generate_v1(&v1, m, s, q))
     {
@@ -31,18 +31,18 @@ bool key_verification(const BIGNUM *m, const BIGNUM *s, const BIGNUM *r, const B
     }
 
     // Print generated values for testing
-    v1_str = BN_bn2dec(v1);
-    v2_str = BN_bn2dec(v2);
-    x_str = BN_bn2dec(x);
+    //v1_str = BN_bn2dec(v1);
+    //v2_str = BN_bn2dec(v2);
+    //x_str = BN_bn2dec(x);
 
-    printf("Generated v1: %s\n", v1_str);
-    printf("Generated v2: %s\n", v2_str);
-    printf("Generated x: %s\n", x_str);
+    //printf("Generated v1: %s\n", v1_str);
+    //printf("Generated v2: %s\n", v2_str);
+    //printf("Generated x: %s\n", x_str);
 
     // Free string representations
-    OPENSSL_free(v1_str);
-    OPENSSL_free(v2_str);
-    OPENSSL_free(x_str);
+    //OPENSSL_free(v1_str);
+    //OPENSSL_free(v2_str);
+    //OPENSSL_free(x_str);
 
     if (BN_cmp(x, r) == 0){
         BN_free(v1);

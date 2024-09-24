@@ -10,11 +10,11 @@ void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **
     *d = BN_new();
     BIGNUM *h = BN_new();
 
-    char *p_str = nullptr;
-    char *q_str = nullptr;
-    char *g_str = nullptr;
-    char *d_str = nullptr;
-    char *v_str = nullptr;
+    //char *p_str = nullptr;
+    //char *q_str = nullptr;
+    //char *g_str = nullptr;
+    //char *d_str = nullptr;
+    //char *v_str = nullptr;
 
     // GENERATE P, Q
     if (!generate_primes(p, q, 1024, 160)) {
@@ -47,25 +47,25 @@ void generate_key_pair(BIGNUM **p, BIGNUM **q, BIGNUM **g, BIGNUM **v, BIGNUM **
     }
 
     // Print generated values for testing
-    p_str = BN_bn2dec(*p);
-    q_str = BN_bn2dec(*q);
-    g_str = BN_bn2dec(*g);
-    d_str = BN_bn2dec(*d);
-    v_str = BN_bn2dec(*v);
+    //p_str = BN_bn2dec(*p);
+    //q_str = BN_bn2dec(*q);
+    //g_str = BN_bn2dec(*g);
+    //d_str = BN_bn2dec(*d);
+    //v_str = BN_bn2dec(*v);
 
-    printf("Generated p: %s\n", p_str);
-    printf("Generated q: %s\n", q_str);
-    printf("Generated g: %s\n", g_str);
-    printf("Generated d: %s\n", d_str);
-    printf("Generated v: %s\n", v_str);
+    //printf("Generated p: %s\n", p_str);
+    //printf("Generated q: %s\n", q_str);
+    //printf("Generated g: %s\n", g_str);
+    //printf("Generated d: %s\n", d_str);
+    //printf("Generated v: %s\n", v_str);
 
     cleanup:
     // Free string representations
-    OPENSSL_free(p_str);
-    OPENSSL_free(q_str);
-    OPENSSL_free(g_str);
-    OPENSSL_free(d_str);
-    OPENSSL_free(v_str);
+    //OPENSSL_free(p_str);
+    //OPENSSL_free(q_str);
+    //OPENSSL_free(g_str);
+    //OPENSSL_free(d_str);
+    //OPENSSL_free(v_str);
     BN_free(h);
 }
 
@@ -121,7 +121,6 @@ bool generate_primes(BIGNUM **p, BIGNUM **q, const int p_bits, const int q_bits)
     return true;
 }
 
-
 bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h) {
     BN_CTX *ctx = BN_CTX_new();
     if (!ctx) return false;
@@ -132,7 +131,6 @@ bool generate_g(const BIGNUM *p, const BIGNUM *q, BIGNUM **g, BIGNUM **h) {
     *h = BN_new();
     BN_one(one);
     BN_sub(phi_p, p, one);
-
 
     // Find primitive root
     do {
