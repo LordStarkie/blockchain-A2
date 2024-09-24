@@ -1,7 +1,7 @@
 #ifndef BLOCKCHAIN_A2_POA_H
 #define BLOCKCHAIN_A2_POA_H
 
-#include "../../distributed_ledger/inventory.h"
+#include "../../distributed_ledger/ledger.h"
 
 #include "map"
 #include <vector>
@@ -36,6 +36,7 @@ struct Private_Key {
     explicit Private_Key(Location loc) : location(loc) {
         d = BN_new();
     }
+
 };
 
 class PoA {
@@ -49,7 +50,7 @@ public:
     Validator* get_validator(Location location);
     Private_Key* get_private_key(Location location);
 
-    void propose_block(const Transaction &transaction, Location location);
+    void propose_block(const Transaction& transaction, Location location, Ledger &ledger);
 
 private:
     std::vector<Validator> validators;

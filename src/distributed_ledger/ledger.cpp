@@ -49,6 +49,14 @@ Ledger Ledger::create_mock_ledger() {
     return ledger;
 }
 
+// add a transaction to all inventories
+void Ledger::add_transaction_to_all_inventories(const Transaction &transaction) {
+    for (auto &inventory : inventories) {
+        inventory.add_block(transaction);
+        std::cout << "Added transaction to inventory: " << inventory.get_inventory_name() << std::endl;
+    }
+}
+
 // print ledger details
 void Ledger::print_all_inventories() const {
     for (size_t i = 0; i < inventories.size(); ++i) {

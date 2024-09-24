@@ -11,6 +11,7 @@ public:
     void add_inventory(const Inventory& inventory);
     void print_all_inventories() const;
     [[nodiscard]] std::vector<Inventory> get_inventories() const;
+    void add_transaction_to_all_inventories(const Transaction& transaction);
 
 private:
     std::vector<Inventory> inventories;

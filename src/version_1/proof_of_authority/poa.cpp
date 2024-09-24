@@ -5,7 +5,7 @@
 #include "../../version_1/dsa/dsa_verification.h"
 
 // propose to add a block
-void PoA::propose_block(const Transaction &transaction, Location location) {
+void PoA::propose_block(const Transaction& transaction, Location location, Ledger & ledger) {
     // signature parameters
     BIGNUM *r = BN_new();
     BIGNUM *s = BN_new();
@@ -39,10 +39,11 @@ void PoA::propose_block(const Transaction &transaction, Location location) {
         std::cout << "Validator or private key not found." << std::endl;
     }
 
-    // all inventories verify
+    // all inventories verifys
     if (key_verification(m, s, r, validator->g, validator->v, validator->p, validator->q)) {
         std::cout << "Message verification successful" << std::endl;
-
+        // add block to all inventories
+        ledger.add_transaction_to_all_inventories(transaction);
     } else {
         std::cout << "Message verification unsuccessful" << std::endl;
     }
@@ -54,7 +55,6 @@ void PoA::propose_block(const Transaction &transaction, Location location) {
     BN_free(s);
     BN_free(m);
 }
-
 
 // add to validator list
 void PoA::add_validator(const Inventory& validator) {
