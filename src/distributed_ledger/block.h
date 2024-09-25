@@ -23,7 +23,7 @@ public:
     bool operator==(const Block& other) const {
         return index == other.index &&
                previous_hash == other.previous_hash &&
-               transaction == other.transaction && // Ensure Transaction has operator==
+               transaction == other.transaction &&
                timestamp == other.timestamp;
     }
 

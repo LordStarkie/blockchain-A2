@@ -25,6 +25,8 @@ public:
     [[nodiscard]] std::string get_inventory_name() const;
     // get location
     Location get_location() const;
+    // get blocks
+    std::vector<Block> get_blocks() const;
 
 private:
     Location location;

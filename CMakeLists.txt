@@ -27,6 +27,7 @@ add_executable(blockchain_A2 main.cpp
         imgui/imgui_draw.cpp
         imgui/imgui_tables.cpp
         imgui/imgui_widgets.cpp
+        ui.cpp
 )
 # Find OpenSSL package
 find_package(OpenSSL REQUIRED)

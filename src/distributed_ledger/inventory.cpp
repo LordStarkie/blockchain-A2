@@ -31,6 +31,11 @@ std::string Inventory::get_last_block_hash() const {
     return "0";
 }
 
+// return vector of blocks
+std::vector<Block> Inventory::get_blocks() const{
+    return blocks;
+}
+
 // get inventory name
 std::string Inventory::get_inventory_name() const {
     switch (location) {
