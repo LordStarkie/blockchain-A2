@@ -57,6 +57,7 @@ bool PoA::propose_block(const Transaction& transaction, Location location, Ledge
     BN_free(r);
     BN_free(s);
     BN_free(m);
+    return false;
 }
 
 // add to validator list
