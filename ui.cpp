@@ -122,6 +122,7 @@ void show_inventory_as_table(const Inventory &inventory) {
 
         // populate table rows
         for (const auto& block : inventory.get_blocks()) {
+            // get info from blocks in inventoryg
             const Transaction& tx = block.get_transaction();
 
             ImGui::TableNextRow();
