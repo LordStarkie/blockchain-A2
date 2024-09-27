@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/jordanpang/Documents/Projects/Blockchain/blockchain-A2 -B /Users/jordanpang/Documents/Projects/Blockchain/blockchain-A2/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/jordanpang/Documents/Projects/Blockchain/blockchain-A2/cmake-build-debug
