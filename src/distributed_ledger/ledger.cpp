@@ -56,6 +56,9 @@ void Ledger::add_transaction_to_all_inventories(const Transaction &transaction) 
         inventory.add_block(transaction);
         std::cout << "Added transaction to inventory: " << inventory.get_inventory_name() << std::endl;
     }
+
+    printf("\n");
+
 }
 
 // print ledger details

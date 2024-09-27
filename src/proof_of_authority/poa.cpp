@@ -42,12 +42,14 @@ bool PoA::propose_block(const Transaction& transaction, Location location, Ledge
 
     // all inventories verify
     if (key_verification(m, s, r, validator->g, validator->v, validator->p, validator->q)) {
-        std::cout << "Message verification successful" << std::endl;
+        std::cout << "Message verification successful" << std::endl;\
+        printf("\n");
         // add block to all inventories
         ledger.add_transaction_to_all_inventories(transaction);
         return true;
     } else {
         std::cout << "Message verification unsuccessful" << std::endl;
+        printf("\n");
         return false;
     }
 
