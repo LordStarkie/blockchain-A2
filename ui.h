@@ -8,8 +8,6 @@
 
 int startUI();
 void error_callback(int error, const char* description);
-void show_inventory_as_table(const Inventory & inventories);
-
-
+void show_inventory_as_table(const Inventory &inventory, int& selected_inventory);
 
 #endif //BLOCKCHAIN_A2_UI_H

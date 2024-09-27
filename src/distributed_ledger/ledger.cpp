@@ -15,15 +15,19 @@ Ledger Ledger::create_mock_ledger() {
     Ledger ledger;
 
     // create four inventories: A, B, C, D
+    printf("Creating Inventory A");
     Inventory inventoryA(Location::A);
+    printf("Creating Inventory B");
     Inventory inventoryB(Location::B);
+    printf("Creating Inventory C");
     Inventory inventoryC(Location::C);
+    printf("Creating Inventory D");
     Inventory inventoryD(Location::D);
 
     // create sample transactions
     Transaction trans_1("item1", 15, 23, Location::A);
     Transaction trans_2("item2", 109, 576, Location::B);
-    Transaction trans_3("item3", 25, 234, Location::D);
+    Transaction trans_3("item3", 25, 234, Location::C);
 
     // add transactions as blocks to inventories
     inventoryA.add_block(trans_1);

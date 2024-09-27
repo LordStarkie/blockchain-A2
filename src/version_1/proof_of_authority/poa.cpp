@@ -39,7 +39,7 @@ void PoA::propose_block(const Transaction& transaction, Location location, Ledge
         std::cout << "Validator or private key not found." << std::endl;
     }
 
-    // all inventories verifys
+    // all inventories verify
     if (key_verification(m, s, r, validator->g, validator->v, validator->p, validator->q)) {
         std::cout << "Message verification successful" << std::endl;
         // add block to all inventories
@@ -63,6 +63,9 @@ void PoA::add_validator(const Inventory& validator) {
     // stores location and private key
     auto *p = new Private_Key(validator.get_location());
     // generate keys
+    std::cout << "Adding " << validator.get_inventory_name() << " as validator" << std::endl;
+    std::cout << "Generating keys for " << validator.get_inventory_name() << std::endl;
+
     generate_key_pair(&v->p, &v->q, &v->g, &v->v, &p->d);
 
     // add to lists
