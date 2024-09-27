@@ -8,10 +8,10 @@ void key_sign(const BIGNUM *p, const BIGNUM *q, const BIGNUM *g, const BIGNUM *d
     *s = BN_new();
     BIGNUM *e = BN_new();
 
-    //char *m_str = nullptr;
-    //char *e_str = nullptr;
-    //char *r_str = nullptr;
-    //char *s_str = nullptr;
+    char *m_str = nullptr;
+    char *e_str = nullptr;
+    char *r_str = nullptr;
+    char *s_str = nullptr;
 
     // GENERATE E
     if (!generate_e(&e, p))
@@ -35,22 +35,24 @@ void key_sign(const BIGNUM *p, const BIGNUM *q, const BIGNUM *g, const BIGNUM *d
     }
 
     // Print generated values for testing
-    //m_str = BN_bn2dec(*m);
-    //e_str = BN_bn2dec(e);
-    //r_str = BN_bn2dec(*r);
-    //s_str = BN_bn2dec(*s);
+    m_str = BN_bn2dec(*m);
+    e_str = BN_bn2dec(e);
+    r_str = BN_bn2dec(*r);
+    s_str = BN_bn2dec(*s);
 
-    //printf("Generated m: %s\n", m_str);
-    //printf("Generated e: %s\n", e_str);
-    //printf("Generated r: %s\n", r_str);
-    //printf("Generated s: %s\n", s_str);
+    printf("Generated m: %s\n", m_str);
+    printf("Generated e: %s\n", e_str);
+    printf("Generated r: %s\n", r_str);
+    printf("Generated s: %s\n", s_str);
 
     cleanup:
     // Free string representations
-    //OPENSSL_free(m_str);
-    //OPENSSL_free(e_str);
-    //OPENSSL_free(r_str);
-    //OPENSSL_free(s_str);
+    OPENSSL_free(m_str);
+    OPENSSL_free(e_str);
+    OPENSSL_free(r_str);
+    OPENSSL_free(s_str);
+    printf("\n");
+
     BN_free(e);
 }
 

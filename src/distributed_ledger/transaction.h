@@ -7,8 +7,21 @@ enum Location {
     A,
     B,
     C,
-    D
+    D,
+    E
 };
+
+static std::string location_to_string(Location location) {
+    switch (location) {
+        case Location::A: return "A";
+        case Location::B: return "B";
+        case Location::C: return "C";
+        case Location::D: return "D";
+        case Location::E: return "E";
+
+        default: return "Unknown";
+    }
+}
 
 class Transaction {
 public:

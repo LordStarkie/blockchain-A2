@@ -31,11 +31,6 @@ std::string Inventory::get_last_block_hash() const {
     return "0";
 }
 
-// return vector of blocks
-std::vector<Block> Inventory::get_blocks() const{
-    return blocks;
-}
-
 // get inventory name
 std::string Inventory::get_inventory_name() const {
     switch (location) {
@@ -43,12 +38,17 @@ std::string Inventory::get_inventory_name() const {
         case Location::B: return "Inventory B";
         case Location::C: return "Inventory C";
         case Location::D: return "Inventory D";
+        case Location::E: return "Inventory E";
         default: return "Unknown Inventory";
     }
 }
 
 Location Inventory::get_location() const {
     return location;
+}
+
+const std::vector<Block> &Inventory::get_blocks() const {
+    return blocks;
 }
 
 // concatenate and hash
@@ -95,3 +95,4 @@ void Inventory::print_blocks() const {
                   << std::endl;
     }
 }
+

@@ -50,7 +50,7 @@ public:
     Validator* get_validator(Location location);
     Private_Key* get_private_key(Location location);
 
-    void propose_block(const Transaction& transaction, Location location, Ledger &ledger);
+    bool propose_block(const Transaction& transaction, Location location, Ledger &ledger);
 
 private:
     std::vector<Validator> validators;

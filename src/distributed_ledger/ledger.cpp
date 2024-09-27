@@ -6,7 +6,7 @@ void Ledger::add_inventory(const Inventory& inventory) {
 }
 
 // get list of inventories
-std::vector<Inventory> Ledger::get_inventories() const {
+const std::vector<Inventory>& Ledger::get_inventories() const {
     return inventories;
 }
 
@@ -14,41 +14,38 @@ std::vector<Inventory> Ledger::get_inventories() const {
 Ledger Ledger::create_mock_ledger() {
     Ledger ledger;
 
-    // create four inventories: A, B, C, D
-    printf("Creating Inventory A");
-    Inventory inventoryA(Location::A);
-    printf("Creating Inventory B");
-    Inventory inventoryB(Location::B);
-    printf("Creating Inventory C");
-    Inventory inventoryC(Location::C);
-    printf("Creating Inventory D");
-    Inventory inventoryD(Location::D);
+    // Define the locations for inventories
+    std::vector<Location> locations = {Location::A, Location::B, Location::C, Location::D, Location::E};
+    std::vector<Inventory> inventories;
 
-    // create sample transactions
-    Transaction trans_1("item1", 15, 23, Location::A);
-    Transaction trans_2("item2", 109, 576, Location::B);
-    Transaction trans_3("item3", 25, 234, Location::C);
+    // Create inventories using a loop
+    for (const auto& loc : locations) {
+        std::string loc_str = location_to_string(loc);
+        printf("Creating Inventory %s\n", loc_str.c_str());
+        Inventory inventory(loc);
+        inventories.push_back(inventory);
+    }
 
-    // add transactions as blocks to inventories
-    inventoryA.add_block(trans_1);
-    inventoryB.add_block(trans_1);
-    inventoryC.add_block(trans_1);
-    inventoryD.add_block(trans_1);
+    printf("\n");
 
-    inventoryA.add_block(trans_2);
-    inventoryB.add_block(trans_2);
-    inventoryC.add_block(trans_2);
-    inventoryD.add_block(trans_2);
+    // Define sample transactions
+    std::vector<Transaction> transactions = {
+            Transaction("item1", 15, 23, Location::A),
+            Transaction("item2", 109, 576, Location::B),
+            Transaction("item3", 25, 234, Location::C)
+    };
 
-    inventoryA.add_block(trans_3);
-    inventoryB.add_block(trans_3);
-    inventoryC.add_block(trans_3);
-    inventoryD.add_block(trans_3);
+    // Add transactions to each inventory using nested loops
+    for (auto& inventory : inventories) {
+        for (const auto& tx : transactions) {
+            inventory.add_block(tx);
+        }
+    }
 
-    ledger.add_inventory(inventoryA);
-    ledger.add_inventory(inventoryB);
-    ledger.add_inventory(inventoryC);
-    ledger.add_inventory(inventoryD);
+    // Add all inventories to the ledger
+    for (const auto& inventory : inventories) {
+        ledger.add_inventory(inventory);
+    }
 
     return ledger;
 }
