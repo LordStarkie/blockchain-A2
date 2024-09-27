@@ -1,7 +1,7 @@
 #ifndef BLOCKCHAIN_A2_POA_H
 #define BLOCKCHAIN_A2_POA_H
 
-#include "../../distributed_ledger/ledger.h"
+#include "../distributed_ledger/ledger.h"
 
 #include "map"
 #include <vector>

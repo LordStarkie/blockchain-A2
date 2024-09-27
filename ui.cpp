@@ -4,7 +4,6 @@
 #include "imgui/backends/imgui_impl_glfw.h"
 #include "imgui/backends/imgui_impl_opengl3.h"
 #include "src/distributed_ledger/ledger.h"
-#include "src/version_1/proof_of_authority/poa.h"
 #include <vector>
 #include <string>
 #include <cstdio>

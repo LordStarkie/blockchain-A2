@@ -6,17 +6,17 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(blockchain_A2 main.cpp
         src/hash/hash.cpp
 
-        src/version_1/dsa/dsa_main.cpp
-        src/version_1/dsa/dsa_verification.cpp
-        src/version_1/dsa/dsa_signing.cpp
-        src/version_1/dsa/dsa_key_generation.cpp
+        src/dsa/dsa_main.cpp
+        src/dsa/dsa_verification.cpp
+        src/dsa/dsa_signing.cpp
+        src/dsa/dsa_key_generation.cpp
 
         src/distributed_ledger/transaction.cpp
         src/distributed_ledger/block.cpp
         src/distributed_ledger/inventory.cpp
         src/distributed_ledger/ledger.cpp
 
-        src/version_1/proof_of_authority/poa.cpp
+        src/proof_of_authority/poa.cpp
 
         imgui/backends/imgui_impl_opengl3.cpp
         imgui/backends/imgui_impl_glfw.cpp

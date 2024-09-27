@@ -1,8 +1,8 @@
 #include "poa.h"
-#include "../../hash/hash.h"
-#include "../../version_1/dsa/dsa_key_generation.h"
-#include "../../version_1/dsa/dsa_signing.h"
-#include "../../version_1/dsa/dsa_verification.h"
+#include "../hash/hash.h"
+#include "../dsa/dsa_key_generation.h"
+#include "../dsa/dsa_signing.h"
+#include "../dsa/dsa_verification.h"
 
 // propose to add a block
 bool PoA::propose_block(const Transaction& transaction, Location location, Ledger & ledger) {

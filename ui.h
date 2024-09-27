@@ -2,7 +2,7 @@
 #define BLOCKCHAIN_A2_UI_H
 
 #include "src/distributed_ledger/ledger.h"
-#include "src/version_1/proof_of_authority/poa.h"
+#include "src/proof_of_authority/poa.h"
 
 #include <cstdio>
 
