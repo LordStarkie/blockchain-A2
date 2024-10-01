@@ -230,7 +230,7 @@ void show_propose_block_window(PoA &poa, Ledger &ledger, bool &show_window, bool
 
             if (result) {
                 propose_success = true;
-                propose_message = "Block proposed successfully. Transaction added to all inventories";
+                propose_message = "Block proposed successfully. Transaction added to all inventories.";
                 // Clear input fields
                 memset(item_id, 0, sizeof(item_id));
                 item_price = 0;
@@ -238,7 +238,7 @@ void show_propose_block_window(PoA &poa, Ledger &ledger, bool &show_window, bool
                 location_index = 0;
             } else {
                 propose_success = false;
-                propose_message = "Block proposal failed. Inventory is not a validator";
+                propose_message = "Block proposal failed. Inventory is not a validator.";
             }
         }
     }
