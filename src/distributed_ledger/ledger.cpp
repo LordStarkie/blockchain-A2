@@ -15,7 +15,7 @@ Ledger Ledger::create_mock_ledger() {
     Ledger ledger;
 
     // Define the locations for inventories
-    std::vector<Location> locations = {Location::A, Location::B, Location::C, Location::D, Location::E};
+    std::vector<Location> locations = {Location::A, Location::B, Location::C, Location::D};
     std::vector<Inventory> inventories;
 
     // Create inventories using a loop

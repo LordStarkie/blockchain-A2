@@ -7,8 +7,7 @@ enum Location {
     A,
     B,
     C,
-    D,
-    E
+    D
 };
 
 static std::string location_to_string(Location location) {
@@ -17,7 +16,6 @@ static std::string location_to_string(Location location) {
         case Location::B: return "B";
         case Location::C: return "C";
         case Location::D: return "D";
-        case Location::E: return "E";
 
         default: return "Unknown";
     }

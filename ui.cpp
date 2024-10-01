@@ -18,7 +18,7 @@ int startUI() {
 
     // retrieve inventories from the ledger
     const std::vector<Inventory>& inventories = ledger.get_inventories();
-    if (inventories.size() < 5) {
+    if (inventories.size() < 4) {
         fprintf(stderr, "Error: Not enough inventories to designate validators.\n");
         return 1;
     }
@@ -27,7 +27,6 @@ int startUI() {
     poa.add_validator(inventories[0]);
     poa.add_validator(inventories[1]);
     poa.add_validator(inventories[2]);
-    poa.add_validator(inventories[3]);
     poa.list_validators();
     printf("\n");
 

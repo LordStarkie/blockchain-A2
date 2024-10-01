@@ -38,7 +38,6 @@ std::string Inventory::get_inventory_name() const {
         case Location::B: return "Inventory B";
         case Location::C: return "Inventory C";
         case Location::D: return "Inventory D";
-        case Location::E: return "Inventory E";
         default: return "Unknown Inventory";
     }
 }
