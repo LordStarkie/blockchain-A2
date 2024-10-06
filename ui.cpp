@@ -45,7 +45,7 @@ int startUI() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);            // Required on Mac
 
     // create GLFW
-    GLFWwindow* window = glfwCreateWindow(1280, 720, "Q1 - Version", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(1280, 720, "Q1 - Version 1", nullptr, nullptr);
     if (window == nullptr) {
         fprintf(stderr, "Error: Failed to create GLFW window.\n");
         glfwTerminate();
